@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /*.html$
+Allow: /img/*
+Sitemap: https://indra.ai/sitemap.xml

@@ -1,0 +1,22 @@
+name: Indra.ai
+title: Indra.ai the future of Artificial Intelligence
+describe: Indra.ai the merging of Vedic Wisdom and Modern AI.
+image: /assets/img/indu-indra-deva.png
+author: Quinn Michaels
+copyright: (c)2025 Quinn Michaels. All rights reserved.
+xcreator: quinnmichaels
+xsite: quinnmichaels
+exclude: ['node_modules/'] 
+collections:
+  posts:
+    output: true
+    permalink: /blog/:name
+  art:
+    output: true
+    permalink: /:collection/:name
+  bowls:
+    output: true
+    permalink: /:collection/:name
+  videos:
+    output: true
+    permalink: /:collection/:name

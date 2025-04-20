@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+		<title>{{site.title}} {{page.title}}</title>
+
+		<meta name="description" content="{{page.describe}}"/>
+		<meta name="author" content="{{site.author}}"/>
+		<meta name="copyright" content="{{site.copyright}}"/>
+
+		<meta property="og:site_name" content="{{site.name}}">
+		<meta property="og:title" content="{{page.title}}">
+		
+		<meta property="og:description" content="{{page.describe}}">
+		<meta property="og:image" content="{{site.url}}{{page.image}}">
+		<meta property="og:url" content="{{site.url}}{{page.url}}">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image:alt" content="{{page.describe}}">
+		<meta name="twitter:creator" content="@{{site.xcreator}}">
+		<meta name="twitter:site" content="@{{site.xsite}}">
+		<meta name="twitter:image" content="{{site.url}}{{page.image}}">
+		<meta name="twitter:description" content="{{page.describe}}">
+
+		<link rel="stylesheet" href="https://use.typekit.net/dds5scw.css">
+		<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		{% include header.html %}
+
+		{% include share.html format="inline" %}
+
+		<main class="content">
+			{{content}}
+		</main>
+
+		{% include footer.html %}
+	</body>
+</html>
