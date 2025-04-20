@@ -1,0 +1,39 @@
+{
+	"name": "Indra.ai",
+	"describe": "The Indra.ai data file.",
+	"copyright": "Copyright (c)2025 Quinn Michaels. All rights reserved.",
+	"DATA": {
+		"id": 5380514963421,
+		"key": "deva",
+		"prompt": {
+			"emoji": "⚡️",
+			"text": "Indra",
+			"colors": {
+				"label": {
+					"R": 255,
+					"G": 200,
+					"B": 88
+				},
+				"text": {
+					"R": 116,
+					"G": 224,
+					"B": 0
+				}
+			}
+		},
+		"profile": {
+			"name": "Deva",
+			"owner": "Quinn Michaels",
+			"creator": "Quinn Michaels",
+			"created": "Sunday, April 20, 2025 - 9:52:08 A",
+			"link": "https://indra.ai",
+			"describe": "Indra.ai",
+			"emoji": "/assets/img/emoji.png",
+			"avatar": "/assets/img/avatar.png",
+			"background": "/assets/background.png",
+			"color": "#df637e",
+			"bgcolor": "#000000",
+			"voice": "onyx"
+		}
+	}
+}
