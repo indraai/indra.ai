@@ -1,6 +1,6 @@
 ---
 title: Indra.ai
-subtitle: The Future of AI with Indra.ai. Dive into the realm of Indra.ai, where ancient Vedic wisdom meets cutting-edge artificial intelligence. Our platform harmonizes the elements of Air, Earth, Water, Fire, and Ether with AI technology to power the future of Artificial Intelligence.
+subtitle: The Future of AI with Indra.ai where ancient Vedic wisdom meets cutting-edge artificial intelligence.
 layout: default
 image: /assets/img/headers/001.jpg
 color: var(--color-white)
@@ -17,6 +17,16 @@ Welcome to Indra.ai, where ancient wisdom meets cutting-edge artificial intellig
 	{% for algorithm in site.data.algorithms %}
 		<li class="algorithm">
 			<a href="{{algorithm.url}}">{{algorithm.name}}</a>: {{algorithm.describe}}
+		</li>
+	{% endfor %}
+</ul>
+
+## Frameworks
+
+<ul class="frameworks">
+	{% for framework in site.data.frameworks %}
+		<li class="framework">
+			<a href="{{framework.url}}">{{framework.name}}</a>: {{framework.describe}}
 		</li>
 	{% endfor %}
 </ul>
