@@ -1,6 +1,6 @@
 {
 	"name": "indra.ai",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "The Indra.ai Deva.world Vedic Artificial Intelligence Network",
 	"main": "index.js",
 	"type": "module",
@@ -46,7 +46,7 @@
 		"needle": "^3.3.1",
 		"punycode": "^2.3.1",
 		"stylus": "^0.63.0"
-	}, 
+	},
 	"data": {
 		"agent": {
 			"id": 5380514963421,
@@ -92,7 +92,7 @@
 			},
 			"ports": {
 				"api": 9000,
-				"socket":9001
+				"socket": 9001
 			},
 			"shortcut": false,
 			"labels": {
@@ -137,7 +137,7 @@
 			},
 			"art": {
 				"history": []
-			}			
-		}			
+			}
+		}
 	}
 }
