@@ -6,14 +6,15 @@ import {fileURLToPath} from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 import chalk from 'chalk';
-import Deva from '@indra.ai/deva';
+import Deva from '/Users/quinnmichaels/Dev/deva/index.js';
 
 import devas from './devas/index.js';
 import pkg  from '../package.json' with {type:'json'};
+const {agent, vars} = pkg.data;
 
 // load agent configuration file
 import data from './data/index.js';
-const {vars, agent, client} = data;
+const {client} = data;
 
 const info = {
 	id: pkg.id,
@@ -273,25 +274,36 @@ const INDRA = new Deva({
 			}
 		},
 	},
-	onReady(data, resolve) {
+	async onInit(data, resolve) {
 		// listen for core prompt and forawrd to cliprompt function
 		this.listen('devacore:prompt', packet => {
 			this.func.cliprompt(packet);
 		});
+		this.prompt(this._messages.init);
+		return this.start(data, resolve);
+	},
+	async onDone(data, resolve) {
 		// load the devas
-		for (let x in this.devas) {
-			this.devas[x].init(data.client);
+		for (let deva in this.devas) {
+			await this.load(deva, data.client);
 		}
-		return resolve(data);
+		this.prompt(this._messages.done);
+		return this.ready(data, resolve);
 	},
 	onError(err, reject) {
 		console.log('MAIN ERROR', err);
 	},
-	async onStop(data, resolve) {
+	async onStop(data) {
+		this.prompt(this.vars.messages.stop);
 		for (const deva in this.devas) {
-			await this.devas[deva].stop();
+			const unloaded = await this.unload(deva);
+			this.prompt(unloaded);
 		}
-		return this.exit(data, resolve);
+		return this.exit();
+	},
+	onExit(data) {
+		console.log(this.vars.messages.exit);
+		// return Promise.resolve(data);
 	},
 });
 

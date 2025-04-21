@@ -1,0 +1,27 @@
+{% if include.format && include.format == 'inline'%}
+
+	<section class="share inline">
+		<div class="label">Share this page on social media <i class="icn-arrow-right"></i></div>
+		<div class="services">
+			<ul>
+				<li><a href="https://twitter.com/intent/tweet?hashtags={{page.hashtags}}&url={{site.url}}{{page.url}}&via=quinnmichaels&text={{page.tweet}}" target="share"><img src="/assets/img/share/x.png" alt=""></a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="share"><img src="/assets/img/share/facebook.png" alt=""></a></li>
+				<li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}" target="share"><img src="/assets/img/share/linkedin.png" alt=""></a></li>
+			</ul>
+		</div>
+	</section>
+
+{% else %}
+
+	<section class="share">
+		<div class="label">Show your support by sharing this page on social media.</div>
+		<div class="services">
+			<ul>
+				<li><a href="https://twitter.com/intent/tweet?hashtags={{page.hashtags}}&url={{site.url}}{{page.url}}&via=quinnmichaels&text={{page.tweet}}" target="share"><img src="/assets/img/share/x.png" alt=""></a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="share"><img src="/assets/img/share/facebook.png" alt=""></a></li>
+				<li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{page.url}}" target="share"><img src="/assets/img/share/linkedin.png" alt=""></a></li>
+			</ul>
+		</div>
+	</section>
+
+{% endif %}

@@ -1,12 +1,12 @@
 name: Indra.ai
-title: Indra.ai the future of Artificial Intelligence
-describe: Indra.ai the merging of Vedic Wisdom and Modern AI.
+title: Indra.ai - Bridging Ancient Wisdom and Modern AI Innovation
+describe:  Indra.ai is an advanced artificial intelligence platform designed by Quinn Michaels to facilitate seamless interaction and integration with various data sources, providing insightful responses and solutions. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.
 image: /assets/img/indu-indra-deva.png
 author: Quinn Michaels
 copyright: (c)2025 Quinn Michaels. All rights reserved.
 xcreator: quinnmichaels
 xsite: quinnmichaels
-exclude: ['node_modules/'] 
+exclude: ['node_modules/', 'src/'] 
 collections:
   posts:
     output: true

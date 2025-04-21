@@ -8,8 +8,10 @@ import fs from 'node:fs';
 import os from 'node:os';
 import needle from 'needle';
 import chalk from 'chalk';
+import punycode from 'punycode';
 
 import pkg from './package.json' with {type:'json'}
+const {agent, vars} = pkg.data;
 
 // set the __dirname
 import {dirname} from 'node:path';
@@ -18,7 +20,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // load agent configuration file
 import data from './src/data/index.js';
-const {vars, agent, client} = data;
+const {client} = data;
 
 import express from 'express';
 const app = express();
@@ -49,7 +51,7 @@ function setPrompt(pr) {
 	}
 }
 
-async function indraQuestoin(q) {
+async function indraQuestion(q) {
 	// the event that fires when a new command is sent through the shell.
 	if (q.toLowerCase() === '/exit') return shell.close();
 	const answer = await INDRA.question(q);
@@ -99,10 +101,7 @@ ${line_break}
 
 ${opts.ip}
 
-💹 avail mem:   ${os.freemem()}
-✅ total mem:   ${os.totalmem()}
-
-Copyright ©${pkg.copyright}
+${pkg.copyright}
 
 ${line_break}`;
 
@@ -129,12 +128,13 @@ INDRA.init(client).then(_init => {
 	INDRA.listen('cliprompt', ag => {
 		setPrompt(ag);
 	});
+	
 });
 
 
 // run operation when new line item in shell.
 shell.on('line', question => {
-	indraQuestoin(question);
+	indraQuestion(question);
 }).on('pause', () => {
 
 }).on('resume', () => {

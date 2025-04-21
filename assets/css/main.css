@@ -291,3 +291,31 @@ menu > ul > li > ol > li::before {
 	display: inline-block;
 	margin-right: .25rem;
 }
+
+.share {
+	display: flex;
+	padding: .5rem;
+	justify-content: flex-end;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+.share .label {
+		font-size: .9rem;
+}
+.share .services ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+.share .services ul li {
+	margin: 0;
+	padding: 0 .25rem;
+	line-height: 1;
+}
+.share .services ul li a img {
+	max-height: 30px;
+	
+}
+

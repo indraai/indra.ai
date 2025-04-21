@@ -1,0 +1,5 @@
+::BEGIN:MAIN
+# {{profile.name}}
+
+{{profile.describe}}
+::END:MAIN

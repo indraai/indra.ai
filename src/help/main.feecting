@@ -1,0 +1,11 @@
+::BEGIN:MAIN
+# {{profiel.name}}
+
+{{profile}}
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+::end:hidden
+::END:MAIN

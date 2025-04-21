@@ -1,5 +1,8 @@
 # Client
 client.json
+src/data/features/
+.DS_Store
+_site/
 
 # Logs
 logs
