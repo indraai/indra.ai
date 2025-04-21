@@ -130,7 +130,6 @@ p {
 .image img {
 	max-width: 100%;
 	border-radius: .5rem;
-	box-shadow: 0 3px 9px rgba(0,0,0,.3);
 }
 
 ul {
@@ -321,6 +320,7 @@ menu > ul > li > ol > li::before {
 
 .CONTAINER .item {
 	display: flex;
+	margin: .1rem 0
 }
 .CONTAINER .item .label {
 	min-width: 6rem;
