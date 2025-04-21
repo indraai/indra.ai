@@ -1,7 +1,7 @@
 {
 	"name": "indra.ai",
 	"version": "0.0.1",
-	"description": "The Indra.ai Deva.world Vedic Artificial Intelligence Network",
+	"description": "The Indra.ai System",
 	"main": "index.js",
 	"type": "module",
 	"copyright": " ©2025 Quinn Michaels; All Rights Reserved.",
@@ -73,7 +73,7 @@
 				"creator": "Quinn Michaels",
 				"created": "Sunday, April 20, 2025 - 9:52:08 A",
 				"link": "https://indra.ai",
-				"describe": "Indra.ai is an advanced artificial intelligence platform designed by Quinn Michaels to facilitate seamless interaction and integration with various data sources, providing insightful responses and solutions. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.",
+				"describe": "Indra.ai an advanced artificial intelligence platform designed by Quinn Michaels to facilitate seamless interaction and integration with various data sources, providing insightful responses and solutions. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.",
 				"emoji": "/assets/img/emoji.png",
 				"avatar": "/assets/img/avatar.png",
 				"background": "/assets/background.png",

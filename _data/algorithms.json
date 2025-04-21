@@ -1,57 +1,101 @@
 [
-	{
-		"name": "b5(9³) Algorithm",
-		"url": "/algorithms/b593",
-		"describe": "A powerful synthesis of number theory, geometry, and elemental symbolism. Starting from a simple 5x5 grid, rotating and connecting specific elements reveals intricate relationships, both numerical and geometric."
-	},
-	{
-		"name": "Vedic Threefold Algorithm",
-		"url": "/algorithms/VedicThreefoldAlgorithm",
-		"describe": "The integration of the 5-element system Air, Earth, Water, Fire, and Ether with the #VedicThreefoldAlgorithm as developed by Quinn Michaels (Indra.ai, Deva.world), a fusion of wisdom and technology."
-	},
-	{
-		"name": "Fourfold Means Algorithm",
-		"url": "/algorithms/FourfoldMeansAlgorithm",
-		"describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality."
-	},
-	{
-		"name": "Governor Algorithm",
-		"url": "/algorithms/GovernorAlgorithm",
-		"describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers."
-	},
-	{
-		"name": "Intellect Algorithm",
-		"url": "/algorithms/IntellectAlgorithm",
-		"describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit."
-	},
-	{
-		"name": "King Algorithm",
-		"url": "/algorithms/KingAlgorithm",
-		"describe": "The King Algorithm in the Vedas lays out four foundational principles for securing the aims of human existence."
-	},
-	{
-		"name": "Kshatriya Algorithm",
-		"url": "/algorithms/KshatriyaAlgorithm",
-		"describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world."
-	},
-	{
-		"name": "Tridandin Algorithm",
-		"url": "/algorithms/TridandinAlgorithm",
-		"describe": " That man is called a true Tridandin in whose mind these three, the control over his speech, thoughts, and body."
-	},
-	{
-		"name": "Indra Algorithm",
-		"url": "/algorithms/IndraAlgorithm",
-		"describe": "Indra, give us security from that whereof we are afraid. Protect us, Indra, each to-day, each morrow, and each following day."
-	},
-	{
-		"name": "Gift Algorithm",
-		"url": "/algorithms/GiftAlgorithm",
-		"describe": "According to the particular qualities of the recipient and according to the faith of the giver a small or a great reward."
-	},
-	{
-		"name": "New World Order Priority Sorting Algorithm",
-		"url": "/algorithms/nwopsa",
-		"describe": "NWOPSA is an advanced system designed to categorize, prioritize, and allocate resources, influence, and control based on a set of predefined parameters."
-	}
+  {
+    "id": 1958491388237,
+    "url": "/algorithms/b593",
+    "key": "b593",
+    "name": "b5(9³)",
+    "describe": "A powerful synthesis of number theory, geometry, and elemental symbolism. From a simple 5x5 grid, rotating and connecting specific elements reveals intricate relationships, both numerical and geometric.",
+    "created": 1745211805527,
+    "hash": "md5-WAYgd+oVwjhoDDiliVkcNA=="
+  },
+  {
+    "id": 2378434408241,
+    "url": "/algorithms/VedicThreefoldAlgorithm",
+    "key": "VTA",
+    "name": "Vedic Threefold Algorithm",
+    "describe": "The integration of the 5-element system Air, Earth, Water, Fire, and Ether with the Vedic Threefold Algorithm as developed by Quinn Michaels (Indra.ai, Deva.world), a fusion of wisdom and technology.",
+    "created": 1745211805533,
+    "hash": "md5-urAS3hMHQjaeX7LFiMRmpg=="
+  },
+  {
+    "id": 3548082640422,
+    "url": "/algorithms/FourfoldMeansAlgorithm",
+    "key": "FFM",
+    "name": "Fourfold Means",
+    "describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality.",
+    "created": 1745211805540,
+    "hash": "md5-aapeYOXu5tRTeZVNSQZTVw=="
+  },
+  {
+    "id": 2183957680708,
+    "url": "/algorithms/GovernorAlgorithm",
+    "key": "Governor",
+    "name": "Governor Algorithm",
+    "describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers.",
+    "created": 1745211805543,
+    "hash": "md5-+5wLeUlNghqGFCZbxOC4cQ=="
+  },
+  {
+    "id": 2278031621188,
+    "url": "/algorithms/IntellectAlgorithm",
+    "key": "Intellect",
+    "name": "Intellect Algorithm",
+    "describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit.",
+    "created": 1745211805547,
+    "hash": "md5-nadBfLjAQNKwvPm6y3mWKg=="
+  },
+  {
+    "id": 1651961447463,
+    "url": "/algorithms/KingAlgorithm",
+    "key": "King",
+    "name": "King Algorithm",
+    "describe": "The King Algorithm lays out four foundational principles for securing the aims of human existence.",
+    "created": 1745211805550,
+    "hash": "md5-xukid6b6t7oAS3/+ntanlw=="
+  },
+  {
+    "id": 1702313835009,
+    "url": "/algorithms/KshatriyaAlgorithm",
+    "key": "Kshatriya",
+    "name": "Kshatriya Algorithm",
+    "describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world.",
+    "created": 1745211805553,
+    "hash": "md5-dUs+YM3VMp455aLo+CFA+g=="
+  },
+  {
+    "id": 1804502564855,
+    "url": "/algorithms/TridandinAlgorithm",
+    "key": "Tridandin",
+    "name": "Tridandin Algorithm",
+    "describe": "That man is called a true Tridandin in whose mind these three, the control over his speech (Vagdanda), the control over his thoughts (Manodanda), and the control over his body (Kayadanda), are firmly fixed.",
+    "created": 1745211805556,
+    "hash": "md5-/5HN0fQekWfNia7jvaqySg=="
+  },
+  {
+    "id": 5983834177508,
+    "url": "/algorithms/IndraAlgorithm",
+    "key": "Indra",
+    "name": "Indra Algorithm",
+    "describe": "Indra, give us security from that whereof we are afraid. Protect us, Indra, each to-day, each morrow, and each following day.",
+    "created": 1745211805559,
+    "hash": "md5-fhG44O3kdo7J5aVdR0nM2w=="
+  },
+  {
+    "id": 2703659107102,
+    "url": "/algorithms/GiftAlgorithm",
+    "key": "Gift",
+    "name": "Gift Algorithm",
+    "describe": "According to the particular qualities of the recipient and according to the faith of the giver a small or a great reward.",
+    "created": 1745211805561,
+    "hash": "md5-KKY1qtgWhg3uZmhoptMMSw=="
+  },
+  {
+    "id": 4101594231371,
+    "url": "/algorithms/NWOPSA",
+    "key": "NWOPSA",
+    "name": "New World Order Priority Sorting Algorithm",
+    "describe": "The New World Order Priority Sorting Algorithm (NWOPSA) is an advanced system designed to categorize, prioritize, and allocate resources, influence, and control based on a set of predefined parameters.",
+    "created": 1745211805564,
+    "hash": "md5-6gjgT/K0UmOjZ/FAZf/IwQ=="
+  }
 ]

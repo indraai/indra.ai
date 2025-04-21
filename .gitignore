@@ -3,6 +3,7 @@ client.json
 src/data/features/
 .DS_Store
 _site/
+private/
 
 # Logs
 logs

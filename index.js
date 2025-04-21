@@ -3,12 +3,12 @@
 // Indra.ai
 
 // setup main variables
+import punycode from 'punycode';
 import path from 'node:path';
 import fs from 'node:fs';
 import os from 'node:os';
 import needle from 'needle';
 import chalk from 'chalk';
-import punycode from 'punycode';
 
 import pkg from './package.json' with {type:'json'}
 const {agent, vars} = pkg.data;
@@ -97,23 +97,11 @@ const devaFlash = (opts) => `
 🐣  Git:       ${pkg.repository.url}
 🪪   License:   ${pkg.license}
 
-${line_break}
-
 ${opts.ip}
 
 ${pkg.copyright}
 
 ${line_break}`;
-
-
-
-// create the static routes for the local server.
-// public is used to deliver local assets
-const pubOpts = {
-	dotfiles: 'ignore',
-	extensions: ['htm', 'html', 'json'],
-	index: 'index.html, index.json',
-};
 
 	// log the main server information to the console
 console.log(chalk.green(devaFlash({

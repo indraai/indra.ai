@@ -319,3 +319,23 @@ menu > ul > li > ol > li::before {
 	
 }
 
+.CONTAINER .item {
+	display: flex;
+}
+.CONTAINER .item .label {
+	min-width: 6rem;
+	font-weight: bold;
+	border-right: 1px solid;
+	margin-right: .25rem;
+}
+
+.box.signature {
+	font-size: .5rem;
+	max-width: 100%;
+	overflow: hidden;
+	color: var(--color-green);
+}
+.box.signature::before {
+	content: "SIGNATURE";
+	display: block;
+}

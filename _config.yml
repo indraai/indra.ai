@@ -6,7 +6,7 @@ author: Quinn Michaels
 copyright: (c)2025 Quinn Michaels. All rights reserved.
 xcreator: quinnmichaels
 xsite: quinnmichaels
-exclude: ['node_modules/', 'src/'] 
+exclude: ['node_modules/', 'src/', 'public/', 'private/'] 
 collections:
   posts:
     output: true
