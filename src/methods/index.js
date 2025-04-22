@@ -44,10 +44,14 @@ export default {
 	memory,
 	signature,
 	
+	/*********
+	name: algo
+	describe: algo is the method that publishes 
+						the algorithms to the /algorithms directory
+	*********/
 	algo(packet) {
 		return new Promise((resolve, reject) => {
 			this.question(`${this.askChr}algorithm list`).then(async algos => {
-				console.log('ALGOS', this.config.dir);
 				const {dir} = this.config;
 				const jsondata = [];
 				for (let item of algos.a.data) {
