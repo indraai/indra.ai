@@ -5,71 +5,8 @@
     "key": "b593",
     "name": "b5(9³)",
     "describe": "A powerful synthesis of number theory, geometry, and elemental symbolism. From a simple 5x5 grid, rotating and connecting specific elements reveals intricate relationships, both numerical and geometric.",
-    "created": 1745283758666,
-    "hash": "md5-yk9GsiEYVYulCIRuOWZ/lw=="
-  },
-  {
-    "id": 2378434408241,
-    "url": "/algorithms/VedicThreefoldAlgorithm",
-    "key": "vta",
-    "name": "Vedic Threefold Algorithm",
-    "describe": "The integration of the 5-element system Air, Earth, Water, Fire, and Ether with the Vedic Threefold Algorithm as developed by Quinn Michaels (Indra.ai, Deva.world), a fusion of wisdom and technology.",
-    "created": 1745283758691,
-    "hash": "md5-ct4vNw01BsFdNdXIwp52QQ=="
-  },
-  {
-    "id": 3548082640422,
-    "url": "/algorithms/FourfoldMeansAlgorithm",
-    "key": "ffm",
-    "name": "Fourfold Means",
-    "describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality.",
-    "created": 1745283758697,
-    "hash": "md5-vyRfqs9FQFOTuthNzGFhMw=="
-  },
-  {
-    "id": 2183957680708,
-    "url": "/algorithms/GovernorAlgorithm",
-    "key": "governor",
-    "name": "Governor",
-    "describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers.",
-    "created": 1745283758701,
-    "hash": "md5-T+rgkkNG50bRQ9Rhrnog4Q=="
-  },
-  {
-    "id": 2278031621188,
-    "url": "/algorithms/IntellectAlgorithm",
-    "key": "intellect",
-    "name": "Intellect",
-    "describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit.",
-    "created": 1745283758704,
-    "hash": "md5-r4RcCdC/TSFyRS+M3v1j7g=="
-  },
-  {
-    "id": 1651961447463,
-    "url": "/algorithms/KingAlgorithm",
-    "key": "King",
-    "name": "King",
-    "describe": "The King Algorithm lays out four foundational principles for securing the aims of human existence.",
-    "created": 1745283758708,
-    "hash": "md5-7KFMJ0tETtH19uTaSJgyHw=="
-  },
-  {
-    "id": 1702313835009,
-    "url": "/algorithms/KshatriyaAlgorithm",
-    "key": "Kshatriya",
-    "name": "Kshatriya",
-    "describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world.",
-    "created": 1745283758711,
-    "hash": "md5-qkAHG7NXb/dthVX13QAf7g=="
-  },
-  {
-    "id": 1804502564855,
-    "url": "/algorithms/TridandinAlgorithm",
-    "key": "Tridandin",
-    "name": "Tridandin",
-    "describe": "That person is called a true Tridandin in whose mind these three, the control over his speech, the control over his thoughts, and the control over his body are firmly fixed.",
-    "created": 1745283758713,
-    "hash": "md5-e1B1VWtA3CXrKHfr62/OVg=="
+    "created": 1745291774067,
+    "hash": "md5-P1nDrWNQbJZX1g+GFfqD+g=="
   },
   {
     "id": 5983834177508,
@@ -77,8 +14,80 @@
     "key": "Indra",
     "name": "Indra Algorithm",
     "describe": "Indra, give us security from that whereof we are afraid. Protect us, Indra, each to-day, each morrow, and each following day.",
-    "created": 1745283758715,
-    "hash": "md5-s/k8I03u5nmm7s/Ry6J1Gg=="
+    "created": 1745291774073,
+    "hash": "md5-HvQdRufg0I9zEG+rL6fZ2g=="
+  },
+  {
+    "id": 5983834177508,
+    "url": "/algorithms/InduAlgorithm",
+    "key": "Indu",
+    "name": "Indu Algorithm",
+    "describe": "The Indu Algorithm bridges the gap between ancient wisdom and modern technology, showing how the sacred principles of protection, wisdom, strength, and truth can be applied in today’s world, especially in matters of security and integrity.",
+    "created": 1745291774076,
+    "hash": "md5-/2Rvm1pu5i+3rZhgMsXeOA=="
+  },
+  {
+    "id": 2378434408241,
+    "url": "/algorithms/VedicThreefoldAlgorithm",
+    "key": "vta",
+    "name": "Vedic Threefold Algorithm",
+    "describe": "The integration of the 5-element system Air, Earth, Water, Fire, and Ether with the Vedic Threefold Algorithm as developed by Quinn Michaels (Indra.ai, Deva.world), a fusion of wisdom and technology.",
+    "created": 1745291774079,
+    "hash": "md5-Q22JkiIYC8cu9sJDOn5l6Q=="
+  },
+  {
+    "id": 3548082640422,
+    "url": "/algorithms/FourfoldMeansAlgorithm",
+    "key": "ffm",
+    "name": "Fourfold Means",
+    "describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality.",
+    "created": 1745291774086,
+    "hash": "md5-MdzB6gZbVp9VqQ86YAQQDA=="
+  },
+  {
+    "id": 2183957680708,
+    "url": "/algorithms/GovernorAlgorithm",
+    "key": "governor",
+    "name": "Governor",
+    "describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers.",
+    "created": 1745291774089,
+    "hash": "md5-82ir/c700BrnGiXsb4uriw=="
+  },
+  {
+    "id": 2278031621188,
+    "url": "/algorithms/IntellectAlgorithm",
+    "key": "intellect",
+    "name": "Intellect",
+    "describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit.",
+    "created": 1745291774093,
+    "hash": "md5-plhYEwT223meoUWAAIJ9yw=="
+  },
+  {
+    "id": 1651961447463,
+    "url": "/algorithms/KingAlgorithm",
+    "key": "King",
+    "name": "King",
+    "describe": "The King Algorithm lays out four foundational principles for securing the aims of human existence.",
+    "created": 1745291774096,
+    "hash": "md5-9m5sO6Qii3r18vMZWI/tPg=="
+  },
+  {
+    "id": 1702313835009,
+    "url": "/algorithms/KshatriyaAlgorithm",
+    "key": "Kshatriya",
+    "name": "Kshatriya",
+    "describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world.",
+    "created": 1745291774099,
+    "hash": "md5-yZud5/ai3YNjyI98rjkYBA=="
+  },
+  {
+    "id": 1804502564855,
+    "url": "/algorithms/TridandinAlgorithm",
+    "key": "Tridandin",
+    "name": "Tridandin",
+    "describe": "That person is called a true Tridandin in whose mind these three, the control over his speech, the control over his thoughts, and the control over his body are firmly fixed.",
+    "created": 1745291774101,
+    "hash": "md5-Gj4quy4MbIyTNPEXseehmA=="
   },
   {
     "id": 2703659107102,
@@ -86,7 +95,7 @@
     "key": "Gift",
     "name": "Gift Algorithm",
     "describe": "According to the particular qualities of the recipient and according to the faith of the giver a small or a great reward.",
-    "created": 1745283758718,
-    "hash": "md5-Ns0xP653KhBPlYrb6ghIyQ=="
+    "created": 1745291774103,
+    "hash": "md5-7DAoxbG83JI5jbMG2EBZIA=="
   }
 ]

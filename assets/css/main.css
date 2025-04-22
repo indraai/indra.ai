@@ -344,3 +344,13 @@ menu > ul > li > ol > li::before {
 .hero-img img {
 	max-width: 100%;
 }
+
+.number-item {
+	margin: .5rem 0 .5rem 2rem;
+}
+.number-item::before {
+	content: attr(data-label);
+	display: inline-block;
+	width: 2rem;
+	margin-left: -2rem;
+}
