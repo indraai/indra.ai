@@ -3,6 +3,7 @@ title: Indra.ai
 subtitle: Indra.ai - Bridging Ancient Wisdom and Modern AI Innovation.
 layout: default
 image: /assets/img/headers/001.jpg
+emoji: /assets/img/emoji.png
 color: var(--color-white)
 describe: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.
 tweet: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding.

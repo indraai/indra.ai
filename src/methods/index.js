@@ -74,7 +74,6 @@ export default {
 					`tweet: ${item.tweet}`,
 					`hashtags: ${item.hashtags}`,
 					'---',
-					`<div class="image"><img src="${item.image}"/></div>`,
 					help.a.html,
 					].join('\n');
 

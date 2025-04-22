@@ -33,6 +33,7 @@
 	--color-aqua: #79f2e8;
 	--color-light-aqua: #a5f0ea;
 	--color-note: #e8e3ac;
+	--bg: url(/assets/img/background.png);
 }
 
 html, body {
@@ -41,7 +42,7 @@ html, body {
 }
 
 body {
-	background-image: url(/assets/img/background.png);
+	background-image: var(--bg);
 	background-color: var(--color-bg);
 	color: var(--color-text);
 	background-repeat: no-repeat;
@@ -83,9 +84,6 @@ a:hover {
 header {
 	text-align: center;
 	padding: 1rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 header h1 {
 	padding: 0;
@@ -338,4 +336,11 @@ menu > ul > li > ol > li::before {
 .box.signature::before {
 	content: "SIGNATURE";
 	display: block;
+}
+
+.hero {
+	background-position: center;
+}
+.hero-img img {
+	max-width: 100%;
 }

@@ -1,6 +1,9 @@
-<header style="--header-bg: url({{page.header}}); --header-color: {{page.color}};">
+<header>
 	{% include nav.html %}
 	<div class="hero">
+		{% if page.emoji %}
+		<div class="emoji"><img src="{{page.emoji}}" alt="{{page.title}}"></div>
+		{% endif %}
 		<h1>{{page.title}}</h1>
 		<p>{{page.subtitle}}</p>
 	</div>
