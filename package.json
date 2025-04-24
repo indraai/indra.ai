@@ -130,7 +130,9 @@
 				"help": "💛 Help",
 				"status": "🩻 Status",
 				"info": "🙋 Info",
-				"signature": "✍️ Signature"
+				"signature": "✍️ Signature",
+				"algo": "🦾 Publish Algorithms",
+				"entities": "🕺 Publish Entities"
 			},
 			"ask": {
 				"history": []

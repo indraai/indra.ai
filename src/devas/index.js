@@ -1,10 +1,18 @@
 // Copyright (c)2025 Quinn Michaels
 //  Main Devas include file where all the necessary Devas are included.
 
+import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
+import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
 import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
 import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import log from '/Users/quinnmichaels/Dev/deva.space/devas/deva.log/index.js';
-import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
+import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.js';
+import web from '/Users/quinnmichaels/Dev/deva.space/devas/deva.web/index.js';
+import telnet from '/Users/quinnmichaels/Dev/deva.space/devas/deva.telnet/index.js';
+import gopher from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gopher/index.js';
+import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js';
+import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
+import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
 import authority from '/Users/quinnmichaels/Dev/deva.space/devas/deva.authority/index.js';
 import legal from '/Users/quinnmichaels/Dev/deva.space/devas/deva.legal/index.js';
 import justice from '/Users/quinnmichaels/Dev/deva.space/devas/deva.justice/index.js';
@@ -15,17 +23,20 @@ import support from '/Users/quinnmichaels/Dev/deva.space/devas/deva.support/inde
 import services from '/Users/quinnmichaels/Dev/deva.space/devas/deva.services/index.js';
 import systems from '/Users/quinnmichaels/Dev/deva.space/devas/deva.systems/index.js';
 import networks from '/Users/quinnmichaels/Dev/deva.space/devas/deva.networks/index.js';
-import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
-import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
-import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js';
-import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
-import web from '/Users/quinnmichaels/Dev/deva.space/devas/deva.web/index.js';
 
 const DEVAS = {
+	feecting,
+	veda,
 	data,
 	error,
 	log,
-	feecting,
+	socket,
+	web,
+	gopher,
+	telnet,
+	chat,
+	algorithm,
+	docs,
 	authority,
 	legal,
 	justice,
@@ -36,11 +47,6 @@ const DEVAS = {
 	services,
 	systems,
 	networks,
-	chat,
-	web,
-	docs,
-	veda,
-	algorithm,
 };
 
 export default DEVAS;

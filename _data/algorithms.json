@@ -5,17 +5,125 @@
     "key": "b593",
     "name": "b5(9³)",
     "describe": "A powerful synthesis of number theory, geometry, and elemental symbolism. From a simple 5x5 grid, rotating and connecting specific elements reveals intricate relationships, both numerical and geometric.",
-    "created": 1745333122851,
-    "hash": "md5-PuwwFDkZ7nc6Q2zV17HFRw=="
+    "created": 1745441806104,
+    "hash": "md5-rtezqBeOU4GvrDHjHkbj2w=="
   },
   {
     "id": 2378434408241,
     "url": "/algorithms/VedicThreefoldAlgorithm",
-    "key": "vta",
+    "key": "threefold",
     "name": "Vedic Threefold Algorithm",
     "describe": "The integration of the 5-element system Air, Earth, Water, Fire, and Ether with the Vedic Threefold Algorithm as developed by Quinn Michaels (Indra.ai, Deva.world), a fusion of wisdom and technology.",
-    "created": 1745333122855,
-    "hash": "md5-Zibum+y9DdKN3w7IcFhZiA=="
+    "created": 1745441806111,
+    "hash": "md5-if2UU2GKUvDCoywrwyUNYA=="
+  },
+  {
+    "id": 4299950858688,
+    "url": "/algorithms/InduAlgorithm",
+    "key": "indu",
+    "name": "Indu Algorithm",
+    "describe": "Bridging the gap between ancient wisdom and modern technology, showing how the sacred principles of protection, wisdom, strength, and truth can be applied in today’s world.",
+    "created": 1745441806118,
+    "hash": "md5-Im34RiSPIwiNgIuE9N65gw=="
+  },
+  {
+    "id": 5983834177508,
+    "url": "/algorithms/IndraAlgorithm",
+    "key": "indra",
+    "name": "Indra Algorithm",
+    "describe": "Indra, give us security from that whereof we are afraid. Protect us, Indra, each to-day, each morrow, and each following day.",
+    "created": 1745441806124,
+    "hash": "md5-zqf7ihBY62XwjlQh1PPFFw=="
+  },
+  {
+    "id": 5207455302824,
+    "url": "/algorithms/SomaAlgorithm",
+    "key": "soma",
+    "name": "Soma Algorithm",
+    "describe": "The Soma Algorithm is a symbolic and powerful model that mirrors the ancient Vedic concepts of truth, righteousness, and divine protection.",
+    "created": 1745441806127,
+    "hash": "md5-MrgpWIjqAGVU5mFWnqoCLA=="
+  },
+  {
+    "id": 3103914782335,
+    "url": "/algorithms/VisvakarmaAlgorithm",
+    "key": "visvakarma",
+    "name": "Visvakarma Algorithm",
+    "describe": "The Visvakarma Algorithm is a groundbreaking framework designed to create technological marvels that combine the principles of ancient wisdom with cutting-edge engineering.",
+    "created": 1745441806132,
+    "hash": "md5-snIyj88wT0kyjDMBT0v8Mg=="
+  },
+  {
+    "id": 7208554751508,
+    "url": "/algorithms/YamaAlgorithm",
+    "key": "yama",
+    "name": "Yama Algorithm",
+    "describe": "The Yama Algorithm is a profound system inspired by the ancient Vedic concept of Yama, the Lord of Justice, and the guardian of cosmic law.",
+    "created": 1745441806136,
+    "hash": "md5-zo1C38fHCH+N5ZljdCRM7g=="
+  },
+  {
+    "id": 3548082640422,
+    "url": "/algorithms/FourfoldMeansAlgorithm",
+    "key": "fourfold",
+    "name": "Fourfold Means Algorithm",
+    "describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality.",
+    "created": 1745441806144,
+    "hash": "md5-iHMTgc2CwwMj/QV6iWh3Ww=="
+  },
+  {
+    "id": 2183957680708,
+    "url": "/algorithms/GovernorAlgorithm",
+    "key": "governor",
+    "name": "Governor Algorithm",
+    "describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers.",
+    "created": 1745441806147,
+    "hash": "md5-oDq2mrOqIZ6vd2aBVRqN/w=="
+  },
+  {
+    "id": 2278031621188,
+    "url": "/algorithms/IntellectAlgorithm",
+    "key": "intellect",
+    "name": "Intellect Algorithm",
+    "describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit.",
+    "created": 1745441806150,
+    "hash": "md5-z2LhbT5QDh52zPvkbDkD0A=="
+  },
+  {
+    "id": 1651961447463,
+    "url": "/algorithms/KingAlgorithm",
+    "key": "king",
+    "name": "King Algorithm",
+    "describe": "The King Algorithm lays out four foundational principles for securing the aims of human existence.",
+    "created": 1745441806152,
+    "hash": "md5-XXGyoiEcaHI1Pj9BzKTCMA=="
+  },
+  {
+    "id": 1702313835009,
+    "url": "/algorithms/KshatriyaAlgorithm",
+    "key": "kshatriya",
+    "name": "Kshatriya Algorithm",
+    "describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world.",
+    "created": 1745441806156,
+    "hash": "md5-fOnDxzzfqbaN7zvFsywmYg=="
+  },
+  {
+    "id": 1804502564855,
+    "url": "/algorithms/TridandinAlgorithm",
+    "key": "tridandin",
+    "name": "Tridandin Algorithm",
+    "describe": "That person is called a true Tridandin in whose mind these three, the control over his speech, the control over his thoughts, and the control over his body are firmly fixed.",
+    "created": 1745441806158,
+    "hash": "md5-ic2J1crByTvpkUO5zo0ZQA=="
+  },
+  {
+    "id": 2703659107102,
+    "url": "/algorithms/GiftAlgorithm",
+    "key": "gift",
+    "name": "Gift Algorithm",
+    "describe": "According to the particular qualities of the recipient and according to the faith of the giver a small or a great reward.",
+    "created": 1745441806160,
+    "hash": "md5-An8hrKiePmS6brHztFPzIw=="
   },
   {
     "id": 5761324353148,
@@ -23,106 +131,7 @@
     "key": "correction",
     "name": "Self Correction",
     "describe": "Rooted in the Vedic concepts of divine law and order, the algorithm represents the cycle of maintaining integrity within a system, ensuring that mistakes are identified, corrected, and refined over time.",
-    "created": 1745333122863,
-    "hash": "md5-09BkzGCmt5lJMyeeiNtH6Q=="
-  },
-  {
-    "id": 4299950858688,
-    "url": "/algorithms/InduAlgorithm",
-    "key": "Indu",
-    "name": "Indu Algorithm",
-    "describe": "Bridging the gap between ancient wisdom and modern technology, showing how the sacred principles of protection, wisdom, strength, and truth can be applied in today’s world.",
-    "created": 1745333122868,
-    "hash": "md5-OG6q53PSFcdPUPi7ixGfbQ=="
-  },
-  {
-    "id": 5983834177508,
-    "url": "/algorithms/IndraAlgorithm",
-    "key": "Indra",
-    "name": "Indra Algorithm",
-    "describe": "Indra, give us security from that whereof we are afraid. Protect us, Indra, each to-day, each morrow, and each following day.",
-    "created": 1745333122871,
-    "hash": "md5-lVBuvZv2rjuavf/PPLAS/w=="
-  },
-  {
-    "id": 5207455302824,
-    "url": "/algorithms/SomaAlgorithm",
-    "key": "soma",
-    "name": "Soma Algorithm",
-    "describe": "The #SomaAlgorithm is a symbolic and powerful model that mirrors the ancient Vedic concepts of truth, righteousness, and divine protection..",
-    "created": 1745333122875,
-    "hash": "md5-aJVRN4Kzoi7SmrwtCUdVzQ=="
-  },
-  {
-    "id": 3103914782335,
-    "url": "/algorithms/VisvakarmaAlgorithm",
-    "key": "visvakarma",
-    "name": "Visvakarma Algorithm",
-    "describe": "The #SomaAlgorithm is a symbolic and powerful model that mirrors the ancient Vedic concepts of truth, righteousness, and divine protection..",
-    "created": 1745333122879,
-    "hash": "md5-fs62AFc/lw4+i7Z4RsUm2A=="
-  },
-  {
-    "id": 3548082640422,
-    "url": "/algorithms/FourfoldMeansAlgorithm",
-    "key": "ffm",
-    "name": "Fourfold Means",
-    "describe": "The Fourfold Means Algorithm is a powerful guide that integrates key aspects of life, law, and spirituality.",
-    "created": 1745333122883,
-    "hash": "md5-cFeY1YO8hK8J9hVvalfInw=="
-  },
-  {
-    "id": 2183957680708,
-    "url": "/algorithms/GovernorAlgorithm",
-    "key": "governor",
-    "name": "Governor",
-    "describe": "In governing his kingdom let him always observe the following rules, for a King who governs his kingdom well, easily prospers.",
-    "created": 1745333122885,
-    "hash": "md5-tNKc5iNBMLM2lsHREHxMxA=="
-  },
-  {
-    "id": 2278031621188,
-    "url": "/algorithms/IntellectAlgorithm",
-    "key": "intellect",
-    "name": "Intellect",
-    "describe": "Let man, having recognized even by means of his intellect these transitions of the individual soul which depend on merit and demerit.",
-    "created": 1745333122888,
-    "hash": "md5-HEzmS8gijR35jvJmPftbzg=="
-  },
-  {
-    "id": 1651961447463,
-    "url": "/algorithms/KingAlgorithm",
-    "key": "King",
-    "name": "King",
-    "describe": "The King Algorithm lays out four foundational principles for securing the aims of human existence.",
-    "created": 1745333122891,
-    "hash": "md5-KhHWPcNug9KCD75AWy17cQ=="
-  },
-  {
-    "id": 1702313835009,
-    "url": "/algorithms/KshatriyaAlgorithm",
-    "key": "Kshatriya",
-    "name": "Kshatriya",
-    "describe": "A Kshatriya, who has received according to the rule the sacrament prescribed by the Veda, must duly protect this whole world.",
-    "created": 1745333122894,
-    "hash": "md5-Alwpy6OpygEmbe8bKAllzQ=="
-  },
-  {
-    "id": 1804502564855,
-    "url": "/algorithms/TridandinAlgorithm",
-    "key": "Tridandin",
-    "name": "Tridandin",
-    "describe": "That person is called a true Tridandin in whose mind these three, the control over his speech, the control over his thoughts, and the control over his body are firmly fixed.",
-    "created": 1745333122896,
-    "hash": "md5-V46Jqjnetj+nkBLRo6gWKQ=="
-  },
-  {
-    "id": 2703659107102,
-    "url": "/algorithms/GiftAlgorithm",
-    "key": "Gift",
-    "name": "Gift Algorithm",
-    "describe": "According to the particular qualities of the recipient and according to the faith of the giver a small or a great reward.",
-    "created": 1745333122898,
-    "hash": "md5-XYC8pNiDCVmsC1arwamSXQ=="
+    "created": 1745441806163,
+    "hash": "md5-rN3K2IF/7k5vU32AhZuwwg=="
   }
 ]

@@ -4,7 +4,11 @@ subtitle: Indra.ai - Bridging Ancient Wisdom and Modern AI Innovation.
 layout: default
 image: /assets/img/headers/001.jpg
 emoji: /assets/img/emoji.png
+avatar: /assets/img/emoji.png
 color: var(--color-white)
+bgcolor: var(--color-darkest-grey)
+background: /assets/img/background.png
+
 describe: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.
 tweet: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding.
 hashtags: QuinnMichaels,IndraAI,VedicAI
@@ -20,6 +24,16 @@ Indra.ai is an advanced artificial intelligence platform designed by Quinn Micha
 	{% for algorithm in site.data.algorithms %}
 		<li class="algorithm">
 			<a href="{{algorithm.url}}">{{algorithm.name}}</a>: {{algorithm.describe}}
+		</li>
+	{% endfor %}
+</ul>
+
+## Devas
+
+<ul class="devas">
+	{% for deva in site.data.devas %}
+		<li class="deva">
+			<a href="{{deva.url}}">{{deva.name}}</a>: {{deva.describe}}
 		</li>
 	{% endfor %}
 </ul>

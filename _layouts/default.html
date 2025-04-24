@@ -30,7 +30,7 @@
 		<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
 	</head>
 
-	<body>
+	<body style="--browser-item-bgcolor: {{page.bgcolor}};--browser-item-background: url({{page.background}}); --browser-item-color: {{page.color}}; --prompt-label: {{page.label}}; --prompt-text: {{page.text}};">
 		{% include header.html %}
 
 		{% include share.html format="inline" %}

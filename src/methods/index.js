@@ -50,7 +50,10 @@ export default {
 						the algorithms to the /algorithms directory
 	*********/
 	algo(packet) {
+		this.context('entities', packet.id);
 		return new Promise((resolve, reject) => {
+			this.action('method', `algo:${packet.id}`);
+
 			this.question(`${this.askChr}algorithm list`).then(async algos => {
 				const {dir} = this.config;
 				const jsondata = [];
@@ -69,14 +72,23 @@ export default {
 
 					const html = [
 					'---',
+					`id: ${item.id}`,
+					`name: ${item.name}`,
 					`title: ${item.title}`,
 					`subtitle: ${item.subtitle}`,
 					`layout: ${item.layout}`,
+					`emoji: ${item.emoji}`,
+					`avatar: ${item.avatar}`,
 					`image: ${item.image}`,
+					`background: ${item.background}`,
+					`label: ${item.label}`,
+					`text: ${item.text}`,
 					`color: ${item.color}`,
+					`bgcolor: ${item.bgcolor}`,
 					`describe: ${item.describe}`,
 					`tweet: ${item.tweet}`,
 					`hashtags: ${item.hashtags}`,
+					`created: ${item.created}`,
 					'---',
 					help.a.html,
 					].join('\n');
@@ -87,14 +99,84 @@ export default {
 					const jsonpath = this.lib.path.join(dir, '_data', 'algorithms.json');
 					this.lib.fs.writeFileSync(jsonpath, JSON.stringify(jsondata, null, 2), {encoding:'utf8',flag:'w'});
 				}
+				this.state('resolve', `algo:${packet.id}`);
 				return resolve({
 					text: 'workign on it',
 					html: 'workign on it',
-					data: algos.a.data
-				})
+					data: algos.a.data,
+				});
 			}).catch(err => {
 				return this.error(err, packet, reject);
 			})
+		});
+	},
+	entities(packet) {
+		this.context('entities', packet.id);
+		return new Promise(async (resolve, reject) => {
+			// first thing is to get the list of entities/devas
+			const jsondata =[];
+			const {dir} = this.config;
+
+			try {
+				for (let deva in this.devas) {
+					const d = this.devas[deva];
+					const {id, key, prompt, profile, created, hash} = d.agent();
+					const info = d.info();
+					const newitem = {
+						id,
+						key,
+						package: info.name,
+						name: profile.name,
+						describe: profile.describe,
+						version: info.package,
+						url: `/devas/${key}`,
+						color: profile.color,
+						bgcolor: profile.bgcolor,
+						background: profile.background,
+						emoji: profile.emoji,
+						avatar: profile.avatar,
+						hash,
+						created: this.lib.formatDate(created, 'long', true),
+					};
+					jsondata.push(newitem);
+
+					const help = await this.question(`${this.askChr}${key} help`);
+					const htmlpath = this.lib.path.join(dir, 'devas', `${key}.html`);
+					
+					const html = [
+						'---',
+						`id: ${id}`,
+						`key: ${key}`,
+						`name: ${profile.name}`,
+						`title: ${profile.title}`,
+						`subtitle: ${profile.subtitle}`,
+						`describe: ${profile.describe}`,
+						`layout: ${profile.layout}`,
+						`image: ${profile.image}`,
+						`background: ${profile.background}`,
+						`emoji: ${profile.emoji}`,
+						`avatar: ${profile.avatar}`,
+						`color: ${profile.color}`,
+						`label: rgb(${prompt.colors.label.R},${prompt.colors.label.G},${prompt.colors.label.B})`,
+						`text: rgb(${prompt.colors.text.R},${prompt.colors.text.G},${prompt.colors.text.B})`,
+						`bgcolor: ${profile.bgcolor}`,
+						`tweet: ${profile.tweet}`,
+						`hashtags: ${profile.hashtags}`,
+						'---',
+						help.a.html,
+					].join('\n');
+
+					this.lib.fs.writeFileSync(htmlpath, html, {encoding: 'utf8',flag:'w'});
+
+					this.prompt(`entity:${deva}`);
+				}				
+				const jsonpath = this.lib.path.join(dir, '_data', 'devas.json');
+				this.lib.fs.writeFileSync(jsonpath, JSON.stringify(jsondata, null, 2), {encoding: 'utf8',flag:'w'});
+
+			} catch (err) {
+				return this.error(err, packet, reject);				
+			}
+
 		});
 	}
 };
