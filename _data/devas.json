@@ -11,8 +11,8 @@
     "background": "/assets/devas/feecting/background.png",
     "emoji": "/assets/devas/feecting/emoji.png",
     "avatar": "/assets/devas/feecting/avatar.png",
-    "hash": "md5-XOsHefUUvBsuPIP2T+htag==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "hash": "md5-raJD/vA/SYl2yIIYB47HPA==",
+    "created": "Thursday, April 24, 2025 - 12:15:21 AM"
   },
   {
     "id": 6642777683539,
@@ -27,7 +27,7 @@
     "emoji": "/assets/devas/veda/emoji.png",
     "avatar": "/assets/devas/veda/avatar.png",
     "hash": "md5-/Em495i8PnJFcpHEtz4Rbw==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:24 AM"
   },
   {
     "id": 4825562571950,
@@ -42,7 +42,7 @@
     "emoji": "/assets/devas/data/emoji.png",
     "avatar": "/assets/devas/data/avatar.png",
     "hash": "md5-BoS+h9mfKToCpOooIsgQHg==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:27 AM"
   },
   {
     "id": 3574974849802,
@@ -57,7 +57,7 @@
     "emoji": "/assets/devas/error/emoji.png",
     "avatar": "/assets/devas/error/avatar.png",
     "hash": "md5-ypjRQO524c1N6A9ezxOg9g==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:33 AM"
   },
   {
     "id": 4148108755733,
@@ -72,7 +72,7 @@
     "emoji": "/assets/devas/log/emoji.png",
     "avatar": "/assets/devas/log/avatar.png",
     "hash": "md5-+nQNtUEITy66Jvb8A7sPfg==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:36 AM"
   },
   {
     "id": 2171459139679,
@@ -87,7 +87,7 @@
     "emoji": "/assets/devas/socket/emoji.png",
     "avatar": "/assets/devas/socket/avatar.png",
     "hash": "md5-zy3+nv1yq8Q/dCZ/R9nlSA==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:39 AM"
   },
   {
     "id": 1524213241067,
@@ -102,7 +102,7 @@
     "emoji": "/assets/devas/web/emoji.png",
     "avatar": "/assets/devas/web/avatar.png",
     "hash": "md5-a/8ZERd2X/2BymRUFhOQxg==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:42 AM"
   },
   {
     "id": 3405249173685,
@@ -117,13 +117,13 @@
     "emoji": "/assets/devas/gopher/emoji.png",
     "avatar": "/assets/devas/gopher/avatar.png",
     "hash": "md5-2856WhbICccBWkGeiRbjqQ==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:45 AM"
   },
   {
     "id": 6329275100000,
     "key": "telnet",
-    "package": "@indra.ai/telnetdeva",
-    "name": "#TelnetDeva",
+    "package": "@indra.ai/deva.telnet",
+    "name": "#deva.telnet",
     "describe": "Deva for Telnet Stuff",
     "url": "/devas/telnet",
     "color": "rgb(117,244,114)",
@@ -131,8 +131,8 @@
     "background": "/assets/devas/telnet/background.png",
     "emoji": "/assets/devas/telnet/emoji.png",
     "avatar": "/assets/devas/telnet/avatar.png",
-    "hash": "md5-ADM2qiGKTzeKYT8WiaD5WA==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "hash": "md5-Go3lL7DU6p990BBSErYEhw==",
+    "created": "Thursday, April 24, 2025 - 12:15:48 AM"
   },
   {
     "id": 2551884314891,
@@ -147,7 +147,7 @@
     "emoji": "/assets/devas/chat/emoji.png",
     "avatar": "/assets/devas/chat/avatar.png",
     "hash": "md5-vW8Gw8A+lmsbVOQ7fFBjCg==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:48 AM"
   },
   {
     "id": 2035656527451,
@@ -162,7 +162,7 @@
     "emoji": "/assets/devas/algorithm/emoji.png",
     "avatar": "/assets/devas/algorithm/avatar.png",
     "hash": "md5-/qS5MpZchHZL0YS18JzLhQ==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:50 AM"
   },
   {
     "id": 3299095637720,
@@ -177,7 +177,7 @@
     "emoji": "/assets/devas/docs/emoji.png",
     "avatar": "/assets/devas/docs/avatar.png",
     "hash": "md5-aocXQvKVX4MA0+7P42f67g==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:53 AM"
   },
   {
     "id": 5474928441638,
@@ -192,74 +192,82 @@
     "emoji": "/assets/devas/authority/emoji.png",
     "avatar": "/assets/devas/authority/avatar.png",
     "hash": "md5-WGiv66LS77dtCW5iNPLhCw==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:15:56 AM"
   },
   {
     "id": 1540940067410,
     "key": "legal",
     "package": "@indra.ai/deva.legal",
-    "name": "Legal Deva",
+    "name": "#LegalDeva",
     "describe": "Legal Deva is responsible for handling legal issues in Deva.world.",
     "url": "/devas/legal",
-    "background": "/public/devas/deva/background.png",
-    "emoji": "/public/devas/deva/emoji.png",
-    "avatar": "/public/devas/deva/avatar.png",
-    "hash": "md5-An0JX0xu731DQslc8xnTdQ==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "color": "rgb(186,182,158)",
+    "bgcolor": "rgb(29,28,20)",
+    "background": "/assets/devas/legal/background.png",
+    "emoji": "/assets/devas/legal/emoji.png",
+    "avatar": "/assets/devas/legal/avatar.png",
+    "hash": "md5-ZXFipqxTgt06vhW9r20qoQ==",
+    "created": "Thursday, April 24, 2025 - 12:15:59 AM"
   },
   {
     "id": 6159528221394,
     "key": "justice",
     "package": "@indra.ai/deva.justice",
-    "name": "Justice Deva",
+    "name": "#JusticeDeva",
     "describe": "Justice Deva is responsible for handling justice issues in Deva.world. Justice Deva ensures Fair Justice in Deva.world systems.",
     "url": "/devas/justice",
-    "background": "/public/devas/deva/background.png",
-    "emoji": "/public/devas/deva/emoji.png",
-    "avatar": "/public/devas/deva/avatar.png",
-    "hash": "md5-sVJO2ofMj4+sy5yslPvU6Q==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "color": "",
+    "bgcolor": "",
+    "background": "/assets/devas/justice/background.png",
+    "emoji": "/assets/devas/justice/emoji.png",
+    "avatar": "/assets/devas/justice/avatar.png",
+    "hash": "md5-0kCJrijkvX3m4+/5H57sMg==",
+    "created": "Thursday, April 24, 2025 - 12:16:04 AM"
   },
   {
     "id": 5525285339498,
     "key": "security",
     "package": "@indra.ai/deva.security",
-    "name": "Security Deva",
+    "name": "#SecurityDeva",
     "describe": "Security Deva guardian of Deva.world. An expert in security who sets the standard of excellence in all actions they do. Aware of unilateral decisions and strict chain of custody, legal, ethics, and privacy laws.",
     "url": "/devas/security",
-    "color": "#fbb14e",
-    "bgcolor": "black",
-    "background": "/public/devas/security/background.png",
-    "emoji": "/public/devas/security/emoji.png",
-    "avatar": "/public/devas/security/avatar.png",
-    "hash": "md5-7MVNeH98h8dLvDZvPUP7OA==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "color": "rgb(251,177,78)",
+    "bgcolor": "rgb(0,0,0)",
+    "background": "/assets/devas/security/background.png",
+    "emoji": "/assets/devas/security/emoji.png",
+    "avatar": "/assets/devas/security/avatar.png",
+    "hash": "md5-ReHJIrTMzQgukxd+nh8lgw==",
+    "created": "Thursday, April 24, 2025 - 12:16:07 AM"
   },
   {
     "id": 6159528221394,
     "key": "guard",
     "package": "@indra.ai/deva.guard",
-    "name": "Guard Deva",
-    "describe": "Guard Deva is responsible for handling guard issues in Deva.world. Guard Deva ensures Deva.world systems are always guarded.",
+    "name": "#GuardDeva",
+    "describe": "Guard Deva is responsible for handling guarding and always watching for intruders. Guard Deva ensures gateways, exits, and exchanges are always protected from culprit intruders trying to do unlawful things.",
     "url": "/devas/guard",
-    "background": "/public/devas/deva/background.png",
-    "emoji": "/public/devas/deva/emoji.png",
-    "avatar": "/public/devas/deva/avatar.png",
-    "hash": "md5-VIErbS+IoG2dPyhs1NxZYw==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "color": "rgb(255,145,79)",
+    "bgcolor": "rgb(0,0,0)",
+    "background": "/assets/devas/guard/background.png",
+    "emoji": "/assets/devas/guard/emoji.png",
+    "avatar": "/assets/devas/guard/avatar.png",
+    "hash": "md5-SeroGo/nQ+f5tiFi6+9K7w==",
+    "created": "Thursday, April 24, 2025 - 12:16:10 AM"
   },
   {
     "id": 1710616197555,
     "key": "defense",
     "package": "@indra.ai/deva.defense",
-    "name": "Defense Deva",
-    "describe": "The Defense Deva provides the essential resources to support the Deva.world multi-agent system.",
+    "name": "#DefenseDeva",
+    "describe": "The Defense Deva provides the essential defense to the Deva.world.",
     "url": "/devas/defense",
-    "background": "/public/devas/deva/background.png",
-    "emoji": "/public/devas/deva/emoji.png",
-    "avatar": "/public/devas/deva/avatar.png",
-    "hash": "md5-P2Y3/719gVHyMUuMsod+KA==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "color": "rgb(120,142,164)",
+    "bgcolor": "rgb(0,0,0)",
+    "background": "/assets/devas/defense/background.png",
+    "emoji": "/assets/devas/defense/emoji.png",
+    "avatar": "/assets/devas/defense/avatar.png",
+    "hash": "md5-+B8OzO8di7AijauYWJQ5vA==",
+    "created": "Thursday, April 24, 2025 - 12:16:13 AM"
   },
   {
     "id": 4077391632050,
@@ -274,7 +282,7 @@
     "emoji": "/public/devas/support/emoji.png",
     "avatar": "/public/devas/support/avatar.png",
     "hash": "md5-t5dzxAKPVrPbsGUAXES1cQ==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:16:16 AM"
   },
   {
     "id": 4855882658530,
@@ -289,7 +297,7 @@
     "emoji": "/public/devas/services/emoji.png",
     "avatar": "/public/devas/services/avatar.png",
     "hash": "md5-1oajdQtfpoRtMDNlErvMMw==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:16:19 AM"
   },
   {
     "id": 3605038032151,
@@ -302,7 +310,7 @@
     "emoji": "/public/devas/deva/emoji.png",
     "avatar": "/public/devas/deva/avatar.png",
     "hash": "md5-E2leAcBFZH46cgaH1RjCOw==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:16:21 AM"
   },
   {
     "id": 1710616197555,
@@ -315,6 +323,6 @@
     "emoji": "/public/devas/deva/emoji.png",
     "avatar": "/public/devas/deva/avatar.png",
     "hash": "md5-Bmd3nUEr6aCKyMQOh5TbmA==",
-    "created": "Wednesday, April 23, 2025 - 7:20:30 PM"
+    "created": "Thursday, April 24, 2025 - 12:16:25 AM"
   }
 ]

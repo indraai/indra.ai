@@ -142,6 +142,8 @@ export default {
 
 					const help = await this.question(`${this.askChr}${key} help`);
 					const htmlpath = this.lib.path.join(dir, 'devas', `${key}.html`);
+
+					const greeting = await this.question(`${this.askChr}${key} ask We are publishing your page to the Indra.ai site. Let's write a greeting for everyone so they can get to know you in one paragraph please.`);
 					
 					const html = [
 						'---',
@@ -163,6 +165,7 @@ export default {
 						`tweet: ${profile.tweet}`,
 						`hashtags: ${profile.hashtags}`,
 						'---',
+						`<article class="greeting">${greeting.a.html}</article>`,
 						help.a.html,
 					].join('\n');
 

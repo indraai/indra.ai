@@ -412,3 +412,23 @@ pre {
 	background-color: rbga(0,0,0,.75);
 	font-size: .9rem;
 }
+
+.greeting {
+	border: 1px solid;
+	border-radius: 1rem;
+	padding: .5rem 1rem;
+}
+.greeting p {
+	margin: 0;
+	padding: 0;
+}
+.greeting .item {
+	display: flex;
+}
+.greeting .item .label {
+	min-width: 5rem;
+}
+.greeting .item.date {
+	font-size: .85rem;
+	opacity: .5;
+}
