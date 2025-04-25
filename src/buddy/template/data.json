@@ -1,0 +1,86 @@
+{
+  "name": "::name:: Data File",
+  "describe": "The main Data file for ::name::",
+  "copyright": "Copyright (c)::year:: ::copyright::. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "id": "::id::",
+      "key": "::key::",
+      "prompt": {
+        "emoji": "⊙",
+        "text": "::key::",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "::name::",
+        "title": "::title::",
+        "subtitle": "::subtitle::",
+        "describe": "::describe::",
+        "tweet": "::tweet::",
+        "hashtags": "::hashtags::",
+        "pronouns": "::pronouns::",
+        "gender": "::gender::",
+        "style": "::style::",
+        "voice": "::voice::",
+        "system": "::system::",
+        "layout": "default",
+        "color": "var(--color-white)",
+        "bgcolor": "var(--color-darkest-grey)",
+        "emoji": "::emoji::",
+        "avatar": "::avatar::",
+        "image": "::image::",
+        "background": "::background::",
+        "owner": "::creator::",
+        "creator": "::creator::",
+        "created": "::date::"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ READY!"
+      },
+      "live": {
+        "profile": "deva",
+        "max_tokens": 50,
+        "words": 25,
+        "history": [],
+        "max_chats": 10,
+        "page_token": ""
+      },
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "::name:: is creating a uid",
+        "status": "::name:: is viewing the status",
+        "help": "::name:: is viewing the help",
+        "artist": "::name:: creating",
+        "live": "::name:: livechat",
+        "ask": "::name:: asking",
+        "reply": "::name:: reply",
+        "comment": "::name:: comment"
+      }
+    }
+  }
+}

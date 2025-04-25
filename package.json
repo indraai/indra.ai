@@ -10,7 +10,8 @@
 		"build": "jekyll build",
 		"style": "stylus -w _styl/main.styl -o assets/css/main.css -c",
 		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"buddy": "node ./src/buddy/index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -43,6 +44,7 @@
 		"axios": "^1.1.3",
 		"chalk": "^5.4.1",
 		"express": "^5.1.0",
+		"inquirer": "^12.6.0",
 		"needle": "^3.3.1",
 		"punycode": "^2.3.1",
 		"stylus": "^0.63.0"

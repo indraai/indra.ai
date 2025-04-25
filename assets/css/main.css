@@ -84,8 +84,8 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: var(--color-red);
-	text-decoration: underline;
+	color: var(--color-green);
+	text-decoration: none;
 	cursor: pointer;
 }
 
@@ -147,12 +147,8 @@ li {
 
 .container {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	margin: 1rem 0;
-}
-
-.container .box {
-	flex: 1 0 33%;
 }
 
 .box {
@@ -168,6 +164,27 @@ li {
 	padding: 1rem;
 }
 
+.container .box .details {
+	margin: 0 0 0 1rem;
+}
+.container .box .details h3 {
+	margin: 0;
+	padding: 0
+}
+.container .box .details p {
+	margin: 0;
+	padding: 0
+}
+.container .box .avatar {
+	align-content: center;
+}
+.container .box .avatar img {
+	max-width: 120px;
+}
+
+.container .deva .avatar img {
+	border-radius: 50%;
+}
 .noshadow img {
 	box-shadow: none;
 }
@@ -432,3 +449,4 @@ pre {
 	font-size: .85rem;
 	opacity: .5;
 }
+

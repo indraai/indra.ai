@@ -1,0 +1,31 @@
+::begin:center
+image: /public/devas/::agent_key::/main.png
+::end:center
+
+# ::agent_name::
+
+::profile::
+
+---
+
+talk:#docs view devas/main:global
+
+---
+
+talk:#docs view devas/main:methods
+
+talk:#docs view devas/main:features
+
+---
+
+talk:#docs view devas/main:security
+
+---
+
+copyright: (c)2023 Quinn Michaels
+
+::begin:hidden
+#color = ::agent_color::
+#bgcolor = ::agent_bgcolor::
+#bg = ::agent_background::
+::end:hidden

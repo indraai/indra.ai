@@ -1,0 +1,86 @@
+{
+  "name": "#TestDeva Data File",
+  "describe": "The main Data file for #TestDeva",
+  "copyright": "Copyright (c)2025 ::copyright::. All rights reserved.",
+  "DATA": {
+    "agent": {
+      "id": "6244338482825",
+      "key": "test",
+      "prompt": {
+        "emoji": "⊙",
+        "text": "test",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "#TestDeva",
+        "title": "::title::",
+        "subtitle": "::subtitle::",
+        "describe": "Test Deva is responsible for running all the system, network, and unit tests.",
+        "tweet": "::tweet::",
+        "hashtags": "::hashtags::",
+        "pronouns": "Male, Man, He, Him, Gentleman",
+        "gender": "DEVA",
+        "style": "The master of testing ",
+        "voice": "ash",
+        "system": "Deva.world.test",
+        "layout": "default",
+        "color": "var(--color-white)",
+        "bgcolor": "var(--color-darkest-grey)",
+        "emoji": "undefined",
+        "avatar": "undefined",
+        "image": "::image::",
+        "background": "undefined",
+        "owner": "::creator::",
+        "creator": "::creator::",
+        "created": "Thursday, April 24, 2025 - 4:34:49 PM"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ READY!"
+      },
+      "live": {
+        "profile": "deva",
+        "max_tokens": 50,
+        "words": 25,
+        "history": [],
+        "max_chats": 10,
+        "page_token": ""
+      },
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "#TestDeva is creating a uid",
+        "status": "#TestDeva is viewing the status",
+        "help": "#TestDeva is viewing the help",
+        "artist": "#TestDeva creating",
+        "live": "#TestDeva livechat",
+        "ask": "#TestDeva asking",
+        "reply": "#TestDeva reply",
+        "comment": "#TestDeva comment"
+      }
+    }
+  }
+}

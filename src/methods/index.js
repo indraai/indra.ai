@@ -116,7 +116,8 @@ export default {
 			// first thing is to get the list of entities/devas
 			const jsondata =[];
 			const {dir} = this.config;
-
+			console.log(packet.q.meta.params[1]);
+			
 			try {
 				for (let deva in this.devas) {
 					const d = this.devas[deva];
