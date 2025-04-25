@@ -90,7 +90,8 @@
 				"stop": "🔴 STOP Indra.ai",
 				"exit": "🚪 EXIT Indra.ai",
 				"enter": "✅ ENTER Indra.ai",
-				"clearshell": "CLEAR SHELL CODE"
+				"clearshell": "CLEAR SHELL CODE",
+				"entities": "✅ Entities Complete"
 			},
 			"ports": {
 				"api": 9000,

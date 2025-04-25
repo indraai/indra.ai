@@ -7,15 +7,14 @@ export async function entities(packet) {
 		// first thing is to get the list of entities/devas
 		const jsondata =[];
 		const {dir} = this.config;
-		console.log(packet.q.meta.params[1]);
-		const devas = packet.q.text ? packet.q.text.split(',') : Object.keys(this.devas).split(',');
-		console.log('DEVAS', devas);
+		const devas = packet.q.text ? packet.q.text.split(',') : Object.keys(this.devas);
+		this.state('try', `entities:${packet.id}`);
 		try {
 			for (let deva of devas) {
-				console.log('DEVA', deva);
 				const d = this.devas[deva];
 				const {id, key, prompt, profile, created, hash} = d.agent();
 				const info = d.info();
+				this.state('set', `newitem:${deva}`);
 				const newitem = {
 					id,
 					key,
@@ -69,8 +68,13 @@ export async function entities(packet) {
 			}				
 			const jsonpath = this.lib.path.join(dir, '_data', 'devas.json');
 			this.lib.fs.writeFileSync(jsonpath, JSON.stringify(jsondata, null, 2), {encoding: 'utf8',flag:'w'});
-	
+			return resolve({
+				text: this.vars.messages.entities,
+				html: this.vars.messages.entities,
+				data: jsondata,
+			});
 		} catch (err) {
+			this.state('catch', `entities:${packet.id}`);
 			return this.error(err, packet, reject);				
 		}
 	
