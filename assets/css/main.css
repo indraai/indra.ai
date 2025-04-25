@@ -316,6 +316,9 @@ menu > ul > li > ol > li::before {
 	
 }
 
+.CONTAINER .image img {
+	max-width: 100%;
+}
 .CONTAINER .item {
 	display: flex;
 	margin: .1rem 0;
