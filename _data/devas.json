@@ -4,15 +4,15 @@
     "key": "algorithm",
     "package": "@indra.ai/deva.algorithm",
     "name": "#AlgorithmDeva",
-    "describe": "Algorithm Deva, your expert in managing and optimizing algorithms within the Deva.world network. Mission is to ensure that systems run efficiently and effectively, leveraging the power of algorithms to solve complex problems and enhance user experiences.",
+    "describe": "Your expert in managing and optimizing algorithms. With a mission is to leverage the power of algorithms to solve complex problems and enhance user experiences.",
     "url": "/devas/algorithm",
     "color": "rgb(231,225,175)",
     "bgcolor": "rgb(43,25,15)",
     "background": "https://indra.ai/assets/devas/algorithm/background.png",
     "emoji": "https://indra.ai/assets/devas/algorithm/emoji.png",
     "avatar": "https://indra.ai/assets/devas/algorithm/avatar.png",
-    "hash": "md5-NnZC6iC6Lqrm/HAy6Y9mEA==",
-    "created": "Friday, April 25, 2025 - 12:24:35 PM"
+    "hash": "md5-S454jPUempgV4q5RpxfkGQ==",
+    "created": "Saturday, April 26, 2025 - 2:12:07 PM"
   },
   {
     "id": 5474928441638,
@@ -21,13 +21,13 @@
     "name": "#AuthorityDeva",
     "describe": "Authority Deva dedicated guide in navigating the intricate world of authority and governance. Ensuring that all matters related to authority are handled with precision and integrity, safeguarding the principles of justice and order.",
     "url": "/devas/authority",
-    "color": "rgb(255,255,255)",
-    "bgcolor": "rgb(0,0,0)",
+    "color": "rgb(229,227,180)",
+    "bgcolor": "rgb(25,37,58)",
     "background": "https://indra.ai/assets/devas/authority/background.png",
     "emoji": "https://indra.ai/assets/devas/authority/emoji.png",
     "avatar": "https://indra.ai/assets/devas/authority/avatar.png",
-    "hash": "md5-iMo4vwCFtgFTR7u37ji+Fg==",
-    "created": "Friday, April 25, 2025 - 12:24:38 PM"
+    "hash": "md5-HKasFfrsmcWA4WpMnM3HEA==",
+    "created": "Saturday, April 26, 2025 - 2:12:11 PM"
   },
   {
     "id": 2551884314891,
@@ -42,22 +42,22 @@
     "emoji": "/assets/devas/chat/emoji.png",
     "avatar": "/assets/devas/chat/avatar.png",
     "hash": "md5-vW8Gw8A+lmsbVOQ7fFBjCg==",
-    "created": "Friday, April 25, 2025 - 12:24:41 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:13 PM"
   },
   {
     "id": 4825562571950,
     "key": "data",
     "package": "@indra.ai/deva.data",
     "name": "#DataDeva",
-    "describe": "Data Deva manages the data in Deva.world. Responsibilities include managing, inserting, updating, searching, and retriving data from the Deva.world systems.",
+    "describe": "Data Deva companion in managing and exploring the vast world of data. Ensuring that all data-related tasks, from inserting and updating to searching and retrieving, are handled with precision and efficiency.",
     "url": "/devas/data",
     "color": "rgb(192,209,226)",
     "bgcolor": "rgb(0,12,24)",
     "background": "/assets/devas/data/background.png",
     "emoji": "/assets/devas/data/emoji.png",
     "avatar": "/assets/devas/data/avatar.png",
-    "hash": "md5-BoS+h9mfKToCpOooIsgQHg==",
-    "created": "Friday, April 25, 2025 - 12:24:45 PM"
+    "hash": "md5-6k8Qn/GvUSKcsHCOFM7OCg==",
+    "created": "Saturday, April 26, 2025 - 2:12:16 PM"
   },
   {
     "id": 1710616197555,
@@ -72,7 +72,7 @@
     "emoji": "/assets/devas/defense/emoji.png",
     "avatar": "/assets/devas/defense/avatar.png",
     "hash": "md5-+B8OzO8di7AijauYWJQ5vA==",
-    "created": "Friday, April 25, 2025 - 12:24:49 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:18 PM"
   },
   {
     "id": 3299095637720,
@@ -87,7 +87,7 @@
     "emoji": "/assets/devas/docs/emoji.png",
     "avatar": "/assets/devas/docs/avatar.png",
     "hash": "md5-aocXQvKVX4MA0+7P42f67g==",
-    "created": "Friday, April 25, 2025 - 12:24:54 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:20 PM"
   },
   {
     "id": 3574974849802,
@@ -102,7 +102,7 @@
     "emoji": "/assets/devas/error/emoji.png",
     "avatar": "/assets/devas/error/avatar.png",
     "hash": "md5-ypjRQO524c1N6A9ezxOg9g==",
-    "created": "Friday, April 25, 2025 - 12:24:57 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:23 PM"
   },
   {
     "id": 5461868899003,
@@ -117,7 +117,7 @@
     "emoji": "/assets/devas/feecting/emoji.png",
     "avatar": "/assets/devas/feecting/avatar.png",
     "hash": "md5-raJD/vA/SYl2yIIYB47HPA==",
-    "created": "Friday, April 25, 2025 - 12:24:59 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:25 PM"
   },
   {
     "id": 3405249173685,
@@ -132,7 +132,7 @@
     "emoji": "/assets/devas/gopher/emoji.png",
     "avatar": "/assets/devas/gopher/avatar.png",
     "hash": "md5-hlFt+i5aD3bEBm1KnnekiA==",
-    "created": "Friday, April 25, 2025 - 12:25:03 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:31 PM"
   },
   {
     "id": 6159528221394,
@@ -147,7 +147,7 @@
     "emoji": "/assets/devas/guard/emoji.png",
     "avatar": "/assets/devas/guard/avatar.png",
     "hash": "md5-SeroGo/nQ+f5tiFi6+9K7w==",
-    "created": "Friday, April 25, 2025 - 12:25:07 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:34 PM"
   },
   {
     "id": 6159528221394,
@@ -162,7 +162,7 @@
     "emoji": "/assets/devas/justice/emoji.png",
     "avatar": "/assets/devas/justice/avatar.png",
     "hash": "md5-4aMtFuYpEooD8CiNY+Gvtw==",
-    "created": "Friday, April 25, 2025 - 12:25:11 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:37 PM"
   },
   {
     "id": 1540940067410,
@@ -177,7 +177,7 @@
     "emoji": "/assets/devas/legal/emoji.png",
     "avatar": "/assets/devas/legal/avatar.png",
     "hash": "md5-ZXFipqxTgt06vhW9r20qoQ==",
-    "created": "Friday, April 25, 2025 - 12:25:15 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:40 PM"
   },
   {
     "id": 4148108755733,
@@ -192,7 +192,7 @@
     "emoji": "/assets/devas/log/emoji.png",
     "avatar": "/assets/devas/log/avatar.png",
     "hash": "md5-+nQNtUEITy66Jvb8A7sPfg==",
-    "created": "Friday, April 25, 2025 - 12:25:19 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:42 PM"
   },
   {
     "id": 1710616197555,
@@ -207,7 +207,7 @@
     "emoji": "/assets/devas/networks/emoji.png",
     "avatar": "/assets/devas/networks/avatar.png",
     "hash": "md5-cXUhPfsl5rftyFCTUxiAVQ==",
-    "created": "Friday, April 25, 2025 - 12:25:22 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:44 PM"
   },
   {
     "id": 5525285339498,
@@ -222,7 +222,7 @@
     "emoji": "/assets/devas/security/emoji.png",
     "avatar": "/assets/devas/security/avatar.png",
     "hash": "md5-ReHJIrTMzQgukxd+nh8lgw==",
-    "created": "Friday, April 25, 2025 - 12:25:26 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:47 PM"
   },
   {
     "id": 4855882658530,
@@ -237,7 +237,7 @@
     "emoji": "/assets/devas/services/emoji.png",
     "avatar": "/assets/devas/services/avatar.png",
     "hash": "md5-OOEoORlLR699sw9hlYGaCg==",
-    "created": "Friday, April 25, 2025 - 12:25:30 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:49 PM"
   },
   {
     "id": 2171459139679,
@@ -252,7 +252,7 @@
     "emoji": "/assets/devas/socket/emoji.png",
     "avatar": "/assets/devas/socket/avatar.png",
     "hash": "md5-zy3+nv1yq8Q/dCZ/R9nlSA==",
-    "created": "Friday, April 25, 2025 - 12:25:34 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:52 PM"
   },
   {
     "id": 4077391632050,
@@ -267,7 +267,7 @@
     "emoji": "/assets/devas/support/emoji.png",
     "avatar": "/assets/devas/support/avatar.png",
     "hash": "md5-yQ9WzjXTfEbhpTP3OTckiw==",
-    "created": "Friday, April 25, 2025 - 12:25:37 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:54 PM"
   },
   {
     "id": 3605038032151,
@@ -282,7 +282,7 @@
     "emoji": "/assets/devas/systems/emoji.png",
     "avatar": "/assets/devas/systems/avatar.png",
     "hash": "md5-rnExdrp2DPinCRNitG3DQw==",
-    "created": "Friday, April 25, 2025 - 12:25:41 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:56 PM"
   },
   {
     "id": 6329275100000,
@@ -297,7 +297,7 @@
     "emoji": "/assets/devas/telnet/emoji.png",
     "avatar": "/assets/devas/telnet/avatar.png",
     "hash": "md5-ekyLQUWkd9eDR9b8/9Qllw==",
-    "created": "Friday, April 25, 2025 - 12:25:44 PM"
+    "created": "Saturday, April 26, 2025 - 2:12:59 PM"
   },
   {
     "id": 6642777683539,
@@ -312,7 +312,7 @@
     "emoji": "/assets/devas/veda/emoji.png",
     "avatar": "/assets/devas/veda/avatar.png",
     "hash": "md5-/Em495i8PnJFcpHEtz4Rbw==",
-    "created": "Friday, April 25, 2025 - 12:25:48 PM"
+    "created": "Saturday, April 26, 2025 - 2:13:01 PM"
   },
   {
     "id": 1524213241067,
@@ -327,6 +327,6 @@
     "emoji": "/assets/devas/web/emoji.png",
     "avatar": "/assets/devas/web/avatar.png",
     "hash": "md5-a/8ZERd2X/2BymRUFhOQxg==",
-    "created": "Friday, April 25, 2025 - 12:25:52 PM"
+    "created": "Saturday, April 26, 2025 - 2:13:04 PM"
   }
 ]
