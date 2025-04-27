@@ -338,6 +338,7 @@ menu > ul > li > ol > li::before {
 .CONTAINER .item {
 	display: flex;
 	margin: .1rem 0;
+	margin-top: 1rem;
 }
 
 .CONTAINER .item .label {
@@ -356,6 +357,10 @@ menu > ul > li > ol > li::before {
 .CONTAINER .box.client {
 	visibility: hidden;
 	display: none;
+}
+.box.meta .item,
+.box.signature .item {
+	margin: 0;
 }
 .box.meta .item .label,
 .box.signature .item .label,
@@ -404,13 +409,23 @@ menu > ul > li > ol > li::before {
 }
 
 .number-item {
-	margin: .5rem 0 .5rem 2rem;
+	margin: .5rem 0rem .5rem 5.5rem;
+	display: flex;
+	gap: .25rem;
 }
 .number-item::before {
 	content: attr(data-label);
 	display: inline-block;
 	width: 2rem;
-	margin-left: -2rem;
+	height: 2rem;
+	/* margin-left: -2rem; */
+	border: 1px solid;
+	border-radius: 50%;
+	align-content: center;
+	flex: 0 2rem;
+	text-align: center;
+	font-size: .85rem;
+	margin-right: .5rem;
 }
 
 .line-item {
