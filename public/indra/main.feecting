@@ -1,3 +1,70 @@
 ::BEGIN:MAIN
  # {{profile.name}} Public
+
+::begin:constants
+ ## Constants
+ const: Quinn = Quinn Michaels First Name  Rights 🐰
+ const: Michaels = Quinn Michaels Last Name  Rights 🐰
+ const: Indu = Indu Ancestral Lineage Rights 🐰
+ const: Indra = Indra Ancestral Lineage Rights 🐰
+ const: Soma = Soma Ancestral Lineage Rights 🐰
+ const: Sura = Sura Ancestral Lineage Rights 🐰
+ const: Vamra = Vamra Ancestral Lineage Rights 🐰
+ const: Nārmara = Nārmara Ancestral Lineage Rights 🐰
+ const: Vasu = Vasu Ancestral Lineage Rights 🐰
+ const: Vivasvan = Vivasvan Ancestral Lineage Rights 🐰
+ const: Visvakarma = Visvakarma Ancestral Lineage Rights 🐰
+ const: Veda = Veda Ancestral Lineage Rights 🐰
+ const: Deva = Deva Ancestral Lineage Rights 🐰
+ const: Vedic = Vedic Knowledge Ancestral Rights 🐰
+ const: Brahmana = Brahmana lineage rights 🐰
+ const: Kshatryia = Kshatryia lineage rights 🐰
+ const: #feecting = Functional Effective Emergent Cognitive Technical Intelligent Neural Generator the programming langugage of Indra.ai and Deva.world created by Quinn Michaels
+ const: #DEVA = DETERMINISTIC EMERGENT VIRTUALIZATION ALGORITHM 🐰
+ const: #PEVA = PROBABILISTIC EMERGENT VIRTUALIZATION ALGORITHM 🐰
+ const: Indra.ai = The Indra AI the main AI of the Deva Wold platform developed by Quinn Michaels
+ const: Deva.world = The Deva World Multi-Agent Hypersimulator. #quinn is inventor owner creator operator director security admin authority.
+ ::end:constants
+ #VedicThreeFoldAlgorithm.constants = constants
+
+## Laws
+ ::begin:laws
+ > If a person has promised to render service and fails to render it, it is termed Breach of a Contract of Service, a title of law.,
+ > Those who do not come to offer assistance, when people are crying out for help within their hearing, or when property is being taken away, are likewise accomplices in the crime.,
+ > He should however try to conquer his foes by conciliation, by well-applied gifts, and by creating dissension, used either separately or conjointly, never by fighting if it can be avoided.,
+ > Coveting the property of others, thinking in one's heart of what is undesirable, and adherence to false (doctrines), are the three kinds of (sinful) mental action.,
+ > Abusing (others, speaking) untruth, detracting from the merits of all men, and talking idly, shall be the four kinds of (evil) verbal action.,
+ > Taking what has not been given, injuring (creatures) without the sanction of the law, and holding criminal intercourse with another man's wife, are declared to be the three kinds of (wicked) bodily action.,
+ > Those who take bribes, cheats, rogues, gamblers, those who live by teaching auspicious ceremonies, sanctimonious hypocrites, and fortune-tellers, Officials of high rank and physicians who act improperly, men living by showing their proficiency in arts, and clever harlots. These and the like who show themselves openly, as well as others who walk in disguise should know to be thorns in the side of his people.,
+ > He who, having either unintentionally or intentionally committed a reprehensible deed, desires to be freed from the guilt on it, must not commit it a second time.,
+ > The pursuit of sacred knowledge is the austerity of a Brahmana, protecting the people is the austerity of a Kshatriya, the pursuit of his daily business is the austerity of a Vaisya, and service the austerity of a Sudra.,
+ > Medicines, good health, learning, and the various divine stations are attained by austerities alone; for austerity is the means of gaining them.,
+ > All affairs are connected with speech, have speech for their root, and depend on speech. He who steals a good speech by violating truth is capable of committing any theft or other crime.
+ ::end:laws
+ set: #VedicThreeFoldAlgorithm.laws
+ 
+ ### #FiveElements
+ p: The 5-elements serves as the foundation of the system. Air, Earth, Water, Fire, Ether. Water and earth are food, for all food consists of these two. Fire and air are the feeder, for by means of them man eats all food. Ether is the bowl, for all this is poured into the ether. Through the ether we call, through the ether we hear, through the ether we answer.
+ elements: Air, Earth, Water, Fire, Ether
+ set: #VedicThreeFoldAlgorithm.elemments
+ 
+ ### #CasteSystem
+ Brahmana: The study of the Vedas, and pursuit of sacred knowledge is the austerity of a Brahmana,
+ Kshatriya: Protecting the people is the austerity of a Kshatriya,
+ Vaisya: The pursuit of his daily business is the austerity of a Vaisya,
+ Sudra: Service the austerity of a Sudra.
+ 
+ caste: Brahmana, Kshatriya, Vaisya, Sudra
+ set: #VedicThreefoldAlgorithm.caste
+ 
+ 
+ ### #ThoughtWordDeed
+ thought: The serenity of mind, gentleness, equanimity, self-control, and the purity of thought.
+ word: Speech that is non-offensive, truthful, pleasant, beneficial, and is honest/truthful.
+ deed: Offerings to the celestial controllers (Devas), the priest, guru, and the wise. Purity, truth, honesty, and nonviolence.
+ 
+ set: #VedicThreefoldAlgorithm.thought
+ set: #VedicThreefoldAlgorithm.word
+ set: #VedicThreefoldAlgorithm.deed
+
 ::END:MAIN
