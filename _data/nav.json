@@ -1,0 +1,28 @@
+[
+  {
+    "id": 2035656527451,
+    "key": "main",
+    "name": "Algorithms",
+    "describe": "Showcasing the powerful and innovative algorithms that drive Indra.ai.",
+    "url": "/algorithms",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "background": "/assets/algorithms/main/background.png",
+    "emoji": "/assets/algorithms/main/emoji.png",
+    "avatar": "/assets/algorithms/main/avatar.png",
+    "created": "Sunday, April 27, 2025 - 9:31:10 PM"
+  },
+  {
+    "id": 4182013479601,
+    "key": "main",
+    "name": "Devas",
+    "describe": "The various Deva entities in the Indra.ai Deva.world system.",
+    "url": "/devas",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "background": "/assets/devas/main/background.png",
+    "emoji": "/assets/devas/main/emoji.png",
+    "avatar": "/assets/devas/main/avatar.png",
+    "created": "Monday, April 28, 2025 - 7:07:59 AM"
+  },
+]

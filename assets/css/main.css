@@ -193,12 +193,9 @@ hr {
 	border-radius: .5rem 0 0 .5rem;
 }
 .container .box .avatar img {
-	max-width: 120px;
+	max-width: 150px;
 }
 
-.container .deva .avatar img {
-	border-radius: 50%;
-}
 .noshadow img {
 	box-shadow: none;
 }
@@ -397,12 +394,31 @@ menu > ul > li > ol > li::before {
 	display: block;
 }
 
+.box.algorithm .avatar a,
+.box.nav .avatar a {
+	display: flex;
+	flex: 0;
+}
+.box.algorithm .avatar a img,
+.box.nav .avatar a img {
+	max-width: 125px;
+	border-radius: .5rem 0 0 .5rem;
+}
+.box.algorithm .details h3,
+.box.nav .details h3 {
+	font-size: 2rem;
+}
+.box.algorithm .details h3 a,
+.box.nav .details h3 a {
+	font-size: 2rem;
+	color: var(--color-light-grey);;
+}
 .hero {
 	background-position: center;
 }
 .hero .avatar img {
 	border-radius: 50%;
-	width: 256px;
+	width: 200px;
 }
 .hero-img img {
 	max-width: 100%;

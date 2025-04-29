@@ -1,6 +1,6 @@
 ---
 title: Indra.ai
-subtitle: Indra.ai - Bridging Ancient Wisdom and Modern AI Innovation.
+subtitle: Bridging Ancient Wisdom and Modern AI Innovation.
 layout: default
 image: /assets/img/headers/001.jpg
 emoji: /assets/img/emoji.png
@@ -18,30 +18,13 @@ Welcome to Indra.ai, where ancient wisdom meets cutting-edge artificial intellig
 
 Indra.ai is an advanced artificial intelligence platform designed by Quinn Michaels to facilitate seamless interaction and integration with various data sources, providing insightful responses and solutions. Indra.ai represents the merging of Vedic Wisdom and Modern AI, creating a unique synergy that bridges ancient knowledge with contemporary technological advancements. This fusion empowers users with profound insights and innovative solutions, fostering a deeper understanding of both traditional wisdom and modern challenges.
  
-## Algorithms
-
-<section class="container algorithms">
-	{% for algorithm in site.data.algorithms %}
-		<article class="box inline algorithm">
-			<div class="avatar"><a href="{{algorithm.url}}"><img src="/assets/algorithms/{{algorithm.key}}/avatar.png"/></a></div>
+<section class="container nav">
+	{% for nav in site.data.nav %}
+		<article class="box inline nav">
+			<div class="avatar"><a href="{{nav.url}}"><img src="{{nav.avatar}}"/></a></div>
 			<div class="details">
-				<h3><a href="{{algorithm.url}}">{{algorithm.name}}</a></h3>
-				<p>{{algorithm.describe}}</p>
-			</div>			
-		</article>
-	{% endfor %}
-</section>
-
-## Devas
-
-<section class="container devas">
-	{% for deva in site.data.devas %}
-		<article class="box inline deva">
-			<div class="avatar"><a href="{{deva.url}}"><img src="{{deva.avatar}}"/></a></div>
-			
-			<div class="details">
-				<h3><a href="{{deva.url}}">{{deva.name}}</a></h3>
-				<p>{{deva.describe}}</p>
+				<h3><a href="{{nav.url}}">{{nav.name}}</a></h3>
+				<p>{{nav.describe}}</p>
 			</div>			
 		</article>
 	{% endfor %}
