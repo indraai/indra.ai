@@ -90,6 +90,7 @@
 				"stop": "🔴 STOP Indra.ai",
 				"exit": "🚪 EXIT Indra.ai",
 				"enter": "✅ ENTER Indra.ai",
+				"ready": "⭐️ READY Indra.ai",
 				"clearshell": "CLEAR SHELL CODE",
 				"entities": "✅ Entities Complete"
 			},

@@ -25,7 +25,6 @@ Browse through our list of Deva entities to discover their capabilities and how 
 	{% for deva in site.data.devas %}
 		<article class="box inline deva">
 			<div class="avatar"><a href="{{deva.url}}"><img src="{{deva.avatar}}"/></a></div>
-			
 			<div class="details">
 				<h3><a href="{{deva.url}}">{{deva.name}}</a></h3>
 				<p>{{deva.describe}}</p>

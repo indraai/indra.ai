@@ -80,6 +80,10 @@ const INDRA = new Deva({
 		}
 		return this.exit();
 	},
+	onReady(data) {
+		this.prompt(this.vars.messages.ready);
+		// return Promise.resolve(data);
+	},
 	onExit(data) {
 		console.log(this.vars.messages.exit);
 		// return Promise.resolve(data);

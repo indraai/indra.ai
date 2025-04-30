@@ -101,6 +101,7 @@ header h1 {
 	margin: 0;
 	font-size: 5rem;
 	font-weight: 100;
+	text-shadow: 0 2px 3px rgba(0,0,0,.5);
 }
 header .icon {
 	max-width: 100px;
@@ -166,8 +167,7 @@ hr {
 .box.inline {
 	display: flex;
 	flex-flow: row nowrap;
-	margin: .25rem;
-	padding: .25rem;
+	margin: .5rem;
 }
 
 .container .box .details {
@@ -176,6 +176,9 @@ hr {
 	padding: .5rem 1rem 1.5rem 1rem;
 	background-color: rgba(255,255,255,.05);
 	border-radius: 0 .5rem .5rem 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
 }
 
 .container .box .details h3 {
@@ -329,7 +332,21 @@ menu > ul > li > ol > li::before {
 	
 }
 
-.CONTAINER .image img {
+.cover .item {
+	display: flex;
+	gap: .5rem;
+}
+.cover .item .label {
+	flex: 0 5.5rem;
+	font-size: .9rem;
+	padding: .5rem;
+	align-content: flex-start;
+}
+.cover .item .value {
+	flex: 1;
+}
+
+.content .image img {
 	max-width: 100%;
 }
 .CONTAINER .item {
@@ -394,21 +411,39 @@ menu > ul > li > ol > li::before {
 	display: block;
 }
 
+.box.algorithm,
+.box.deva,
+.box.nav {
+	transition: .25s all linear;
+	border-radius: .5rem;
+}
+.box.algorithm:hover,
+.box.deva:hover,
+.box.nav:hover {
+	box-shadow: 0 0 9px;
+	cursor: pointer;
+}
+
 .box.algorithm .avatar a,
+.box.deva .avatar a,
 .box.nav .avatar a {
 	display: flex;
 	flex: 0;
 }
 .box.algorithm .avatar a img,
+.box.deva .avatar a img,
 .box.nav .avatar a img {
-	max-width: 125px;
+	max-width: 150px;
 	border-radius: .5rem 0 0 .5rem;
 }
 .box.algorithm .details h3,
+.box.deva .details h3,
 .box.nav .details h3 {
 	font-size: 2rem;
+	text-shadow: 0 2px 3px rgba(0,0,0,.5);
 }
 .box.algorithm .details h3 a,
+.box.deva .details h3 a,
 .box.nav .details h3 a {
 	font-size: 2rem;
 	color: var(--color-light-grey);;
@@ -425,7 +460,7 @@ menu > ul > li > ol > li::before {
 }
 
 .number-item {
-	margin: .5rem 0rem .5rem 5.5rem;
+	margin: .5rem 2rem .5rem 2rem;
 	display: flex;
 	gap: .25rem;
 }

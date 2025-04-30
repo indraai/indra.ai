@@ -23,6 +23,8 @@ import support from '/Users/quinnmichaels/Dev/deva.space/devas/deva.support/inde
 import services from '/Users/quinnmichaels/Dev/deva.space/devas/deva.services/index.js';
 import systems from '/Users/quinnmichaels/Dev/deva.space/devas/deva.systems/index.js';
 import networks from '/Users/quinnmichaels/Dev/deva.space/devas/deva.networks/index.js';
+import gemini from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gemini/index.js';
+import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js';
 
 const DEVAS = {
 	algorithm,
@@ -33,8 +35,10 @@ const DEVAS = {
 	docs,
 	error,
 	feecting,
+	gemini,
 	gopher,
 	guard,
+	indra,
 	justice,
 	legal,
 	log,
