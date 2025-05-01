@@ -334,7 +334,6 @@ menu > ul > li > ol > li::before {
 
 .cover .item {
 	display: flex;
-	gap: .5rem;
 }
 .cover .item .label {
 	flex: 0 5.5rem;

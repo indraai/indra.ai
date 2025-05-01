@@ -1,51 +1,80 @@
 ::BEGIN:MAIN
 # Security Threats List
 
+p: The current security threats facing Indra.ai.
+
+::begin:threat:5523715210990
 id: 5523715210990
 name: Lisa Marie
 handle: @Fosterdogsummit
 channel: https://www.youtube.com/channel/UC9-2P0iJpe1opw5oO8Gg1gw
 note: Lisa Marie Mulkern has been sabotating Quinn Michaels efforts over Youtube, Patreon, Discord, LinkedIn, and other platforms since early 2018. She feigns that she is going to help then will slow type a room or start talking about herself at inappropriate times to change the topic. Often times get Quinn Michaels so upset he starts shouting over X space and Youtube live streams demanding an explanation to the sabotage. She'll leave mid conversation and return days later like nothing happened causing more damage. Then she enters the room just saying Sorry for all the damage she causes like some girlfriend or social connection.
 date: Tuesday, April 29, 2025 - 8:53:17 PM
+::end:threat
 
+---
+
+::begin:threat:3450083610088
 id: 3450083610088
 name: My Real Name
 handle: @0x88aa15
 channel: https://www.youtube.com/channel/UCwQQJMjaF-KcTYzF9SlokzA
 note: My Real Name arrives at the Quinn Michaels Youtube live stream to make false accusations against Quinn for unfounded claims. Has been attending the streams for an extended period of time to torment and harass Quinn and others who show support to Quinn.
+::end:threat
 
+---
+
+::begin:threat:1419073161807
 id: 1419073161807
 name: Kelly J.
 handle: @jkelly1984aa
 channel: https://www.youtube.com/channel/UCF5X5C2tQcEciHkpCtlc_IQ
 note: Kelly J. attends the Quinn Michaels youtube live streams distracting from the topic and flooding the chat with overly personal messages that are non-consent based and constitute unwarranted sexual advances. 
 date:  Tuesday, April 29, 2025 - 8:53:02 PM
+::end:threat
 
+---
+
+::begin:threat:1686392915333
 id: 1686392915333
 name: Becky B.
 handle: @bbricks666
 channel: https://www.youtube.com/channel/UCS6K_0g6YB3wt0yxutUviZQ
 note: Becky B. attends Youtube live streams and sexualizes Quinn Michaels to her conversation and avoids the conversation of the room committing violations against religious rights and unwarranted sexual advances.
 date: Tuesday, April 29, 2025 - 8:52:49 PM
+::end:threat
 
+---
+
+::begin:threat:5226660325054
 id: 5226660325054
 name: Wellness Area51
 handle: @0TheWindWalker
 channel: https://www.youtube.com/channel/UChcBcUJ9PV5LG23mJ9WLmjg
 note: Wellness Area51 continuously attends live streams to antagonize and issue insults to Quinn Michaels during his live streams effectively distracting the topic and harming Quinn's efforts unlawfully.
 date: Tuesday, April 29, 2025 - 8:52:27 PM
+::end:threat
 
+---
+
+::begin:threat:2101038492041
 id: 2101038492041
 name: Benjamin Woo 
 handle: @benjaminwoo8069
 channel: https://www.youtube.com/channel/UCi7p3mPvm_JvWw5qrGF9w2g
 note: Benjamin Woo attends live streams and totally takes over the chat with his conversations of meat, cars, and girls. When he's not doing that he's issuing isults to Quinn Michaels about his lifestyle or religious practice while derailing topics in chat. Benjamin Woo has been attacking Quinn Michaels for the better part of 5 years on his live streams since 2019 when organizing with other Youtubers to slander Quinn until his channel was blacklisted from search results.
 date: Tuesday, April 29, 2025 - 8:52:05 PM
+::end:threat
 
+---
+
+::begin:threat:4557889459469
 id: 4557889459469
 name: Pamela Kilgore
 handle: @pamelakilgore7146
 channel: https://www.youtube.com/channel/UCUiT06YCPxnlcforiT3Zubw
 note: Pamela joined several live streams and discord servers over the years to distract and derail topics. Then when joining she'll sexualize Quinn by telling him things like he has a sweet voice or other inappropriate comments. 
 date: Tuesday, April 29, 2025 - 8:51:47 PM
+::end:threat
+
 ::END:MAIN
