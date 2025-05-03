@@ -1,28 +1,44 @@
 [
   {
     "id": 2035656527451,
-    "key": "main",
+    "key": "algorithms",
     "name": "Algorithms",
     "describe": "Showcasing the powerful and innovative algorithms that drive Indra.ai.",
     "url": "/algorithms",
     "color": "var(--color-white)",
     "bgcolor": "var(--color-darkest-grey",
-    "background": "/assets/algorithms/main/background.png",
     "emoji": "/assets/algorithms/main/emoji.png",
     "avatar": "/assets/algorithms/main/avatar.png",
+    "image": "/assets/algorithms/main/image.png",
+    "background": "/assets/algorithms/main/background.png",
     "created": "Sunday, April 27, 2025 - 9:31:10 PM"
   },
   {
     "id": 4182013479601,
-    "key": "main",
+    "key": "devas",
     "name": "Devas",
     "describe": "The various Deva entities in the Indra.ai Deva.world system.",
     "url": "/devas",
     "color": "var(--color-white)",
     "bgcolor": "var(--color-darkest-grey",
-    "background": "/assets/devas/main/background.png",
     "emoji": "/assets/devas/main/emoji.png",
     "avatar": "/assets/devas/main/avatar.png",
+    "image": "/assets/devas/main/image.png",
+    "background": "/assets/devas/main/background.png",
     "created": "Monday, April 28, 2025 - 7:07:59 AM"
   },
+  {
+    "id": 6292010742894,
+    "key": "posts",
+    "name": "Posts",
+    "describe": "The various Deva entities in the Indra.ai Deva.world system.",
+    "url": "/posts",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "emoji": "/assets/posts/emoji.png",
+    "avatar": "/assets/posts/avatar.png",
+    "image": "/assets/posts/image.png",
+    "background": "/assets/posts/background.png",
+    "created": "Friday, May 2, 2025 - 6:22:10 PM"
+  }
 ]

@@ -10,7 +10,7 @@ exclude: ['node_modules/', 'src/', 'public/', 'private/']
 collections:
   posts:
     output: true
-    permalink: /blog/:name
+    permalink: /post/:name
   art:
     output: true
     permalink: /:collection/:name

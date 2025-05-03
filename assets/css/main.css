@@ -95,6 +95,8 @@ a:hover {
 header {
 	text-align: center;
 	padding: 1rem;
+	max-width: 700px;
+	margin: auto;
 }
 header h1 {
 	padding: 0;
@@ -345,6 +347,15 @@ menu > ul > li > ol > li::before {
 	flex: 1;
 }
 
+.content .item {
+	display: flex;	
+	gap: .5rem;
+	margin: .25rem 0;
+}
+.content .label {
+	min-width: 6rem;
+	font-size: .9rem;
+}
 .content .image img {
 	max-width: 100%;
 }
@@ -459,8 +470,7 @@ menu > ul > li > ol > li::before {
 }
 
 .number-item {
-	margin: .5rem 2rem .5rem 2rem;
-	display: flex;
+	margin: .5rem 2rem 1rem 2rem;
 	gap: .25rem;
 }
 .number-item::before {
@@ -468,11 +478,11 @@ menu > ul > li > ol > li::before {
 	display: inline-block;
 	width: 2rem;
 	height: 2rem;
-	/* margin-left: -2rem; */
+	min-width: 2rem;
+	margin-left: -2.5rem;
 	border: 1px solid;
 	border-radius: 50%;
 	align-content: center;
-	flex: 0 2rem;
 	text-align: center;
 	font-size: .85rem;
 	margin-right: .5rem;
@@ -554,4 +564,12 @@ pre {
 }
 .global .thumbnail img {
 	max-width: 175px;
+}
+
+.post {}
+
+.post .meta {}
+.post .meta > div strong {
+	display: inline-block;
+	min-width: 6rem;
 }
