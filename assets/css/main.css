@@ -270,11 +270,20 @@ ul.icons.flex.elements li {
 	display: block;
 }
 
-menu {
-	background-color: rgba(0,0,0,.35);
-	 border-radius: .5rem;
-	 padding: .5rem 1rem;
+menu,
+.menu-button,
+.menu-options {
+	transition: all .5s linear;
 }
+menu {
+	padding: .25rem;
+	margin: .25rem;
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	right: 0;
+}
+
 menu ul {
 	list-style: none;
 	padding: 0;
@@ -284,25 +293,60 @@ menu > ul > li {
 	margin: 0;
 	padding: 0;
 }
-menu > ul > li::before {
-	font-family: 'Linearicons';
-	content: "\e778";
-	font-size: 1rem;
-	display: inline-block;
-	margin-right: .25rem;
+
+menu .menu-button {
+	font-size: 2.75rem;
+	padding: .5rem 1rem;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.35);
+	border-radius: .5rem;
 }
-menu > ul > li > ol {
-	margin: 0 .75rem;
-	list-style: none;
-	margin: 0;
-	padding: 0 1.25rem;
+
+.open menu .menu-options {
+	display: flex;
+	visibility: visible;
+	opacity: 1;	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(0,0,0);
+	position: fixed;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
 }
-menu > ul > li > ol > li::before {
-	font-family: 'Linearicons';
-	content: "\e779";
-	font-size: 1rem;
-	display: inline-block;
-	margin-right: .25rem;
+
+menu .menu-options,
+.open menu .menu-button,
+.open main,
+.open .share {
+	transition: all .5s linear;
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.menu-options .menu-options-close {
+	position: absolute;
+	top: .75rem;
+	right: 1.25rem;
+	font-size: 3rem;
+}
+
+.menu-options ul li h3 {
+	font-size: 3rem;
+	color: var(--color-grey);
+}
+.menu-options ul li a {
+	font-size: 2rem;
+	color: var(--color-green);
 }
 
 .share {
@@ -573,3 +617,4 @@ pre {
 	display: inline-block;
 	min-width: 6rem;
 }
+

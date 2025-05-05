@@ -1,0 +1,14 @@
+<menu>
+	<div class="menu-button">
+		<i class="icn-menu"></i>
+	</div>
+	<div class="menu-options">
+		<div class="menu-options-close"><i class="icn-cross"></i></div>
+		<ul>
+			<li><h3>Indra.ai</h3></li>
+			{% for nav in site.data.nav %}
+				<li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</menu>
