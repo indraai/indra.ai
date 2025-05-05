@@ -29,13 +29,3 @@ Indra.ai is an advanced artificial intelligence platform designed by Quinn Micha
 		</article>
 	{% endfor %}
 </section>
-
-## Frameworks
-
-<ul class="frameworks">
-	{% for framework in site.data.frameworks %}
-		<li class="framework">
-			<a href="{{framework.url}}">{{framework.name}}</a>: {{framework.describe}}
-		</li>
-	{% endfor %}
-</ul>
