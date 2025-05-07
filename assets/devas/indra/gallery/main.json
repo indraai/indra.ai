@@ -31,6 +31,14 @@
       "prompt": "p: Create an image depicting the engineering section of a website named Indra.ai, designed in the style of a chalkboard visible within a vacant classroom. Please make sure the chalkboard appears hand-drawn and meticulously detailed, with relevant technical terms and diagrams scribbled across it, just as if it was used in a rigorous engineering class. Aside from the chalkboard, include the prerequisite elements of a typical classroom - a teacher's desk, some empty chairs, and glass windows, but ensure that no people are present in this image.",
       "created": 1746585543663,
       "hash": "md5-/l4CCr/Nx4xoHEC/2my72A=="
+    },
+    {
+      "name": "1746631312124.png",
+      "path": "/Users/quinnmichaels/Dev/sites/indra.ai/assets/devas/indra/gallery/1746601200000",
+      "url": "/assets/devas/indra/gallery/1746631312124.png",
+      "prompt": "p: Visualize an instructional diagram, harmoniously blending elements of ancient Vedic aesthetic with modern instructional design concepts. The ancient characteristics could include intricate patterns, symbolic icons and traditional forms used in Vedic art. Modern instructional elements can be flowcharts, arrows, labels, and simplified drawings. The scene should exude an air of wisdom, knowledge, and spirituality with a smooth transition from the archaic to the contemporary.",
+      "created": 1746631312126,
+      "hash": "md5-wXTabMJCih4sJzcxkUIbNQ=="
     }
   ]
 }

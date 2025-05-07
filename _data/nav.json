@@ -1,5 +1,33 @@
 [
   {
+    "id": 5645131473510,
+    "key": "instructions",
+    "name": "Instructions",
+    "describe": "Instructions on how to use the system.",
+    "url": "/instructions",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "emoji": "/assets/instructions/emoji.png",
+    "avatar": "/assets/instructions/avatar.png",
+    "image": "/assets/instructions/image.png",
+    "background": "/assets/instructions/background.png",
+    "created": "Wednesday, May 7, 2025 - 7:54:49 AM"
+  },
+  {
+    "id": 3152409102235,
+    "key": "prompts",
+    "name": "Prompts",
+    "describe": "Tutorials and articles on crafting AI prompts.",
+    "url": "/prompts",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "emoji": "/assets/prompts/emoji.png",
+    "avatar": "/assets/prompts/avatar.png",
+    "image": "/assets/prompts/image.png",
+    "background": "/assets/prompts/background.png",
+    "created": "Monday, May 5, 2025 - 4:55:59 PM"
+  },
+  {
     "id": 2035656527451,
     "key": "algorithms",
     "name": "Algorithms",
@@ -40,19 +68,5 @@
     "image": "/assets/posts/image.png",
     "background": "/assets/posts/background.png",
     "created": "Friday, May 2, 2025 - 6:22:10 PM"
-  },
-  {
-    "id": 3152409102235,
-    "key": "prompts",
-    "name": "Prompts",
-    "describe": "Tutorials and articles on crafting AI prompts.",
-    "url": "/prompts",
-    "color": "var(--color-white)",
-    "bgcolor": "var(--color-darkest-grey",
-    "emoji": "/assets/prompts/emoji.png",
-    "avatar": "/assets/prompts/avatar.png",
-    "image": "/assets/prompts/image.png",
-    "background": "/assets/prompts/background.png",
-    "created": " Monday, May 5, 2025 - 4:55:59 PM"
   }
 ]
