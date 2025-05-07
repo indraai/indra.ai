@@ -40,5 +40,19 @@
     "image": "/assets/posts/image.png",
     "background": "/assets/posts/background.png",
     "created": "Friday, May 2, 2025 - 6:22:10 PM"
+  },
+  {
+    "id": 3152409102235,
+    "key": "prompt",
+    "name": "Prompt",
+    "describe": "Tutorials and articles on crafting AI prompts.",
+    "url": "/prompt",
+    "color": "var(--color-white)",
+    "bgcolor": "var(--color-darkest-grey",
+    "emoji": "/assets/prompt/emoji.png",
+    "avatar": "/assets/prompt/avatar.png",
+    "image": "/assets/prompt/image.png",
+    "background": "/assets/prompt/background.png",
+    "created": " Monday, May 5, 2025 - 4:55:59 PM"
   }
 ]
