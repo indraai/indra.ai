@@ -1,12 +1,12 @@
 ---
-permalink: /prompt/
-title: Prompt
+permalink: /prompts/
+title: Prompts
 subtitle: Build your prompts!
-layout: prompt
-background: /assets/prompt/background.png
-image: /assets/prompt/image.png
-avatar: /assets/prompt/avatar.png
-emoji: /assets/prompt/emoji.png
+layout: prompts
+background: /assets/prompts/background.png
+image: /assets/prompts/image.png
+avatar: /assets/prompts/avatar.png
+emoji: /assets/prompts/emoji.png
 color: var(--color-light-grey)
 bgcolor: var(--color-darkest-grey)
 describe: The Indra.ai prompts is where prompts are shared, offering users a deep dive into the world of artificial intelligence and technology.
