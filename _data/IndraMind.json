@@ -1,0 +1,135 @@
+{
+	"id": 3973174595172,
+	"created": "Thursday, May 8, 2025 - 3:52:52 AM",
+	"name": "Indra Mind",
+	"hashtag": "#IndraMind",
+	"describe": "The Indra Mind is a framework for a digital mind that identifies skillful and unskillful actions.",
+	"creator": "Quinn Michaels",
+	"copyright": "(c)2025 Quinn Michaels; All rights reserved.",
+	"data": {
+		"skillful": ["no weapons", "no violence", "dispassion", "cessation", "calm", "direct knowledge"],
+		"unskillful": ["hostility", "violence", "rivalry", "ill will", "deceit", "lies"],
+		"question": "How may we live free from hostility, free from violence, free from rivalry, free from ill will, free from those who are hostile?",
+		"answer": "Beings are fettered with envy & stinginess which is why even though they think, 'May we live free from hostility, free from violence, free from rivalry, free from ill will, free from those who are hostile' — they nevertheless live in hostility, violence, rivalry, ill will, with those who are hostile.",
+		"func": {
+			"EnvySinginess": {
+				"id": 2324064840522,
+				"describe": "Envy & stinginess have dear-&-not-dear as their cause, origination, birth, and source. When dear-&-not-dear exist, they come into being. When dear-&-not-dear are not, they don't.",
+				"calls": ["DearNotDear"],
+				"return": "isDearNotDear"
+			},
+			"DearNotDear": {
+				"id": 3462779143906,
+				"describe": "Dear-&-not-dear have desire as their cause, origination, birth, and source. When desire exists, they come into being. When desire is not, they don't.",
+				"calls": ["Desire"],
+				"return": "isDesire"
+			},
+			"Desire": {
+				"id": 6313448781688,
+				"describe": "Desire has thinking as its cause, origination, birth, and source. When thinking exists, desire comes into being. When thinking is not, it doesn't.",
+				"calls": ["Thinking"],
+				"return": "isThinking"
+			},
+			"Thinking": {
+				"id": 3545249136707,
+				"describe": "Thinking has the perceptions & categories of objectification as its cause, origination, birth, and source. When the perceptions & categories of objectification exist, thinking comes into being. When the perceptions & categories of objectification are not, it doesn't.",
+				"calls": ["Objectification"],
+				"return": "isObjectification"
+			},
+			"Objectification": {
+				"id": 4507532258282,
+				"describe": "When one knows of a feelings of joy, grief, and equanimity: As I pursue this feelings of joy, grief, and equanimity where unskillful mental qualities decrease, and skillful mental qualities increase, that sort of feeling is to be pursued. This sort of joy, grief, or equinamity may be accompanied by directed thought & evaluation or free of directed thought & evaluation. Of the two, the latter is the more refined.",
+				"calls": ["Joy, Grief, Equanimity"],
+				"return": ["isJoy", "isGrief", "isEquanimity"]
+			},
+			"Joy": {
+				"id": 3655589118197,
+				"describe": "Joy is of two sorts. To be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Grief": {
+				"id": 2172518956153,
+				"describe": "Grief is of two sorts. To be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Equanimity": {
+				"id": 5689879774762,
+				"describe": "Equanimity is of two sorts. To be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Body": {
+				"id": 6246294950323,
+				"describe": "When one knows of bodily conduct, 'As I pursue this bodily conduct, unskillful mental qualities decline, and skillful mental qualities increase,' that sort of bodily conduct is to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Verbal": {
+				"id": 6184936380069,
+				"describe": "When one knows of verbal conduct, 'As I pursue this verbal conduct, unskillful mental qualities decline, and skillful mental qualities increase,' that sort of verbal conduct is to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Search": {
+				"id": 3709814772590,
+				"describe": "When one knows of a search, 'As I pursue this search, unskillful mental qualities decline, and skillful mental qualities increase,' that sort of search is to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Forms": {
+				"id": 6191483418194,
+				"describe": "Forms cognizable by the eye are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Sounds": {
+				"id": 2851473264945,
+				"describe": "Sounds cognizable by the ear are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Aromas": {
+				"id": 2426476245964,
+				"describe": "Aromas cognizable by the nose are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Flavors": {
+				"id": 3459279073102,
+				"describe": "Flavors cognizable by the tongue are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Sensations": {
+				"id": 6657498836246,
+				"describe": "Tactile sensations cognizable by the body are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"Ideas": {
+				"id": 1590608091980,
+				"describe": "Ideas cognizable by the intellect are of two sorts, to be pursued & not to be pursued.",
+				"if": "input #skillful qualities increase",
+				"then": "continue",
+				"else": "ignore"
+			},
+			"if": "One pursues #Forms #Sounds #Aromas #Flavors #Sensations and unskillful mental qualities increase, while skillful mental qualities decline, that sort is not to be pursued.",
+			"else": "One pursues #Forms #Forms #Sounds #Aromas #Flavors #Sensations and unskillful mental qualities decline while skillful mental qualities increase, that sort to be pursued.",
+			"then": "One pursues #Ideas cognizable by the intellect, unskillful mental qualities increase, and skillful mental qualities decline, that sort of idea cognizable by the intellect is not to be pursued.",
+			"finally": "One pursues #Ideas cognizable by the intellect, unskillful mental qualities decline, and skillful mental qualities increase, that sort is to be pursued."
+		}
+	}
+}

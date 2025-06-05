@@ -2,7 +2,7 @@
 permalink: /posts/
 title: Posts
 subtitle: The Indra.ai posts section is a dynamic platform where insightful blogs and articles are shared, offering readers a deep dive into the world of artificial intelligence and technology.
-layout: default
+layout: posts
 background: /assets/posts/background.png
 image: /assets/posts/image.png
 avatar: /assets/posts/avatar.png

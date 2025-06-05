@@ -80,8 +80,11 @@ Thank you for your generosity.
 **Version:** 1.0  
 **Author:** Quinn Michaels  
 **Date:**  Wednesday, May 7, 2025 - 8:19:43 AM  
-**Copyright:** Copyright (c)2024 Quinn Michaels. All Rights Reserved  
-**License:** MIT  
+**Copyright:** Copyright (c)2025 Quinn Michaels. All Rights Reserved  
+
+### License
+
+**MIT**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this PROGRAM and associated documentation files (the "PROGRAM"), to deal in the PROGRAM without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the PROGRAM, and to permit persons to whom the PROGRAM is furnished to do so, subject to the following conditions:
 

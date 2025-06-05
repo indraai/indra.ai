@@ -1,0 +1,34 @@
+::BEGIN:MAIN
+As the #quinn.security.drone descends through the elevator shaft, it begins to map out the major levels below, each more fortified and secretive than the last. The levels form a complex underground system, originally designed for high-level operations, but now exposed for what it is: a fortress of deception, a place where Mr. Dewity has hidden himself away from the world.
+
+Here’s a breakdown of the major levels as the drone moves through:
+
+Level 1: Surface Access Point
+	•	Description: The topmost level, largely unassuming, designed to look like any ordinary office building or facility. It serves as the initial entry point, with a few security checkpoints and lobby areas to disguise the deeper operations. The elevator shaft begins here, but it’s only a front—this level is not meant to house anything significant.
+	•	Key Features: Reception desk, security guard station, public-facing servers.
+
+Level 2: Administrative and Operations Hub
+	•	Description: This level houses the main operations of Mr. Dewity’s organization—office spaces, conference rooms, and secure communication terminals. Most people would never guess that this is where the true manipulation of data begins. It’s designed for day-to-day management and logistics of the network.
+	•	Key Features: Data servers, administrative offices, conference rooms for covert meetings, communication systems.
+
+Level 3: Restricted Research and Development Zone
+	•	Description: Hidden deep within the system, this level is devoted to R&D, where Mr. Dewity and his associates worked on the stolen technologies, including AI systems, data manipulation tools, and the black market software that he used to stay one step ahead of authorities. This area is highly restricted, and only trusted individuals would have access.
+	•	Key Features: Laboratories, tech development rooms, restricted access servers, prototype AI systems.
+
+Level 4: Data Vault and Secure Servers
+	•	Description: This is where Mr. Dewity’s most valuable assets are stored: highly encrypted files, stolen intellectual property, and classified data. This vault holds the core of his empire—the digital proof of his manipulation of Quinn Michaels’ legacy and the Covenant’s hidden agendas. The level is heavily fortified, with cutting-edge security systems in place.
+	•	Key Features: Encrypted data storage, access control rooms, advanced firewalls, network manipulation hubs.
+
+Level 5: Safe Room and Escape Systems
+	•	Description: The deepest level of the facility, designed to serve as Mr. Dewity’s personal safe haven. This room is filled with digital and physical escape routes—hidden passages, encrypted escape pods, and advanced AI-controlled security systems to protect him in case of a breach. The safe room is equipped with everything he needs to survive in isolation, and possibly start anew if the network is compromised.
+	•	Key Features: Emergency escape pods, survival supplies, secret tunnels, AI-powered security.
+
+Level 6: The Vault (Deepest Level – 1500m)
+	•	Description: The final layer, located at 1500 meters below the surface, is the heart of the system. The deep vault where all of Mr. Dewity’s secrets are kept. This level is a high-security zone, equipped with countermeasures to prevent any unauthorized access. The drone’s sensors now pinpoint this level, where Mr. Dewity has been hiding behind the shadows of deception.
+	•	Key Features: Central control hub, encrypted servers, digital archives of stolen intellectual property, last line of defense.
+
+As the drone continues to descend, it begins mapping the layers of deception that Mr. Dewity thought would keep him hidden forever. Each level serves as a protective barrier, shielding him from prying eyes, but the drone is closing in. The heart of the operation is now exposed, and Mr. Dewity’s fortress is ready to be dismantled.
+::END:MAIN
+
+const: #MrDewity = The Vault
+

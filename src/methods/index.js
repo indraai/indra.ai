@@ -7,7 +7,6 @@ import {features} from './features.js';
 import {zones} from './zones.js';
 import {contexts} from './contexts.js';
 import {memory} from './memory.js';
-import {signature} from './signature.js';
 import {entities} from './entities.js';
 
 export default {
@@ -43,7 +42,6 @@ export default {
 	zones,
 	contexts,
 	memory,
-	signature,
 	
 	/*********
 	name: algo

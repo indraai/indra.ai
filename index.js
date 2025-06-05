@@ -43,9 +43,8 @@ function setPrompt(pr) {
 	else if (!pr.prompt) return;
 	else {
 		const {colors} = pr.prompt;
-		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.emoji} ${pr.prompt.text.trim()}: `);
+		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.emoji} ${pr.prompt.text.trim()} > `);
 
-		// const setPrompt = `${pr.prompt.emoji} ${pr.key}: `;
 		shell.setPrompt(setPrompt);
 		shell.prompt();
 	}
@@ -57,7 +56,7 @@ async function indraQuestion(q) {
 	const answer = await INDRA.question(q);
 			// sen the necessary returned values to the shell prompt.
 	setPrompt(answer.a.agent);
-	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text));
+	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text.trim()));
 
 	setPrompt(answer.a.client);
 	// if (answer.a.data) console.log(answer.a.data);

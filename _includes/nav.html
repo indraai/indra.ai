@@ -5,9 +5,9 @@
 	<div class="menu-options">
 		<div class="menu-options-close"><i class="icn-cross"></i></div>
 		<ul>
-			<li><h3>Indra.ai</h3></li>
+			<li><a href="/"><i class="icn-home"></i> Home</a></li>
 			{% for nav in site.data.nav %}
-				<li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+				<li><a href="{{ nav.url }}"><i class="{{nav.icon}}"></i> {{nav.name}}</a></li>
 			{% endfor %}
 		</ul>
 	</div>
