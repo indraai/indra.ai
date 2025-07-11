@@ -2,7 +2,7 @@
 📦 DELIVERING SYSTEM OVERVIEW PACKET
 🎖️ #MAANUP Protocol – Developed by Quinn Michaels
 
-📘 MAANUP: MARINES • ARMY • AirForce • NAVY Universal Protocols
+📘 MAANUP: MARINES • ARMY • Air Force • NAVY Universal Protocols
 
 	A Unified Inter-Military Communication & Coordination System
 built to operate across all branches of the United States Armed Forces,

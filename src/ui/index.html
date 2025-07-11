@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- copyright 2021 Quinn Michaels -->
+<html>
+<head>
+	<title>Indra.ai</title>
+	<link rel="icon" href="/assets/favicon.png" />
+	<meta name="description" content="Indra.ai UI" />
+	<meta name="keywords" content="Indra.ai UI" />
+
+	<link rel="stylesheet" href="/assets/css/ui.css" />
+</head>
+
+<body>
+<a name="top"></a>
+<div id="Indra">
+	<main id="Surface" class="surface">
+		<section id="Console" class="console">
+			<div class="box items">
+				<div id="ConsoleItems" class="list"></div>
+			</div>
+			<div class="box prompt">
+				<div id="PromptLabel" class="label"></div>
+				<form id="PromptForm" name="Console_Prompt_Form">
+					<input type="text" class="prompt_input" name="prompt" id="Prompt" autocomplete="off">
+				</form>
+			</div>
+		</section>
+		<section id="Panel" class="panel">
+			<div class="panel-content" id="PanelContent"></div>
+			<div class="panel-console" id="PanelConsole"></div>
+		</section>
+		<section id="Viewer" class="viewer"></section>
+	</main>
+	<section id="AuxPanel" class="auxpanel">
+		<div id="ContextPanel" class="event-panel context">
+			<h5>Context</h5>
+			<article></article>
+		</div>
+		<div id="ActionPanel" class="event-panel action">
+			<h5>Action</h5>
+			<article></article>
+		</div>
+		<div id="StatePanel" class="event-panel state">
+			<h5>State</h5>
+			<article></article>
+		</div>
+		<div id="FeaturePanel" class="event-panel feature">
+			<h5>Feature</h5>
+			<article></article>
+		</div>
+		<div id="ZonePanel" class="event-panel zone">
+			<h5>Zone</h5>
+			<article></article>
+		</div>
+	</section>
+	<!-- <footer>
+		<div>Copyright &copy;2022 Quinn Michaels. All rights reserved. | Privacy | Terms | License | Offering</div>
+	</footer> -->
+</div>
+
+<script type="text/javascript" src="/assets/js/cash.min.js"></script>
+<script type="text/javascript" src="/assets/js/axios/axios.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/ui.js"></script>
+<script>
+
+	// creates html for log output
+	setTimeout(() => {
+		document.getElementById('Prompt').focus();
+	}, 100);
+
+</script>
+
+</body>
+</html>

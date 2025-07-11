@@ -1,0 +1,71 @@
+
+#Indra
+  .youtube
+    display: flex
+    overflow: auto
+    flex-flow: row nowrap
+    &-video-player
+      iframe
+         width: 650px
+         height: 366px
+    .text
+      .chat
+        display: flex
+        gap: .5rem
+        margin: .5rem 0
+
+        .avatar
+          width: 50px
+          img
+            border-radius: 50%
+            min-width: 50px
+            min-height: 50px
+    .video
+      margin: .5rem
+      padding: .5rem
+      border-right: .2rem solid
+      border-left: .2rem solid
+      border-radius: .5rem
+
+      .title
+        .value
+          white-space: nowrap
+          overflow: hidden
+          text-overflow: ellipsis
+          width: 400px
+      .describe
+        .value
+          height: 100px
+          overflow: auto
+
+    .channel
+      .image
+        text-align: center
+        img
+          max-width: 200px
+          border-radius: 50%
+          box-shadow: 0 3px 9px rgba(0,0,0,.5)
+    .comment
+      color: inherit
+      margin: 0 0 .5rem 0
+      padding: .5rem
+      flex-flow: row nowrap
+      display: flex
+
+      .avatar
+        flex: 0 50px
+        img
+          border-radius: 10rem
+      .details
+        flex: 1
+        padding: 0 0 0 .5rem
+
+#Console
+  .youtube
+    &-video-player
+      iframe
+         width: 450px
+         height: 253px
+
+    .comment
+      border-top: 1px solid rgba($colors.red, .5)

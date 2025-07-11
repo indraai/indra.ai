@@ -56,7 +56,7 @@ async function indraQuestion(q) {
 	const answer = await INDRA.question(q);
 			// sen the necessary returned values to the shell prompt.
 	setPrompt(answer.a.agent);
-	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text.trim()));
+	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text));
 
 	setPrompt(answer.a.client);
 	// if (answer.a.data) console.log(answer.a.data);
@@ -75,9 +75,9 @@ for (const x in networks) {
 	})
 }
 
+
 const line_break = `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`;
 const devaFlash = (opts) => `
-
 ██╗███╗   ██╗██████╗ ██████╗  █████╗     █████╗ ██╗
 ██║████╗  ██║██╔══██╗██╔══██╗██╔══██╗   ██╔══██╗██║
 ██║██╔██╗ ██║██║  ██║██████╔╝███████║   ███████║██║
@@ -102,38 +102,87 @@ ${pkg.copyright}
 
 ${line_break}`;
 
-	// log the main server information to the console
+// log the main server information to the console
+
 console.log(chalk.green(devaFlash({
 	client,
 	agent,
 	ip: ipv4.map(ip => `${ip}:${vars.ports.api}`).join('\n\r'),
 })));
-// initialize the INDRA
-INDRA.init(client).then(_init => {
-	setPrompt(INDRA.client());  
-	// cli prompt listener for relaying from the deva to the prompt.
-	INDRA.listen('cliprompt', ag => {
-		setPrompt(ag);
+
+// create the static routes for the local server.
+// public is used to deliver local assets
+const pubOpts = {
+	dotfiles: 'ignore',
+	extensions: ['htm', 'html', 'json'],
+	index: 'index.html, index.json',
+};
+
+app.get('/assets/{*splat}', (req, res, next) => {
+	const opts = {
+	root: path.join(__dirname, 'assets'),
+	dotfiles: 'deny',
+	headers: {
+		'x-timestamp': Date.now(),
+		'x-sent': true
+	}
+	};
+	return res.sendFile(req.params.splat.join('/'), opts, (err) => {
+		if (err) next(err);
 	});
-	
+		
 });
 
+app.get('/', (req, res, next) => {
+	const opts = {
+		root: path.join(__dirname, 'src', 'ui'),
+		dotfiles: 'deny',
+		headers: {
+			'x-timestamp': Date.now(),
+			'x-sent': true
+		}
+	};
+	return res.sendFile('index.html', opts, (err) => {
+		if (err) next(err);
+	});
+});
 
-// run operation when new line item in shell.
-shell.on('line', question => {
-	indraQuestion(question);
-}).on('pause', () => {
+app.post('/question', (req, res, next) => {
+	indraQuestion(req.body.question).then(answer => {
+		return res.json(answer)
+	}).catch(err => {
+		return res.send(err);
+	});
+});
 
-}).on('resume', () => {
+app.listen(vars.ports.api, () => {
 
-}).on('close', () => {
-	// begin close procedure to clear the system and close other devas properly.
-	INDRA.stop().then(stop => {
-		shell.prompt();
-		process.exit(0);
-	}).catch(console.error);
+	// initialize the INDRA
+	INDRA.init(client).then(_init => {
+		setPrompt(INDRA.client());  
+		// cli prompt listener for relaying from the deva to the prompt.
+		INDRA.listen('cliprompt', ag => {
+			setPrompt(ag);
+		});		
+	});
 
-}).on('SIGCONT', () => {
-}).on('SIGINT', data => {
-	shell.close();
-}).on('SIGSTOP', () => {});
+	// run operation when new line item in shell.
+	shell.on('line', question => {
+		indraQuestion(question);
+	}).on('pause', () => {
+	
+	}).on('resume', () => {
+	
+	}).on('close', () => {
+		// begin close procedure to clear the system and close other devas properly.
+		INDRA.stop().then(stop => {
+			shell.prompt();
+			process.exit(0);
+		}).catch(console.error);
+	
+	}).on('SIGCONT', () => {
+	}).on('SIGINT', data => {
+		shell.close();
+	}).on('SIGSTOP', () => {});
+	
+});

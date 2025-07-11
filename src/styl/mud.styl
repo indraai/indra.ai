@@ -1,0 +1,885 @@
+// Copyright (c)2024 Quinn Michaels. All rights reserved.
+$dir = {
+  north: $colors.red,
+  east: $colors.green,
+  south: $colors.blue,
+  west: $colors.yellow,
+  up: $colors.purple,
+  down: $colors.aqua,
+}
+
+#MudController
+  display: flex
+  flex-flow: column nowrap
+  opacity: 1
+  width: 234px
+  justify-content: flex-end;
+
+  button
+    font-size: .8rem
+    padding: .3rem
+    margin: 2px
+    border-radius: $border.outer
+    .icn
+      display: block
+      font-size: 1rem
+
+  hr
+    width: 100%
+    border: 0
+    border-bottom: 1px solid transparent
+    margin: 5px
+    padding: 0
+
+  .state
+    .playing
+      padding: .25rem .5rem;
+      color: $colors.darker-grey
+      background-color: $colors.green
+      margin: .25rem;
+      border-radius: $border.outer;
+
+  .directions
+    font-size: 1.25rem
+    padding: .25rem
+    .nsew
+      transition: var(--transition-default)
+      display: flex
+      flex-flow: row wrap
+      align-items: center
+      justify-content: center
+      align-content: center
+      box-shadow: inset 0 2px 3px rgba($colors.black, .25), 0 1px 1px rgba($colors.white, .1)
+
+      border-radius: 6rem
+      position: relative
+      width: 130px;
+      height: 130px;
+      margin: auto
+
+      $look-size = 46px
+      .look
+        margin: 0
+        padding: 0
+        position: absolute
+        top: calc(50% - ($look-size / 2))
+        left: calc(50% - ($look-size / 2))
+        height: $look-size
+        width: $look-size
+        button
+          margin: 0
+          padding: 0
+          width: $look-size
+          height: $look-size
+          background-image: url(/public/img/ui/pearl.png)
+          background-size: $look-size $look-size
+          background-position: center center
+          border-radius: 50%
+          overflow: hidden
+          box-shadow: 0 0 0 rgba(0,0,0,.0)
+          overflow: hidden
+          &:hover
+            box-shadow: 0 0 5px $colors.baby-blue
+          &:active
+            box-shadow: inset 0 0 9px $colors.orange
+
+      .north
+      .east
+      .west
+      .south
+        visibility: hidden
+        text-align: center
+        button
+          border-radius: 1.25rem
+          margin: 0
+          line-height: 0
+          height: 2.5rem
+          width: 2.5rem
+          &:hover
+            opacity: 1
+          i
+            font-size: .8rem
+
+      .north
+      .south
+        flex: 1 100%
+        line-height: 1
+        height: 2.8rem
+
+      .north
+        order: 1
+        align-self: flex-start
+
+        &.active
+          visibility: visible
+
+      .south
+        order: 4
+        align-self: flex-end
+        display: flex
+        flex-flow: column nowrap
+        align-items: center
+        justify-content: flex-end
+        &.active
+          visibility: visible
+
+      .east
+      .west
+        flex: 1
+        &.active
+          visibility: visible
+
+      .east
+        order: 3
+        text-align: right
+
+      .west
+        order: 2
+        text-align: left
+
+      .up
+      .down
+        top: -10px
+        position: absolute
+        visibility: hidden
+        &.active
+          visibility: visible
+
+        button
+          border-radius: 1.5rem
+          > .icn
+            font-size: 1.2rem
+
+      .up
+        left: -10px
+
+      .down
+        right: -10px
+
+
+#MudExits
+  display: flex
+  flex-flow: column nowrap
+  align-items: flex-end
+  .exit
+    visibility: hidden
+    display: none
+    min-width: 50%
+    border-radius: 1rem
+    align-items: center
+    padding: 1px 5px 1px 1px
+    flex: 1
+    margin: 1px 5px
+    background-color: rgba(0,0,0,.75)
+    box-shadow: none
+    .icn
+      flex: 0
+      padding: 1px
+
+    span
+      flex: 1
+      text-align: left
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow: hidden
+      font-size: .9rem
+    &.active
+      display: flex
+      transition: all .25s linear
+      visibility: visible
+      font-weight: 100
+      padding: 0.15rem 0.35rem .15rem .15rem
+      &:hover
+        text-shadow: 0 1px 2px rgba($colors.black, .5)
+      &.north
+        color: rgba($colors.blue, .5)
+        &:hover
+          color: $colors.blue
+
+      &.northwest
+        color: rgba($colors.blue, .5)
+        &:hover
+          color: $colors.blue
+        .icn
+          transform: rotate(-45deg)
+
+      &.northeast
+        color: rgba($colors.blue, .5)
+        &:hover
+          color: $colors.blue
+        .icn
+          transform: rotate(45deg)
+
+      &.south
+        color: rgba($colors.red, .5)
+        &:hover
+          color: $colors.red
+
+      &.southwest
+        color: rgba($colors.red, .5)
+        &:hover
+          color: $colors.red
+        .icn
+          transform: rotate(45deg)
+
+      &.southeast
+        color: rgba($colors.red, .5)
+        &:hover
+          color: $colors.red
+        .icn
+          transform: rotate(-45deg)
+
+      &.east
+        color: rgba($colors.yellow, .5)
+        &:hover
+          color: $colors.yellow
+      &.west
+        color: rgba($colors.green, .5)
+        &:hover
+          color: $colors.green
+      &.up
+        color: rgba($colors.aqua, .5)
+        &:hover
+          color: $colors.aqua
+      &.down
+        color: rgba($colors.pink, .5)
+        &:hover
+          color: $colors.pink
+
+      &.door
+        &.direction
+          &.north
+          &.south
+          &.east
+          &.west
+            color: $colors.dark-grey
+
+$bg-size = 1200px
+$full-size = 500px
+$grid-size = $full-size / 2
+$grid-height = $grid-size
+$grid-cols = 15
+
+@keyframes rotatebg
+  0%
+    transform: rotate(0)
+  10%
+    opacity: 0
+  20%
+    opacity: .25
+  30%
+    opacity: .1
+  40%
+    opacity: .35
+  50%
+    opacity: .15
+  60%
+    opacity: .2
+  70%
+    opacity: .05
+  80%
+    opacity: .3
+  90%
+    opacity: .15
+  100%
+    opacity: .2
+    transform: rotate(360deg)
+
+.controls
+  display: flex
+  transition: all 1s linear
+  padding: 0
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: $bg-size $bg-size
+  height: $grid-height
+  min-height: $grid-height
+  max-height: $grid-height
+
+#MudMap
+  margin: 0
+  overflow: hidden
+  margin: .5rem auto 0 auto
+  border-radius: $border.outer
+  width: $grid-size
+  min-width: $grid-size
+  max-width: $grid-size
+  height: $grid-height
+  min-height: $grid-height
+  max-height: $grid-height
+  position: relative
+
+  .grid
+    transition: all 1s linear
+    position: relative
+    margin: 0 auto 1rem auto
+    display: flex
+    flex-flow: row wrap
+    height: $grid-height
+    width: $grid-size
+    padding: 0
+    overflow: hidden
+
+    $cell = $grid-size / $grid-cols
+    $dot = 30px
+    $dotH = $dot / 2
+
+    .dots
+      visibility: hidden
+      transition: var(--transition-default)
+      opacity: 0
+      position: absolute
+      border-radius: $dot
+      border: 1px solid transparent
+
+      &.active
+        visibility: visible
+        opacity: 1
+
+
+
+    .center-dot
+      position: absolute
+      width: $dot
+      height: $dot
+      left: calc(50% - 15px)
+      top: calc(50% - 15px)
+      border-radius: $dot
+      background-color: rgba($colors.baby-blue, .35)
+      background-image: url(/public/img/ui/pearl.png)
+      background-size: $dot $dot
+      background-position: center center
+      box-shadow: 0 0 3px $colors.black
+
+
+    .north-dot
+      width:$dotH
+      height: $dot
+      top: calc(50% - 47px)
+      left: calc(50% - 8.6px)
+
+      background-color: rgba($colors.blue, .45)
+      &:hover
+        border-color: $colors.blue
+
+    .south-dot
+      width:$dotH
+      height: $dot
+      top: calc(50% + 17px)
+      left: calc(50% - 8.6px)
+      background-color: rgba($colors.red, .45)
+      &:hover
+        border-color: $colors.red
+
+    .east-dot
+      height:$dotH
+      width: $dot
+      top: calc(50% - 7.5px)
+      left: calc(50% + 17px)
+      background-color: rgba($colors.yellow, .45)
+      &:hover
+        border-color: $colors.yellow
+
+    .west-dot
+      height:$dotH
+      width: $dot
+      left: calc(50% - 47px)
+      top: calc(50% - 7.5px)
+      background-color: rgba($colors.green, .45)
+      &:hover
+        border-color: $colors.green
+
+    $necolor = mix($colors.green, $colors.blue)
+    $nwcolor = mix($colors.blue, $colors.yellow)
+    $secolor = mix($colors.yellow, $colors.red)
+    $swcolor = mix($colors.red, $colors.green)
+
+    .northwest-dot
+      height: $dotH
+      width: $dot
+      background-color: rgba($nwcolor, .45)
+      transform: rotate(45deg)
+      left: calc(50% - 38px)
+      top: calc(50% - 30px)
+      &:hover
+        border-color: $nwcolor
+
+    .northeast-dot
+      height: $dotH
+      width: $dot
+      background-color: rgba($necolor, .45)
+      transform: rotate(-45deg)
+      left: calc(50% - -7px)
+      top: calc(50% - 30px)
+      &:hover
+        border-color: $necolor
+
+    .southeast-dot
+      height: $dotH
+      width: $dot
+      background-color: rgba($secolor, .45)
+      transform: rotate(45deg)
+      left: calc(50% - -7px)
+      top: calc(50% - -15px)
+      &:hover
+        border-color: $secolor
+
+    .southwest-dot
+      height: $dotH
+      width: $dot
+      background-color: rgba($swcolor, .45)
+      transform: rotate(-45deg)
+      left: calc(50% - 38px)
+      top: calc(50% - -15px)
+      &:hover
+        border-color: $swcolor
+
+    .cell
+      flex: 1
+      height: $cell
+      width: $cell
+      min-width: $cell
+      min-height: $cell
+
+#MudWatch
+  border-radius: $border.outer
+  margin: 1px
+  font-family: $fonts-text
+  padding: .25rem
+  flex: 0
+  background-color: rgba(0,0,0,.5)
+  display: flex
+  flex-flow: row nowrap
+
+  .watch
+    &-day
+    &-hour
+    &-date
+    &-room
+      margin: 0
+      padding: 0
+      line-height: 1
+      font-size: .75rem
+      padding: .2rem
+
+      > span
+        font-family: $fonts-code
+        display: inline-block
+        margin: auto
+        color: rgba($colors.green, .75)
+        text-transform: uppercase
+        text-shadow: 0 1px 3px $colors.black
+        white-space: nowrap
+
+    &-day
+      flex: 0
+
+    &-hour
+      flex: 0
+      text-align: center
+
+    &-date
+      flex: 0
+
+    &-room
+      flex: 1
+      text-align: right
+
+#MudTalk
+  display: flex
+  flex-flow: column nowrap
+  padding: .5rem
+
+#MudAlerts
+  flex: 1
+  overflow: auto
+  min-height: 200px
+  font-family: $fonts-text
+  > .item
+    font-size: .75rem
+    color: $colors.green
+    background-color: rgba($colors.black, .5)
+    margin: 1px
+    padding: .3rem .75rem
+    font-weight: 100;
+    border-radius: $border.outer
+    &:nth-child(odd)
+      background-color: rgba($colors.black, .85)
+  .item
+    &.audio
+      .label
+        display: none
+      .value
+        audio
+          width: 300px
+          height: 20px
+
+.mud-panels
+  font-family: $fonts-text
+  color: $colors.grey
+  flex: 1
+  overflow: auto
+  display: flex
+  flex-flow: row wrap
+  align-content: flex-start
+  margin: 0 0 0 .5rem
+  background-color: rgba($colors.black, .5)
+  padding: .25rem
+  border-radius: $border.outer
+  font-size: .8rem
+
+  &::before
+    font-family: icons
+    display: block
+    flex: 0 100%
+
+  .item
+    transition: all .5s ease
+    font-size: .75rem
+    border-radius: $border.outer 0 0 $border.outer
+    flex: 0 33%
+    padding: 2px
+
+
+#MudConsole
+  order: 1
+  flex: 0 640px
+  min-width: 640px
+  display: flex
+  flex-flow: column nowrap
+
+  .item
+    flex: 0 auto;
+
+    &.audio
+      display: inline-block
+      .label
+        display: none
+        visibility: hidden
+      .value
+        audio
+          height: 12px
+
+  .agent-avatar
+    width: 35px
+    height: 35px
+    border-radius: $border.outer
+    margin: 1px
+
+#MudInventory
+  color: $colors.grey
+  margin: 0 .5rem 0 .5rem
+  order: 3
+  &::before
+    content: "\e83a  Inventory"
+
+#MudEquipment
+  color: $colors.grey
+  order: 3
+  &::before
+    content: "\e676  Equipment"
+
+#MudScore
+  flex: 0
+  display: flex
+  margin: 1px
+  border-radius: $border.outer
+  display: flex
+  flex-flow: row wrap
+  background-color: rgba(0,0,0,.5)
+
+  .item
+    font-family: $fonts-text
+    flex: 1 1
+    display: flex
+    flex-flow: column
+    align-items: center
+    padding: .5rem
+    border-radius: $border.outer
+    font-size: .75rem
+
+    &.name
+      flex: 0 150px
+
+    .label
+      flex: 1
+      order: 1
+      text-align: center
+      border-right: none
+      padding: 0
+      margin: 0 0 .25rem 0
+      color: rgba($colors.grey, .5)
+      line-height: 1
+      min-width: 50px
+    .value
+      color: rgba($colors.green, .75)
+      margin: 0
+      padding: 0
+      flex: 1
+      order: 2
+      background-color: transparent
+      text-align: center
+      line-height: 1
+
+#MudNavigate
+  flex: 1
+
+#MudSystem
+  flex: 0 calc(450px - 1rem)
+  order: 2
+  flex-flow: column nowrap
+  &::before
+    content: "\e708  Data"
+    flex: 0
+    margin-bottom: .2rem
+
+  .systembox
+    overflow: auto
+    flex: 1
+    > h2
+      display: none
+
+    .item
+      flex: 0 auto
+      display: flex
+      flex-flow: row nowrap
+      .label
+        min-width: 50px
+        flex: 0 50px
+
+  .datalog
+    .row
+      display: flex
+      flex-flow: row nowrap
+
+    .child
+      > .key
+        transition: var(--transition-default)
+        margin:  0 2px
+        border-radius: 7px
+        position: relative
+        display: flex
+        flex-flow: row nowrap
+        &:hover
+          cursor: pointer
+        &::before
+          display: inline-block
+          flex: 0 25px
+          font-size: .5rem
+          transition: var(--transition-default)
+          transform: rotate(0)
+          font-family: 'icons'
+          content: "\e93c"
+          color: lighten($colors.orange, 50%);
+          line-height: 1.75
+          text-align: center
+          text-indent: 2px
+
+        &.open
+          font-weight: bold
+          &::before
+            transform: rotate(90deg)
+            color: $colors.baby-blue
+          & + .values
+            display: block
+
+
+        & + .values
+          display: none
+
+
+
+      > .values
+        transition: var(--transition-default)
+        margin: 0 2px
+
+        > .child
+          margin-left: .3rem
+
+        > .row
+          margin: 0
+          position: relative
+          padding: 3px
+          padding-left: 1.25rem
+
+          .key
+            margin-right: .25rem
+            min-width: 3.5rem
+          .value
+            color: $colors.yellow
+
+
+#MudStats
+  display: flex
+  flex-flow: row nowrap
+  font-size: .5rem
+  > div
+    flex: 1
+    height: 12px
+    position: relative
+    .warning
+      &::before
+        background-color: $colors.yellow
+    .alert
+      &::before
+        background-color: $colors.red
+
+    .bar
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      width: 100%
+      height: 100%
+      &::before
+        font-family: icons
+        box-sizing: border-box
+        min-width: 20px
+        text-align: right
+        box-shadow: inset 0 1px 2px rgba($colors.darkest-grey, .5)
+        display: inline-block
+        width: var(--bar-width)
+        position: absolute
+        bottom: 0
+        left: 0
+        padding: 0 .25rem
+        line-height: 1.5
+
+  &Hunger
+    .bar
+      &::before
+        content: "\e82c"
+        background-color: rgba($colors.purple, .15)
+        color: $colors.purple
+  &Thirst
+    .bar
+      &::before
+        content: "\e810"
+        background-color: rgba($colors.aqua, .15)
+        color: $colors.aqua
+  &Hit
+    .bar
+      &::before
+        content: "\e72f"
+        background-color: rgba($colors.yellow, .15)
+        color: lighten($colors.yellow, 25%)
+  &Mana
+    .bar
+      &::before
+        content: "\e730"
+        background-color: rgba($colors.orange, .15)
+        color: lighten($colors.orange, 25%)
+  &Move
+    .bar
+      &::before
+        content: "\e72d"
+        background-color: rgba($colors.red, .15)
+        color: lighten($colors.red, 25%)
+
+#Viewer
+  .box
+    &::before
+      min-width: 5rem
+
+    &.lookat
+      display: flex
+      flex-flow: row wrap
+      justify-content: center
+      gap: 9px
+      .btn
+        margin: 0
+        padding: 0
+        line-height: 0
+        background-color: transparent
+        box-shadow: none
+        border: none
+        border-radius: 5rem
+        box-shadow: 0 0 0 $colors.green
+        width: 100px
+        height: 100px
+        &:hover
+          box-shadow: 0 0 9px $colors.green
+
+        img
+          width: 100px
+          height: 100px
+    &.agob
+      display: flex
+      flex: 0
+      flex-flow: row nowrap
+      padding: .25rem
+
+      .agents
+        min-width: 50%
+        flex: 1
+
+      .objects
+        justify-content: flex-end
+        flex: 0
+      .agents
+      .objects
+        display: flex
+        .btn
+          border-radius: $border.outer
+          box-shadow: none
+          line-height: 0
+          padding: 0
+          width: 33px
+          height: 33px
+          margin: 2px
+          line-height: 0
+          img
+            border-radius: $border.inner
+            width: 100%
+            height: 100%
+
+#ConsoleItems
+  .mud
+    .text
+      .buttons
+        padding: .5rem
+        .cloudbtn
+          border-radius: .25rem
+          font-weight: normal
+
+      .select
+        display: flex
+        flex-flow: row nowrap
+        .label
+          opacity: .5
+          flex: 0 125px
+          font-size: .75rem
+          padding: .25rem
+          border-right: 1px solid
+          border-radius: 0px
+          background-color: transparent
+          &[data-index]::before
+            content: attr(data-index)
+            display: inline-block
+            background-color: $colors.dark-grey
+            color: $colors.light-grey
+            padding: 0 .5rem
+            border-radius: $border.inner
+            margin-right: 3px
+
+        .input
+          flex: 1
+          display: flex
+          button
+            background-color: transparent
+            text-align: left
+            width: 100%
+            display: block
+            color: $colors.baby-blue
+            box-shadow: none
+            border: none
+            border-radius: 0
+            font-size: .9rem
+            &:hover
+              color: $colors.red
+              background-color: rgba($colors.red, .2)
+              box-shadow: none
+              border: none
+
+// end of file

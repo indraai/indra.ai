@@ -1,0 +1,326 @@
+/* Copyright (c)2025 Quinn Michaels */
+:root
+  --main-width: 800px
+  --color-white: $colors.white
+  --color-black: $colors.black
+  --color-grey: $colors.grey
+  --color-light-grey: $colors.light-grey
+  --color-dark-grey: $colors.dark-grey
+  --color-darker-grey: $colors.darker-grey
+  --color-darkest-grey: $colors.darkest-grey
+  --color-baby-blue: $colors.baby-blue
+  --color-blue: $colors.blue
+  --color-light-baby-blue: $colors.light-baby-blue
+  --color-green: $colors.green
+  --color-light-green: $colors.light-green
+  --color-yellow: $colors.yellow
+  --color-light-yellow: $colors.light-yellow
+  --color-dark-yellow: $colors.dark-yellow
+  --color-pink: $colors.pink
+  --color-light-pink: $colors.light-pink
+  --color-orange: $colors.orange
+  --color-light-orange: $colors.light-orange
+  --color-red: $colors.red
+  --color-light-red: $colors.light-red
+  --color-purple: $colors.purple
+  --color-light-purple: $colors.light-purple
+  --color-aqua: $colors.aqua
+  --color-light-aqua: $colors.light-aqau
+  --color-note: $colors.note
+  --transition-default: all .25s linear
+  --header-image: url(/public/img/indra.png)
+  --background-image: url(/public/img/ui/background.png)
+  --header-height: 50px
+  --before-height: 30px
+  --before-left: -40px
+  --browser-item-image: none
+  --browser-item-bgcolor: transparent
+  --browser-item-color: inherit
+  --browser-item-size: inherit
+
+$widths = {
+  viewer: 760px,
+  console: 640px,
+}
+
+$heights = {
+  aux: 150px,
+}
+
+$border = {
+  inner: .35rem
+  outer: .5rem
+}
+
+$fonts-text = brandon-grotesque, Helvetica, Arial
+$fonts-code = source-code-pro, menlo, monospace
+
+html, body
+  height: 100%
+  width: 100%
+
+body, div, header, main, footer, h1, h2, p, form, input, textarea, button, i, span, section, article, ul, li, menu
+  box-sizing: border-box
+
+body
+  background-color: $colors.dark-grey
+  font-size: 14px
+  font-family: $fonts-text
+  font-weight: 200
+  padding: 0
+  margin: 0
+  background-repeat: no-repeat
+  background-position: top center
+  background-attachment: 100% auto
+  // background-image: url(/public/img/ui/background.png)
+  visibility: visible
+
+h1, h2, h3, h4
+  line-height: 1.25
+  font-weight: 100
+  text-overflow: ellipsis
+h1
+  font-size: 2.5rem
+  padding: 25px 0 10px 0
+  margin: 5px 0 5px 0
+  border-bottom: 1px solid
+
+h2
+  font-size: 2rem
+  padding: 20px 0 5px 0
+  margin: 5px 0 5px 0
+
+h3
+  font-size: 1.5rem
+  padding: 15px 0 5px 0
+  margin: 5px 0 5px 0
+
+h4
+  font-size: 1.2rem
+  padding: 10px 0 5px
+  margin: 5px 0 5px 0
+
+p
+  font-size: 1.1rem
+
+pre
+  font-family: $fonts-code
+
+audio
+  &.player
+    height: 25px
+    width: 300px
+  &:active
+  &:focus
+    border: none
+    outline: none
+
+hr
+  &.single
+    margin: .5rem 0 .5rem 0
+    border: 0
+    &.xsmall
+      border-bottom: 1px solid
+    &.small
+      border-bottom: 2px solid
+    &.medium
+      border-bottom: 3px solid
+    &.large
+      border-bottom: 5px solid
+
+
+  &.double
+    margin: .5rem 0 .5rem 0
+    border: 0
+    &.xsmall
+      border-bottom: 1px double
+    &.small
+      border-bottom: 2px double
+    &.medium
+      border-bottom: 3px double
+    &.large
+      border-bottom: 5px double
+
+*[data-label]
+  &::before
+    display: inline-block
+    padding: 0 .3rem
+    margin: 0 .3rem 0 0
+    border-radius: .3rem
+    font-size: .75rem
+    background-color: $colors.dark-grey
+    color: lighten($colors.grey, 50%)
+    content: attr(data-label)
+
+img
+  max-width: 100%
+
+#Auth
+  display: non
+  visibility: hidden
+  opacity: 0
+
+#Indra
+  transition: var(--transition-default)
+  display: flex
+  opacity: 1
+  flex-flow: column nowrap
+  height: 100%
+  min-height: 100%
+
+  &.hidden
+    display: none
+    visibility: hidden
+    opacity: 0
+
+  .surface
+    flex: 1 auto
+    order: 1
+    margin: auto
+    overflow: hidden
+    display: flex
+    flex-flow: row wrap
+    width: 100%
+    height: 100%
+    padding: .25rem
+
+    .console
+    .panel
+    .viewer
+      border-radius: .5rem
+
+    .console
+      order: 1
+      flex: 0 $widths.console
+      min-width: $widths.console
+      height: 100%
+      display: flex
+      margin: 0
+      overflow: hidden
+      flex-flow: column nowrap
+
+      background-color: transparent
+
+    .panel
+      order: 2
+      display: flex
+      flex: 0 450px
+      height: 100%
+
+    .viewer
+      flex: 1
+      order: 3
+      padding: 0
+      overflow: hidden
+      background-color: rgba($colors.black, .5)
+      color: $colors.light-grey
+      font-size: 18px
+      padding: .5rem
+      height: 100%
+      width: 100%
+
+  .number-item
+  .line-item
+  .list-item
+    padding: 3px 5px
+    margin-top: 5px
+    line-height: 1.25
+
+  .list-item
+    &::before
+      content: "⊙"
+      margin-right: 3px
+
+  .line-item
+    margin-left: 2rem
+    &::before
+      content: "꩜"
+      margin-right: 3px
+      margin-left: -1rem
+
+    &.indent-1::before
+      margin-left: 15px
+
+  $num-size = 24px
+  .number-item
+    position: relative
+    padding-left: $num-size + 20
+    margin-top: .5rem
+    padding-bottom: .5rem
+    &::before
+      position: absolute
+      opacity: .5
+      display: block
+      line-height: 1.5
+      top: 0
+      left: 0
+      font-size: 1rem
+      text-align: center
+      width: $num-size
+      height: $num-size
+      border-radius: $num-size
+
+#AuxPanel
+  order: 4
+  flex: 0 $heights.aux
+  width: 100%
+  height: $heights.aux
+  min-height: $heights.aux
+  max-height: $heights.aux
+  display: flex
+  flex-flow: row
+
+
+
+footer
+  flex: 0
+  order: 3
+  display: block
+  text-align: center
+  padding: .25rem
+  color: darken($colors.baby-blue, 30%)
+  font-size: .65rem
+
+.center
+  text-align: center
+  justify-content: center
+
+  img
+    max-width: calc($widths.shell - 10px)
+
+.center > img
+  max-width: calc(100% - 10px)
+
+[data-command]:hover
+  cursor: pointer
+
+.audio-player
+  height: 18px
+
+@keyframes fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes fade-out
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+
+#Viewer
+  &.fade-in
+  &.fade-out
+    .cover
+      width: 100%
+      height: 100%
+      transition: opacity 1s linear
+      transform:translate3d(0,0,0)
+  &.fade-in
+      .cover
+        opacity: 1
+  &.fade-out
+      .cover
+        opacity: 0
+

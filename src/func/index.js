@@ -17,23 +17,25 @@ export default {
 		}
 	},
 		
-	/**************
-	func: devas
-	params: packet
-	describe: Build a list of devas currently loaded into the system.
-	***************/
 	devas(packet) {
 		const agent = this.agent();
 		return new Promise((resolve, reject) => {
 			try {
 				const devas = [
 					`::BEGIN:DEVAS::${this.lib.uid()}`,
+					'::begin:menu'
 				];
 				for (let deva in this.devas) {
 					const d = this.devas[deva];
 					const {prompt, key, profile} = d.agent();
-					devas.push(`${prompt.emoji} ${profile.name}: ${this.askChr}${key} help`);
+					devas.push(`button[${prompt.emoji} ${profile.name}]:${this.askChr}${key} help`);
 				}
+				devas.push('::end:menu');
+				devas.push('::begin:hidden');
+				devas.push('#color = {{profile.color}}');
+				devas.push('#bgcolor = {{profile.bgcolor}}');
+				devas.push('#bg = {{profile.background}}');
+				devas.push('::end:hidden');          
 				devas.push(`::END:DEVAS:${this.lib.hash(devas)}`);
 	
 				this.question(`${this.askChr}feecting parse ${devas.join('\n')}`).then(parsed => {
@@ -44,7 +46,7 @@ export default {
 					});
 				}).catch(reject);
 			} catch (e) {
-				return reject(e);
+				return this.error(e, packet, reject);
 			}
 		});
 	},

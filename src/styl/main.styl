@@ -1,0 +1,232 @@
+// Copyright (c)2022 Quinn Michaels. All rights reserved.
+@import "colors"
+@import "icons"
+@import "global"
+@import "buttons"
+@import "console"
+@import "viewer"
+@import "panel"
+@import "youtube"
+@import "mud"
+
+// @import "menu"
+// @import "data"
+// @import "feecting"
+// @import "shell"
+// @import "mud"
+// @import "pastebin"
+//
+// @keyframes Alert
+//   0%
+//     background-color: $colors.baby-blue
+//     box-shadow: 0 0 9px $colors.red
+//
+//   100%
+//     background-color: $colors.red
+//     box-shadow: 0 0 9px $colors.baby-blue
+//
+// @keyframes movein-north
+//   0%
+//     opacity: 0
+//     transform: translateY(-100%)
+//   100%
+//     opacity: 1
+//     transform: translateY(0)
+//
+// @keyframes movein-north-west
+//   0%
+//     opacity: 0
+//     transform: translate(-100%, -100%)
+//   100%
+//     opacity: 1
+//     transform: translate(0, 0)
+//
+// @keyframes movein-north-east
+//   0%
+//     opacity: 0
+//     transform: translate(100%,-100%)
+//   100%
+//     opacity: 1
+//     transform: translateX(0)
+//
+// @keyframes movein-east
+//   0%
+//     opacity: 0
+//     transform: translateX(100%)
+//   100%
+//     opacity: 1
+//     transform: translateX(0)
+//
+// @keyframes fade-in
+//   0%
+//     opacity: 0
+//   100%
+//     opacity: 1
+//
+// @keyframes movein-south
+//   0%
+//     opacity: 0
+//     transform: translateY(100%);
+//   100%
+//     opacity: 1
+//     transform: translateY(0);
+//
+// @keyframes movein-west
+//   0%
+//     opacity: 0
+//     transform: translateX(-100%);
+//   100%
+//     opacity: 1
+//     transform: translateX(0);
+//
+// @keyframes movein-south-west
+//   0%
+//     opacity: 0
+//     transform: translate(-100%, 100%);
+//   100%
+//     opacity: 1
+//     transform: translate(0,0);
+//
+// @keyframes movein-south-east
+//   0%
+//     opacity: 0
+//     transform: translate(100%, 100%);
+//   100%
+//     opacity: 1
+//     transform: translate(0,0);
+//
+// @keyframes moveout-south-east
+//   0%
+//     opacity: 1
+//     transform: translate(0,0)
+//   100%
+//     opacity: 0
+//     transform: translate(-100%,-100%)
+//
+// @keyframes moveout-north-east
+//   0%
+//     opacity: 1
+//     transform: translate(0,0)
+//   100%
+//     opacity: 0
+//     transform: translate(-100%,100%)
+//
+// @keyframes moveout-north-west
+//   0%
+//     opacity: 1
+//     transform: translate(0,0)
+//   100%
+//     opacity: 0
+//     transform: translate(100%,100%)
+//
+// @keyframes moveout-north
+//   0%
+//     opacity: 1
+//     transform: translateY(0)
+//   100%
+//     opacity: 0
+//     transform: translateY(100%)
+//
+// @keyframes moveout-east
+//   0%
+//     opacity: 1
+//     transform: translateX(0)
+//   100%
+//     opacity: 0
+//     transform: translateX(-100%)
+//
+// @keyframes moveout-south
+//   0%
+//     opacity: 1
+//     transform: translateY(0)
+//   100%
+//     opacity: 0
+//     transform: translateY(-100%)
+//
+// @keyframes moveout-south-west
+//   0%
+//     opacity: 1
+//     transform: translate(0,0)
+//   100%
+//     opacity: 0
+//     transform: translate(100%,-100%)
+//
+// @keyframes moveout-west
+//   0%
+//     opacity: 1
+//     transform: translateX(0)
+//   100%
+//     opacity: 0
+//     transform: translateX(100%)
+//
+// @keyframes movein-up
+//   0%
+//     opacity: 0
+//     transform: scale(1.5);
+//   100%
+//     opacity: 1
+//     transform: scale(1);
+//
+// @keyframes movein-down
+//   0%
+//     opacity: 0
+//     transform: scale(.75);
+//   100%
+//     opacity: 1
+//     transform: scale(1);
+//
+// @keyframes moveout-up
+//   0%
+//     opacity: 1
+//     transform: scale(1);
+//   100%
+//     opacity: 0
+//     transform: scale(.75);
+//
+// @keyframes moveout-down
+//   0%
+//     opacity: 1
+//     transform: scale(1);
+//   100%
+//     opacity: 0
+//     transform: scale(1.5);
+//
+// .ALERT
+//   animation-name: Alert
+//   animation-duration: .5s
+//   animation-fill-mode: both
+//   animation-direction: normal
+//   animation-play-state: running
+//   animation-iteration-count: infinite
+//
+// #ShellOutput
+//   .log-item
+//     animation-name: fade-in
+//     transform: translate3d(0,0,0)
+//     animation-duration: 1s
+//     animation-fill-mode: forwards
+//     animation-iteration-count: 1
+//     animation-play-state: running
+//
+// #Viewer
+//   main
+//     display: flex
+//     flex-flow: column nowrap
+//     position: absolute
+//     top: 0
+//     left: 0
+//     right: 0
+//     bottom: 0
+//     width: 100%
+//     height; 100%
+//     #Content
+//       flex 1 auto
+//       font-size: 30px
+//       > .agent
+//
+//       > .browser-item
+//         > .feecting
+//           padding: 1rem
+//
+//           .list-item
+//             font-size: 27px

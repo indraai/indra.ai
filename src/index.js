@@ -66,8 +66,10 @@ const INDRA = new Deva({
 		for (let deva in this.devas) {
 			await this.load(deva, data.client);
 		}
-		this.prompt(this._messages.done);
-		return this.ready(data, resolve);
+		setImmediate(() => {
+			this.prompt(this._messages.done);
+			return this.ready(data, resolve);		
+		})
 	},
 	onError(err, reject) {
 		console.log('MAIN ERROR', err);

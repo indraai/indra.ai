@@ -1,0 +1,499 @@
+/* Copyright (c)2025 Quinn Michaels */
+$maxw = 640px
+.CONTAINER 
+  height: 100%
+  display: flex
+  flex-flow: column
+  h1 
+    flex: 0 100px
+  .content
+    flex: 1
+    overflow: auto
+  
+.hidden
+  display: none
+
+.tag
+  display: inline-block
+
+  &:hover
+    cursor: pointer
+
+  &.person
+  &.place
+  &.thing
+  &.group
+    font-weight: bold
+
+#Viewer
+  display: flex
+  flex-flow: column nowrap
+  position: relative
+
+  .box           
+    &.law 
+      margin: .75rem 0
+    &.data
+      padding: 1.5rem 0
+
+    &.center
+      .image
+        img
+          border-radius: 1rem
+    &.gallery
+      display: flex
+      flex-flow: row wrap
+      gap: .25rem
+      .image
+        flex: 0 calc(25% - .5rem)
+        img
+          max-width: 100%
+          border-radius: .5rem
+    img
+      max-width: 100%
+    
+    &.profile 
+      padding: .5rem 1rem
+      border-radius: 1rem
+      margin: 1rem
+      background-color: rgba($colors.black, .5)
+      
+      &::before 
+        display: block
+        content: "Profile"
+        font-size: 1.5rem
+        color: var(--browser-item-highlight)
+      
+      .item 
+        margin: .5rem 0
+        .label 
+          width: 5rem
+          background-color: var(--browser-item-color)
+          color: var(--browser-item-bgcolor)
+          border-radius: .5rem
+          margin-right: 1rem
+
+        .value
+          color: var(--browser-item-highlight)          
+  > .cover
+    background-image: var(--browser-item-background)
+    background-color: var(--browser-item-bgcolor)
+    color: var(--browser-item-color)
+    font-size: var(--browser-item-size)
+    background-repeat: no-repeat
+    background-position: top center
+    background-size: 100% auto
+    min-width: 100%
+    overflow: scroll
+    height: 100%
+    line-height: 1.25
+    width: 100%
+    flex: 1
+    font-size: 1rem
+    padding: 1rem
+
+    .cover
+      height: auto
+
+    .item
+      display: flex
+      flex-flow: row nowrap
+      margin: .1rem 0 .1rem 0
+      &.law 
+        margin: 1rem 0
+      &.cmd
+        padding: .5rem 0
+      &.indent1
+        padding-left: 20px
+      &.indent2
+        padding-left: 40px
+      &.indent3
+        padding-left: 60px
+
+      .value
+        flex: 1
+
+      .label
+        font-size: .8rem
+        background-color: rgba($colors.darkest-grey, .25)
+        // color: $colors.light-grey
+        border-radius: .35rem
+        margin: 0 .25rem 0 0
+        align-self: start
+        padding: .1rem .25rem
+        min-width: 5rem
+
+        &::before
+          display: inline-block
+          margin-right: .2rem
+          font-family: 'icons'
+
+      &.cmd
+        .label
+          display: none
+
+      &.head
+      &.boss
+      &.leader
+        .label
+          &::before
+            content: $icons.man
+
+      &.id
+        .label
+          &::before
+            content: $icons.key
+
+      &.tag
+      &.tags
+        .label
+          &::before
+            content: $icons.tag
+      &.key
+        .label
+          &::before
+            content: $icons.key-hole
+
+      &.emoji
+        .label
+          &::before
+            content: $icons.smile
+
+      &.title
+        .label
+          &::before
+            content: $icons.news
+
+      &.audio
+        .label
+          &::before
+            content: $icons.hearing
+
+      &.name
+        .label
+          &::before
+            content: $icons.profile
+
+      &.describe
+        .label
+          &::before
+            content: $icons.document
+
+      &.from
+        .label
+          &::before
+            content: $icons.typewriter
+
+      &.date
+        .label
+          &::before
+            content: $icons.calendar-full
+
+      &.attn
+        .label
+          &::before
+            content: $icons.profile
+
+      &.respond
+      &.response
+        .label
+          &::before
+            content: $icons.file-check
+
+      &.memory
+      &.remember
+        .label
+          &::before
+            content: $icons.brain
+
+      &.assistant
+        .label
+          &::before
+            content: $icons.user-plus
+
+      &.security
+        .label
+          &::before
+            content: $icons.shield
+
+      &.culprit
+      &.culprits
+      &.criminal
+      &.criminals
+        .label
+          &::before
+            content: $icons.shield-alert
+
+      &.archive
+        .label
+          &::before
+            content: $icons.box
+
+      &.support
+        .label
+          &::before
+            content: $icons.lifebuoy
+
+      &.license
+        .label
+          &::before
+            content: $icons.license
+
+      &.copyright
+        .label
+          &::before
+            content: "©"
+
+      &.terms
+        .label
+          &::before
+            content: $icons.clipboard-text
+
+      &.people
+      &.person
+        .label
+          &::before
+            content: $icons.user
+      &.place
+      &.city
+      &.places
+        .label
+          &::before
+            content: $icons.city
+      &.thing
+      &.things
+        .label
+          &::before
+            content: $icons.button
+      &.group
+      &.groups
+        .label
+          &::before
+            content: $icons.users
+      &.concept
+      &.concepts
+        .label
+          &::before
+            content: $icons.lamp
+      &.director
+        .label
+          &::before
+            content: $icons.mustache-glasses
+      &.hostess
+        .label
+          &::before
+            content: $icons.woman
+      &.prompt
+        .label
+          &::before
+            content: $icons.cli
+      &.evil
+      &.villain
+        .label
+          &::before
+            content: $icons.evil
+
+      &.assistant
+      &.companion
+      &.companions
+        .label
+          &::before
+            content: $icons.mustache
+
+      &.run
+      &.action
+      &.actions
+        .label
+          &::before
+            content: $icons.run
+
+      &.task
+      &.tasks
+      &.job
+      &.jobs
+        .label
+          &::before
+            content: $icons.clipboard-check
+
+
+      &.rules
+      &.laws
+        .label
+          &::before
+            content: $icons.bookmark
+
+      &.plot
+      &.story
+      &.library
+        .label
+          &::before
+            content: $icons.library
+
+      &.location
+        .label
+          &::before
+            content: $icons.map-marker
+      &.topic
+        .label
+          &::before
+            content: $icons.bubble-pencil
+      &.centre
+        .label
+          &::before
+            content: $icons.expand
+      &.above
+        .label
+          &::before
+            content: $icons.ellipsis
+      &.up
+        .label
+          &::before
+            content: $icons.plus
+      &.down
+        .label
+          &::before
+            content: $icons.minus
+      &.north
+        .label
+          &::before
+            content: $icons.arrow-up
+      &.south
+        .label
+          &::before
+            content: $icons.arrow-down
+      &.east
+        .label
+          &::before
+            content: $icons.arrow-right
+      &.west
+        .label
+          &::before
+            content: $icons.arrow-left
+      &.northeast
+        .label
+          &::before
+            content: $icons.arrow-up-right
+      &.southeast
+        .label
+          &::before
+            transform: rotate(90deg);
+            content: $icons.arrow-up-right
+      &.southwest
+        .label
+          &::before
+            transform: rotate(180deg);
+            content: $icons.arrow-up-right
+      &.northwest
+        .label
+          &::before
+            transform: rotate(270deg);
+            content: $icons.arrow-up-right
+
+    .wiki
+      .summary
+        display: flex
+        .image
+          flex: 0 0 7rem
+        .describe
+          .label
+            display: none
+          .value
+            padding: 0 .5rem
+
+  .info
+  .note
+  .alert
+  .warning
+    min-width: 50px
+    flex: 1
+    padding: .25rem 0 .25rem 2rem
+    margin: 1rem .5rem
+    border-radius: .5rem
+    padding: .25rem
+
+    .value
+      padding: .5rem
+
+  .info
+    color: darken($colors.dark-grey, 50%)
+    background-color: $colors.white
+    .label
+      &::before
+        content: $icons.fingers-victory
+
+  .note
+    color: darken($colors.note, 70%)
+    background-color: $colors.note
+    .label
+      &::before
+        content: $icons.pencil3
+  .warning
+    color: darken($colors.yellow, 70%)
+    background-color: $colors.yellow
+    .label
+      &::before
+        content: $icons.warning
+
+  .alert
+    color: lighten($colors.red, 70%)
+    background-color: $colors.red
+    .label
+      &::before
+        content: $icons.bubble-alert
+
+  > .hymn
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    > h2
+      text-align: center
+    .content
+      flex: 1
+      overflow: scroll
+      padding: 0 1rem
+      max-width: 600px
+      margin: auto
+
+    .meta
+      border-top: 1px solid
+      display: flex
+      flex-flow: column
+      flex: 0
+      font-size: .75rem
+      .item
+        display: flex
+        .label
+          flex: 0 100px
+          min-width: 100px
+
+
+.DataContainer
+  position: relative
+  height: 100%
+  max-width: $maxw
+  min-width: 500px
+  margin: auto
+  // padding: 1rem
+  &::before
+    font-family: icons, $fonts-text
+    font-size: 2rem
+    width: 100%
+    display: block
+    margin: 0
+    padding: .5rem 1rem .5rem 1rem
+
+  .row
+    padding: .5rem 1rem .5rem 0
+    color: $colors.light-grey
+    border-top: 1px dotted $colors.dark-grey
+    display: flex
+
+    .key
+      flex: 0
+      margin: 0 1rem 0 0
+  .child
+    display: flex
+    flex-flow: column
+    .values
+      margin: 0 0 0 1rem

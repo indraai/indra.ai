@@ -8,10 +8,12 @@
 	"scripts": {
 		"serve": "jekyll serve",
 		"build": "jekyll build",
-		"style": "stylus -w _styl/main.styl -o assets/css/main.css -c",
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"buddy": "node ./src/buddy/index.js"
+		"buddy": "node ./src/buddy/index.js",
+		"webcss": "stylus -w _styl/main.styl -o assets/css/main.css -c",
+		"uicss": "stylus -w src/styl/main.styl -o assets/css/ui.css -c",
+		"webpack": "webpack"
 	},
 	"repository": {
 		"type": "git",
@@ -40,18 +42,22 @@
 		}
 	],
 	"dependencies": {
-		"@indra.ai/deva": "^1.5.25",
+		"@indra.ai/deva": "^1.5.39",
 		"axios": "^1.1.3",
 		"chalk": "^5.4.1",
 		"express": "^5.1.0",
 		"inquirer": "^12.6.0",
 		"needle": "^3.3.1",
 		"punycode": "^2.3.1",
-		"stylus": "^0.63.0"
+		"socket.io-client": "^4.8.1",
+		"stylus": "^0.63.0",
+		"stylus-loader": "^8.1.1",
+		"webpack": "^5.99.9",
+		"webpack-cli": "^6.0.1"
 	},
 	"data": {
 		"agent": {
-			"id": 5380514963421,
+			"id": "3bbaa03e-ea49-411f-8da7-e2a2aad25be2",
 			"key": "indra",
 			"prompt": {
 				"emoji": "⚡️",
@@ -81,7 +87,9 @@
 				"background": "/assets/background.png",
 				"color": "#df637e",
 				"bgcolor": "#000000",
-				"voice": "onyx"
+				"voice": "onyx",
+				"caseid": "FM-20250622-5114",			
+				"copyright": "©2025 Quinn Michaels; All Rights Reserved."
 			}
 		},
 		"vars": {

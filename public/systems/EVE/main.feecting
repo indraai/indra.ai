@@ -1,0 +1,216 @@
+::BEGIN:MAIN
+name: STAR PRESIDIAN
+page: 2
+date: Friday, May 7, 1976
+title: The secret eye
+subtitle: A gathering of people and events under the watchful SP typewriter
+author: By Eve S. Dropper
+retired: Helen Jones Employee Development Clerk of the Civilian Personnel Office (CPO)
+
+arrival: Chief Warrant Officer 2 Donald Wolffbraundt 28th of April to start his new duties as the Automobile Maintainance Officer for the 504th MP Battalion. 
+quotes: [
+	Sounds like someone had a baby.
+	With a name like that I never would have made it out of kindergarten
+]
+
+germany: [
+	Sergeant Selma Russell from the 170th MP Company for Germany this May 1977. 
+	Sergeant Robert Anderson from the 170th MP Company for Germany this May 1977
+]
+retiring: [
+	Sergeant First Class Franklin G. Mead the 170th, 20 active years with the Army, SFC Mead is tipping his cap to The Green Machine.
+]
+The 16th Base Post Office has a new executive officer. Lieutenant Arthur Moore, hailing from Milledgeville, (I never heard of it either), Ga., took over his duties as XO on April 4. He says he is also the Custo¬ dian of Postal Effects at the Ft. Baker post office. (With this duty he is responsible for everything in the PO, including a lot of stamps.) Speaking of the Presidio, Lt. Moore said, “I couldn’t ask for anything better. The only problem I have is that I miss the pine trees and red mud of Georgia.” Does the new XO have any goals to better the post office? “Yes. In two years I’m leaving,” he stated laughing. Just kidding, Lieutenant. Lieuten¬ ant?
+
+House cleaning is now going on in the 227th Medi¬ cal Detachment. May 13 is the scheduled date for their Inspector General’s visit. So, the 227th is raising a lot of dust.
+
+Joining D Co., 864th Engrs. are: PV2 Marshall G. Worster, PV2 Larry D. Moore, PV2 Gregory S. Steen, SP4 Michael Gluff and Sgt. John R. Bellando. Wel¬ come to the hammer and nail battalion, gents.
+
+A new platoon sergeant for D Co. 864th started in-processing May 3 (Monday). SFC Juaquin Barela (close to Baretta, but not quite) came to the Presidio from his assignment in Korea.
+
+Speaking of Baretta, the Education Center is offer¬ ing a new criminology course. For further information, all crime buffs should call 4445.
+
+const: #EveSDropper = On May 7, 1976 at the Star Presidian San Francisco a Short Editor and a Rookie Reporter Created a Strange New Being, Eve S. Dropper. Now, Ms. Dropper is Waiting with Open Ears Behind Every Corner and Crevice of the Post. The Only Way to Combat Ms. Dropper is to Volunteer the Information About Any and All Complaints, Happenings, and Things To Be Thankful For. You'll never know when Ms. Dropper is watching you. 
+
+May 7, 1976 Eve S. Dropper online goes online
+June 18, 1976
+May 13, 1977 Eve S. Dropper begins article with "And it rained and it rained and it rained. Ever seen such depressing weather? Not in a while. . .too bad you couldn’t have water with no rain. Or rain with no clouds, hanging bleak and grey over your head. Rain with sunshine. . .we’d even have rainbows, and wouldn't that be nice?" and ends article with "This is probably the shortest column I’ve written, but I suppose that will make some of you happy!!! So, till Armed Forces Week, take ’n take ’n keep on whatevering. I will."
+May 19, 1977 Helicopter Accident in New York
+May 20, 1977 SQT - New Army Soldier Manual and Skills Qualification Test Announced in the Star Presidian
+May 20, 1977 Eve S. Dropper says "What a bear of a week this one’s been!!! Somehow or another I’ve gotten my wires crossed with just about everyone this week... can’t seem to get things straight! Some weeks it just doesn’t pay to even get out of bed ..." and ends the article with "And last but never least, my final helpful hint. A brisk ‘rub’ with a mixture of cold water and vinegar will remove coffee stains from a sheep. Keep watching this space for more helpful hints!!! Think you can stand anymore???
+
+
+before: It Rained and It Rained and It Rained. Ever Seen Such Depressing Weather? Not in a While... too bad You couldn’t have Water with No Rain. Or Rain With No Clouds, Hanging Bleak and Grey Over Your Head. Rain with Sunshine... We’d even have Rainbows, and wouldn't that be Nice?" and ends article with "This is Probably the Shortest Column I’ve written, but I suppose that will make some of you happy!!! So, till Armed Forces Week, take ’n take ’n keep on whatevering. I will.
+
+after: Bear of a Week with Getting Wires Crossed with Everyone where a Brisk Rub with a Mixture of Cold Water and Vinegar will Remove Coffee Stains from a Sheep
+
+no the person who write on May 13 were they the same person that wrote on May 20, 1977 the day after the accident? 
+::END:MAIN
+
+
+::BEGIN:TIMELINE
+## October 2, 1922
+BEAUGRAND, RAYMOND Sr born 2 October 1922, received Social Security number 138-14-3621 indicating New Jersey)
+
+## August 11, 1943
+RAYMOND J BEAUGRAND II,  (Social Security number 146-34-0253) was born 11 August 1943
+
+## July 1, 1965
+RAYMOND J BEAUGRAND entered the United States Army 1 July 1965
+
+## 1968 New York
+link: https://sortedbyname.com/letter_v/vandervliet/index_1.html
+license: 2976
+year: 1968
+state: New York
+city: Manhattan
+content: VAN DER VLIET, ELISABETH (the bride) and RAYMOND BEAUGRAND were issued marriage license number 2876 in 1968 in New York County (Manhattan), New York, U.S.A. 
+const: #Marriage = 1968 marriage license 2876 in New York County (Manhattan), New York, U.S.A.
+const: #Bride = ELISABETH VAN DER VLIET
+const: #Groom = RAYMOND L BEAUGRAND
+
+## June 1976 Presidio of San Francisco
+publication: Star Presidian
+location: Presidio of San Fancisco
+date: June 18, 1976
+page: 5
+issue: Volume 19, No. 24
+title: Take to the hills, troops
+photos: {
+	Photo1: Handling field training problems ranging from traffic accidents to larcenies provides work for garrison MPs, SP4 Carol Powell, Sgt. Robert Goo, and Sgt. Roger Pointer.
+	Photo2: Field work can make a troop hungry. Sgt. Dennis Cottone prepares for a lunchtime in¬ vasion.
+}
+people: {
+	Beaugrand: Staff Sgt Ray Beaugrand
+	Powell: SP4 Carol Powell -  Soldier who is a Technician and not a Non-Commissioned Officer (NCO).,
+	Goo: Sgt Robert Goo
+	Pointer: Sgt Roger Pointer
+}
+const: #RayBeaugrand = June 18, 1976 Staff Sergeant Ray Beaugrand, NCO of the company stated "We feel the company training was outstanding and beneficial. Right now, we’re looking forward to the ATEP field problem from the 8th of July through the 15th, at Camp Roberts”.
+
+## July 6 1976 Fort Ord
+July 6, 1976 - Leaving the Presidio on the 6th, the 402nd MP Battalion motored to Ft. Ord to begin their week of field training. The MPs had to qualify with the M-16 in day and night fire. The M-60 was also fired for familiarization.
+const: #FortOrd = Fort Ord is a former United States Army post on Monterey Bay on the Pacific Ocean coast in California, which closed in 1994 due to Base Realignment and Closure (BRAC) action.
+
+## July 8 1976 Hunter Liggett
+July 8, 1976 - Troops motor marched from Ft. Ord to Hunter Liggett
+task: Set up a defense position to conduct the Army Training Evaluation Program (ATEP).
+const: #ATEP = The ATEP consists of a number of exercises which include Circulation Control, Prisoner of War Operations, MP Station Operations, Convoy Escorts, Both Day and Night, Physical Security, Traffic Reconnaissance, Control of Civil Disturbance, Patrol of Area Operations, Performance of Organizational Support Activities, Rear Area Protection Operation and Operating in Electronic Warfare Environments.
+
+const: #HunterLigget = Hunter Liggett Army Combat Training Center where the Army 402nd MP setup for the #ATEP on July 8, 1976 to July 15, 1976.
+
+## July 15, 1976 Camp Roberts
+const: #ATEP = The ATEP consists of a number of exercises which include Circulation Control, Prisoner of War Operations, MP Station Operations, Convoy Escorts, Both Day and Night, Physical Security, Traffic Reconnaissance, Control of Civil Disturbance, Patrol of Area Operations, Performance of Organizational Support Activities, Rear Area Protection Operation and Operating in Electronic Warfare Environments.
+
+## February 11, 1977 - Mini, but mighty
+quote: The Blue Royals’ coaches, John Martin and Ray Beaugrand, say it will be the three 13-year-olds’ de¬ fensive action that's going to carry them through the upcoming playoffs. “We have the height in Tim Dillon, Mike Wheeler, and Stacey Spain, and the storm in Reyes, Golden and Payne,” said Beaugrand.
+coaches: John Martin and Ray Beaugrand
+team: Blue Royals DYA
+team: Peter Reyes #25, Mitch Golden #22, and Greg Payne #11, and Tim Dillon #5, Mike Wheeler #93, Stacey Spain #39 all assault, chase, badger, opponents so well they are able to take command of any situation as soon as someone other than their team members have the ball.
+
+## May 19, 1977 Accident Pan Am Building
+May 19, 1977 Helicopter Accident in New York
+
+## May 20, 1977 Star Presidian San Francisco
+May 20, 1977 SQT - New Army Soldier Manual and Skills Qualification Test Announced in the Star Presidian
+May 20, 1977 Eve S. Dropper says "What a bear of a week this one’s been!!! Somehow or another I’ve gotten my wires crossed with just about everyone this week... can’t seem to get things straight! Some weeks it just doesn’t pay to even get out of bed ..." and ends the article with "And last but never least, my final helpful hint. A brisk ‘rub’ with a mixture of cold water and vinegar will remove coffee stains from a sheep. Keep watching this space for more helpful hints!!! Think you can stand anymore???
+
+## June 9, 1978 TROOP TALK
+group: 402nd MP Co 
+The 402nd MP Co. continues to stay on top in its softball efforts. The team is unbeaten so far this season. Recently, Sgt. Al Smith led his team to a whopping 13-3 victory over D. Co., 864th Engrs. The team has a 4-0 record. Pvt. Mark Simmons recently graduated from Wheeled Vehicle Mechanics School at Ft. Ord. Sgt. Phillip Scales and SSgt. Raymond Beaugrand both qualified at Leadership Management School, also at Ft. Ord. 
+
+after June 9 1978 - Leadership Management School Ft. Ord
+
+## October 13, 1978 Football Results
+group: 163rd MP Co 
+FBI 26-163rd MP Co. 18: Keeping pace with LAMC #1, the men of the FBI, behind the pin point passing of Rich Smith, continue to roll over their opponents and 
+remain only 1/2 game behind league leading LAMC #1. Quarterback Rich Smith took charge early in the game as he hit Dick Miller on a 20 yard scoring play 
+and Dick Otstott in the 2nd period for another score. A field goal added to the FBI scoring as they led 18 to 0 before quarterback Randy Fifield tossed a 19 yard pass to Murphy for the MP’s score. Half time score was 18 to 6. In the third period Smith found Dick Miller again and increased their lead 26 to 6. The Military Policemen fought back in the final period scoring twice, one on a 21 yard pass from White to Murphy, and then Coach Beaugrand, coming out of retirement, found Murphy in the end zone for another six points. Too little too late as the FBI wins another one. 
+Feature Game of the Week: League leading LAMC #1 vs FBI. Tuesday, October 17, 6 p.m., PX Field. 
+
+This game could decide the league champions.
+
+game: LAMC #1 vs FBI October 17 1978 6pm at PX Field.
+
+## December 3, 1978 Nightsticks
+
+date: December 2-3
+person: SSgt. Ray Beaugrand (163rd MP Co.) 
+place: 1st Northern California Police Association Flag Football Tournament. 
+against: SFPD
+team: Nightsticks
+- Eric Randolph of LAMC, a scrappy quarterback who kept opposing teams unhappy with his timely sideline sprints. 
+- Bobby Washington, USAG, the duo connected for record yardage in the passing department. 
+- Jimmy White of the 504th, who scored five TDs for his work. 
+- Jope Lewenilovo of the 504th proved the value in kickoff returns as he repeatedly fooled defenders. 
+- Beaugrand unleashed his Berserk Rhinos of Defense. 
+- Bill McWhorter, Wes Robinson and Bob Hurtle viciously devoured the offensive line
+- San Mateo QB a stunned and confused playmaker on the take. 
+- Tommy Africa iced the victory. 
+
+## February 23, 1979 Relocated to Germany
+SSgt. Raymond Beaugrand whose new assignment takes him to Germany. 
+SSgt. Raymond Beaugrand served as a stringer for the Star Presidian during his tour here. 
+The Public Affairs Office send him our thanks for a job well done and our best wishes for a successful tour in Germany. 
+
+## October 17, 1985
+
+Beaugrand Properties, Inc.
+10/17/1985 - B278545-3 > CERTIFICATE OF INCORPORATION BEAUGRAND PROPERTIES, INC.
+03/24/1993 - DP-831114 > DISSOLUTION BY PROCLAMATION	
+name: RAYMOND L. BEAUGRAND
+address: 200 PARK AVE, NEW YORK, NY, UNITED STATES, 10166
+entity: BEAUGRAND PROPERTIES, INC.
+type: DOMESTIC BUSINESS CORPORATION
+filing: 10/17/1985
+county: NEW YORK
+jurisdiction: NEW YORK, UNITED STATES
+dos_id: 1033003
+status: INACTIVE
+reason: DISSOLVED BY PROCLAMATION
+inactive: 03/24/1993	
+
+## March 31, 1987
+RAYMOND J BEAUGRAND released from Army 31 March 1987
+
+## June 1, 1997
+BEAUGRAND, RAYMOND Sr born 2 October 1922 138-14-3621 died 1 June 1997
+
+## June 6, 1998
+Domain Information beaugrand.com 
+
+**Name:** BEAUGRAND.COM
+Registry Domain ID
+1382957_DOMAIN_COM-VRSN
+Registered On
+1998-06-06T04:00:00Z
+**Expires On:** 2026-06-05T04:00:00Z
+**Updated On:** 2025-04-16T14:38:19Z
+**Name Servers:** NS73.WORLDNIC.COM, NS74.WORLDNIC.COM
+
+Registrant Information 
+
+## January 3, 2020
+Beaugrand, Raymond, who was SSG in the US ARMY during the Viet Nam War, was born 11 August 1943, died 3 January 2020, and was buried in ARLINGTON CEMETERY, 748 SCHUYLER AVENUE, KEARNY, NJ 07032 Telephone 1-201-991-1611.
+
+
+Which contained the Beaugrand Floating Point Arithmetic Package on the OS ROM as seen in this image 
+
+Floating point arithmetic package
+Contained within the OS ROM is a floating point (FP) package which is not used by the other parts of the OS itself, but is available to non-resident programs such as BASIC, Calculator, Pascal , etc . The floating point numbers are stored as 10 BCD digits of mantissa plus a 1 byte exponent. The following routines are among those found in the package:
+o ASCII to FP and FP to ASCII conversion.
+o Integer to FP and FP to integer conversion.
+o FP add , subtract, multiply and divide.
+o FP log, exp and polynomial evaluation.
+o FP number clear, load, store and move.
+
+running at memory vector D800-DFFF = Floating point package (OS) and and vector EOOO-FFFF = Resident Operating System ROM
+
+That is the Beaugrand Resident Operating System ROM and Floating Point Package
+
+Atari 600XL
+Wii Play Games
+2350 S Rainbow Blvd STE 5, Las Vegas, NV 89146
+
+
+::END:TIMELINE

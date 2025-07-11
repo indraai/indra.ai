@@ -25,32 +25,49 @@ import systems from '/Users/quinnmichaels/Dev/deva.space/devas/deva.systems/inde
 import networks from '/Users/quinnmichaels/Dev/deva.space/devas/deva.networks/index.js';
 import gemini from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gemini/index.js';
 import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js';
+import king from '/Users/quinnmichaels/Dev/deva.space/devas/deva.king/index.js';
+import chief from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chief/index.js';
+import owner from '/Users/quinnmichaels/Dev/deva.space/devas/deva.owner/index.js';
+import brahmana from '/Users/quinnmichaels/Dev/deva.space/devas/deva.brahmana/index.js';
+import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/index.js';
+import vaisya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vaisya/index.js';
+import sudra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.sudra/index.js';
+import beaugrand from '/Users/quinnmichaels/Dev/deva.space/devas/deva.beaugrand/index.js';
 
 const DEVAS = {
-	algorithm,
-	authority,
-	chat,
+	log,
 	data,
-	defense,
-	docs,
 	error,
+	socket,
 	feecting,
-	gemini,
-	gopher,
-	guard,
 	indra,
+	veda,
 	justice,
 	legal,
-	log,
-	networks,
+	authority,
 	security,
-	services,
-	socket,
+	guard,
+	defense,
 	support,
+	services,
 	systems,
+	networks,
+	gopher,
 	telnet,
-	veda,
+	docs,
 	web,
+	algorithm,
+	chat,
+	gemini,
+	sudra,
+	vaisya,
+	kshatriya,
+	brahmana,
+	owner,
+	chief,
+	king,
+	indra,
+	beaugrand,
 };
 
 export default DEVAS;
