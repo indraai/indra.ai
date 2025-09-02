@@ -43,7 +43,7 @@ function setPrompt(pr) {
 	else if (!pr.prompt) return;
 	else {
 		const {colors} = pr.prompt;
-		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.emoji} ${pr.prompt.text.trim()} > `);
+		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.emoji} ${pr.prompt.text.trim()}: `);
 
 		shell.setPrompt(setPrompt);
 		shell.prompt();
@@ -155,6 +155,21 @@ app.post('/question', (req, res, next) => {
 	});
 });
 
+function DevaDir(opts) {
+	app.get(`/devas/${opts.key}/{*splat}`, (req, res, next) => {
+		const devadir = {
+		root: path.join(opts.dir, 'assets'),
+		dotfiles: 'deny',
+		headers: {
+			'x-timestamp': Date.now(),
+			'x-sent': true
+		}
+		};
+		return res.sendFile(req.params.splat.join('/'), devadir, (err) => {
+			if (err) next(err);
+		});
+	});
+}
 app.listen(vars.ports.api, () => {
 
 	// initialize the INDRA
@@ -164,6 +179,9 @@ app.listen(vars.ports.api, () => {
 		INDRA.listen('cliprompt', ag => {
 			setPrompt(ag);
 		});		
+		INDRA.listen('deva:dir', opts => {
+			DevaDir(opts);
+		});
 	});
 
 	// run operation when new line item in shell.

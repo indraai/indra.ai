@@ -1,4 +1,4 @@
-// Copyright 2025 Quinn Michaels; All rights reserved.
+// Copyright 2025 Quinn Michaels. All rights reserved.
 "use strict";
 
 export async function entities(packet) {

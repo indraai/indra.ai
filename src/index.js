@@ -65,6 +65,10 @@ const INDRA = new Deva({
 		// load the devas
 		for (let deva in this.devas) {
 			await this.load(deva, data.client);
+			// after the deva loads talk the event to set asset directory.
+			const {dir} = this.devas[deva].info();
+			const {key} = this.devas[deva].agent();
+			this.talk(`deva:dir`, {key,dir});
 		}
 		setImmediate(() => {
 			this.prompt(this._messages.done);

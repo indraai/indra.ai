@@ -74,7 +74,23 @@ $maxw = 640px
           margin-right: 1rem
 
         .value
-          color: var(--browser-item-highlight)          
+          color: var(--browser-item-highlight)
+    &.signature 
+      &::before
+        display: block
+        content: "Signature"
+    &.disclaimer 
+      &::before
+        display: block
+        content: "Disclaimer"
+    &.signature 
+    &.disclaimer
+      border-radius: .5rem
+      padding: .5rem 1rem
+      margin: 0 0 .5rem 0
+      background-color: var(--browser-item-color)
+      color: var(--browser-item-bgcolor)
+      
   > .cover
     background-image: var(--browser-item-background)
     background-color: var(--browser-item-bgcolor)
@@ -121,7 +137,7 @@ $maxw = 640px
         margin: 0 .25rem 0 0
         align-self: start
         padding: .1rem .25rem
-        min-width: 5rem
+        min-width: 6.5rem
 
         &::before
           display: inline-block
@@ -140,6 +156,10 @@ $maxw = 640px
             content: $icons.man
 
       &.id
+      &.agent_id
+      &.client_id
+      &.transport_id
+      &.case_id
         .label
           &::before
             content: $icons.key
@@ -175,6 +195,7 @@ $maxw = 640px
             content: $icons.profile
 
       &.describe
+      &.message
         .label
           &::before
             content: $icons.document
@@ -185,6 +206,7 @@ $maxw = 640px
             content: $icons.typewriter
 
       &.date
+      &.created
         .label
           &::before
             content: $icons.calendar-full
@@ -408,36 +430,43 @@ $maxw = 640px
     flex: 1
     padding: .25rem 0 .25rem 2rem
     margin: 1rem .5rem
-    border-radius: .5rem
     padding: .25rem
-
+    
+    .label
+      display: none
+      
     .value
       padding: .5rem
-
+      border-radius: .5rem
+      &::before
+        display: inline-block
+        font-family: 'icons'
+        padding: 0 .5rem 0 0
   .info
-    color: darken($colors.dark-grey, 50%)
-    background-color: $colors.white
-    .label
+    .value
+      color: darken($colors.dark-grey, 50%)
+      background-color: $colors.white
       &::before
         content: $icons.fingers-victory
 
   .note
-    color: darken($colors.note, 70%)
-    background-color: $colors.note
-    .label
+    .value
+      color: darken($colors.note, 70%)
+      background-color: $colors.note
       &::before
         content: $icons.pencil3
+
   .warning
-    color: darken($colors.yellow, 70%)
-    background-color: $colors.yellow
-    .label
+    .value
+      color: darken($colors.yellow, 70%)
+      background-color: $colors.yellow
       &::before
         content: $icons.warning
 
   .alert
-    color: lighten($colors.red, 70%)
-    background-color: $colors.red
-    .label
+    .value
+      color: lighten($colors.red, 70%)
+      background-color: $colors.red
       &::before
         content: $icons.bubble-alert
 

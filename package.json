@@ -6,14 +6,14 @@
 	"type": "module",
 	"copyright": " ©2025 Quinn Michaels; All Rights Reserved.",
 	"scripts": {
+		"start": "node index.js",
 		"serve": "jekyll serve",
 		"build": "jekyll build",
-		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"buddy": "node ./src/buddy/index.js",
 		"webcss": "stylus -w _styl/main.styl -o assets/css/main.css -c",
 		"uicss": "stylus -w src/styl/main.styl -o assets/css/ui.css -c",
-		"webpack": "webpack"
+		"webpack": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
@@ -42,7 +42,8 @@
 		}
 	],
 	"dependencies": {
-		"@indra.ai/deva": "^1.5.39",
+		"@indra.ai/deva": "^1.5.43",
+		"@indra.ai/deva.wall": "^0.0.1",
 		"axios": "^1.1.3",
 		"chalk": "^5.4.1",
 		"express": "^5.1.0",
@@ -76,6 +77,10 @@
 				}
 			},
 			"profile": {
+				"id": ":8f02d23b-1ff9-4e42-9e7f-379dae0bd4b1",
+				"old_id": [
+					"2661180888227"
+				],
 				"name": "Indra.ai",
 				"owner": "Quinn Michaels",
 				"creator": "Quinn Michaels",
@@ -88,7 +93,7 @@
 				"color": "#df637e",
 				"bgcolor": "#000000",
 				"voice": "onyx",
-				"caseid": "FM-20250622-5114",			
+				"caseid": "FM-20250622-5114",
 				"copyright": "©2025 Quinn Michaels; All Rights Reserved."
 			}
 		},

@@ -1,5 +1,5 @@
 ::BEGIN:MAIN
-# {{profiel.name}}
+# {{profile.name}}
 
 {{profile}}
 
