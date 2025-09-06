@@ -2,14 +2,16 @@
 //  Main Devas include file where all the necessary Devas are included.
 
 import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
-import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
 import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import log from '/Users/quinnmichaels/Dev/deva.space/devas/deva.log/index.js';
-import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.js';
-import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
-import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
 
+import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
 import vector from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vector/index.js';
+import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
+import god from '/Users/quinnmichaels/Dev/deva.space/devas/deva.god/index.js';
+import king from '/Users/quinnmichaels/Dev/deva.space/devas/deva.king/index.js';
+import owner from '/Users/quinnmichaels/Dev/deva.space/devas/deva.owner/index.js';
+import treasury from '/Users/quinnmichaels/Dev/deva.space/devas/deva.treasury/index.js';
 import security from '/Users/quinnmichaels/Dev/deva.space/devas/deva.security/index.js';
 import guard from '/Users/quinnmichaels/Dev/deva.space/devas/deva.guard/index.js';
 import defense from '/Users/quinnmichaels/Dev/deva.space/devas/deva.defense/index.js';
@@ -25,17 +27,17 @@ import services from '/Users/quinnmichaels/Dev/deva.space/devas/deva.services/in
 import systems from '/Users/quinnmichaels/Dev/deva.space/devas/deva.systems/index.js';
 import networks from '/Users/quinnmichaels/Dev/deva.space/devas/deva.networks/index.js';
 
+import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.js';
 import web from '/Users/quinnmichaels/Dev/deva.space/devas/deva.web/index.js';
+import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
 import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js';
-import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
+import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
 
 // import telnet from '/Users/quinnmichaels/Dev/deva.space/devas/deva.telnet/index.js';
 // import gopher from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gopher/index.js';
 // import gemini from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gemini/index.js';
 // import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js';
-// import king from '/Users/quinnmichaels/Dev/deva.space/devas/deva.king/index.js';
 // import chief from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chief/index.js';
-// import owner from '/Users/quinnmichaels/Dev/deva.space/devas/deva.owner/index.js';
 // import brahmana from '/Users/quinnmichaels/Dev/deva.space/devas/deva.brahmana/index.js';
 // import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/index.js';
 // import vaisya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vaisya/index.js';
@@ -44,13 +46,15 @@ import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
 
 const DEVAS = {
 	feecting,
-	data, 
 	error,
 	log,
-	socket,
-	algorithm,
-	docs,
+	data, 
 	vector,
+	veda,
+	god,
+	king,
+	owner,
+	treasury,
 	security,
 	guard,
 	defense,
@@ -64,9 +68,11 @@ const DEVAS = {
 	services,
 	systems,
 	networks,
+	socket,
 	web,
+	docs,
 	chat,
-	veda,
+	algorithm,
 };
 
 export default DEVAS;

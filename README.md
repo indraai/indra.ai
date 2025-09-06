@@ -44,3 +44,8 @@ The NodeJS app is started with `npm start` from the main `./` directory. That lo
 ### ./src/styl
 
 ### ./src/ui
+
+
+©2025 Quinn A Michaels; All rights reserved.  
+Legal Signature Required For Lawful Use.  
+Distributed under the Vedic License Agreement LICENSE.md

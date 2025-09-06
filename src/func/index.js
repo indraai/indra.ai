@@ -10,6 +10,7 @@ export default {
 		this.talk('cliprompt', this.client()); // clears cli line
 	},
 	
+	
 	addHistory(item) {
 		this.vars.history.items.push(item)
 		if (this.vars.history.items.length > this.vars.history.max_items) {
@@ -22,7 +23,7 @@ export default {
 		return new Promise((resolve, reject) => {
 			try {
 				const devas = [
-					`::BEGIN:DEVAS::${this.lib.uid()}`,
+					`::BEGIN:DEVAS::${packet.id}`,
 					'::begin:menu'
 				];
 				for (let deva in this.devas) {
@@ -36,7 +37,7 @@ export default {
 				devas.push('#bgcolor = {{profile.bgcolor}}');
 				devas.push('#bg = {{profile.background}}');
 				devas.push('::end:hidden');          
-				devas.push(`::END:DEVAS:${this.lib.hash(devas)}`);
+				devas.push(`::END:DEVAS:${packet.id}`);
 	
 				this.question(`${this.askChr}feecting parse ${devas.join('\n')}`).then(parsed => {
 					return resolve({
@@ -50,19 +51,27 @@ export default {
 			}
 		});
 	},
-		
+	
+	/**
+	name: lists
+	describe: Get a listing of items from the core this namespace.
+	params: item
+	**/
 	lists(item) {
 		return new Promise((resolve, reject) => {
 			try {
+				const id = this.lib.uid();
 				const items = this[item]();
+				
 				const _items = [
-					`::begin:${items.key}`,
-					`## ${item}`,
+					`#${item} >`,
+					`::begin:${items.key}:${id}`,
 				];
 				for (let item in items.value) {
-					_items.push(`${item}: ${items.value[item]}`);
+					_items.push(`• ${item}: ${items.value[item]}`);
 				}
-				_items.push(`::end:${items.key}:${this.lib.hash(items)}`);
+				
+				_items.push(`::end:${items.key}:${id}`);
 	
 				this.question(`${this.askChr}feecting parse ${_items.join('\n')}`).then(parsed => {
 					return resolve({

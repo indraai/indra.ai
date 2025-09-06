@@ -1,5 +1,8 @@
+// ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under the Vedic License Agreement LICENSE.md
+
 /**************
-Copyright 2025 Quinn Michaels All Rights Reserved.
 func:     webpack
 params:   runtime
 describe: runs the webpack build for the public js file from the development
