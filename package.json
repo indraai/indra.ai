@@ -1,6 +1,6 @@
 {
 	"name": "indra.ai",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "The Indra.ai System",
 	"main": "index.js",
 	"type": "module",
