@@ -4,7 +4,7 @@
 import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
 import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import log from '/Users/quinnmichaels/Dev/deva.space/devas/deva.log/index.js';
-
+import report from '/Users/quinnmichaels/Dev/deva.space/devas/deva.report/index.js';
 import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
 import vector from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vector/index.js';
 import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
@@ -48,6 +48,7 @@ const DEVAS = {
 	feecting,
 	error,
 	log,
+	report,
 	data, 
 	vector,
 	veda,
