@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under the Vedic License Agreement LICENSE.md
+// Distributed under the VLA:21524957441626894690 LICENSE.md
 // Indra.ai
 
 // setup main variables
@@ -56,6 +56,8 @@ async function indraQuestion(q) {
 	// the event that fires when a new command is sent through the shell.
 	if (q.toLowerCase() === '/exit') return shell.close();
 	const answer = await INDRA.question(q);
+	
+
 			// sen the necessary returned values to the shell prompt.
 	setPrompt(answer.a.agent);
 	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text));

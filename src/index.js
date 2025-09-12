@@ -1,6 +1,7 @@
+"use strict";
 // ©2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under the Vedic License Agreement LICENSE.md
+// Distributed under the VLA:21524957441626894690 LICENSE.md
 
 // Load INDRA CORE Mind into Deva
 // set the __dirname
@@ -17,6 +18,7 @@ const {agent, vars} = pkg.data;
 // load agent configuration file
 import data from './data/index.js';
 const {client} = data;
+
 
 import methods from './methods/index.js';
 import func from './func/index.js';
@@ -69,7 +71,7 @@ const INDRA = new Deva({
 		for (let deva in this.devas) {
 			await this.load(deva, data.client);
 			// after the deva loads talk the event to set asset directory.
-			const id = this.lib.uid();
+			const id = this.uid();
 			const {dir} = this.devas[deva].info();
 			const {key} = this.devas[deva].agent();
 			this.talk(`deva:dir`, {id, key,dir});

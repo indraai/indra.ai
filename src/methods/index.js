@@ -1,4 +1,7 @@
 "use strict";
+// ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under the VLA:21524957441626894690 LICENSE.md
 
 import {devas} from './devas.js';
 import {states} from './states.js';
@@ -18,10 +21,14 @@ export default {
 	describe: Return the current client information loaded.
 	***************/
 	async client(packet) {
-		this.context('client');
-		this.action('method', 'client');
-		const text = `${this._client.prompt.emoji} ${this._client.key} | ${this._client.profile.name} |  ${this._client.id}`;
-		return Promise.resolve({text, data:this._client});
+		this.zone('client', `client:${packet.id.uid}`);
+		this.feature('client', `client:${packet.id.uid}`);
+		this.context('client', `client:${packet.id.uid}`);
+		this.action('method', `client:${packet.id.uid}`);
+		this.state('set', `client:${packet.id.uid}`);
+		const client = await this.methods.sign('client', 'default', packet);
+		this.state('return', `client:${packet.id.uid}`);
+		return client;
 	},
 	
 	/**************

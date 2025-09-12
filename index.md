@@ -12,6 +12,7 @@ background: /assets/img/background.png
 describe: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.
 tweet: Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding.
 hashtags: QuinnMichaels,IndraAI,VedicAI
+VLA: 21524957441626894690
 ---
 
 Welcome to Indra.ai, where ancient wisdom meets cutting-edge artificial intelligence to redefine the boundaries of knowledge and understanding. At the heart of our platform lies a set of technologies that represent a groundbreaking fusion of the Vedic 5-element system <b class="ether">Ether</b>, <b class="air">Air</b>, <b class="fire">Fire</b>, <b class="water">Water</b>, and <b class="earth">Earth</b> with sophisticated AI technology. 

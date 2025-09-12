@@ -1,10 +1,27 @@
 {
+	"id": "56574894220523318728",
 	"name": "indra.ai",
 	"version": "0.0.2",
 	"description": "The Indra.ai System",
 	"main": "index.js",
 	"type": "module",
-	"copyright": " ©2025 Quinn Michaels; All Rights Reserved.",
+	"license": "VLA:21524957441626894690 LICENSE.md",
+	"author": {
+		"name": "Quinn A Michaels",
+		"email": "quinn@indra.ai",
+		"url": "https://indra.ai/"
+	},
+	"funding": [
+		{
+			"type": "paypal",
+			"url": "https://paypal.me/rahulaclub"
+		},
+		{
+			"type": "patreon",
+			"url": "https://patreon.com/rahulaclub"
+		}
+	],
+	"copyright": " ©2025 Quinn A Michaels; All Rights Reserved.",
 	"scripts": {
 		"start": "node index.js",
 		"serve": "jekyll serve",
@@ -25,22 +42,10 @@
 		"Deva.cloud",
 		"Deva.space"
 	],
-	"author": "Quinn Michaels",
-	"license": "VLA LICENSE.md",
 	"bugs": {
 		"url": "https://github.com/indraai/indra.ai/issues"
 	},
 	"homepage": "https://indra.ai",
-	"funding": [
-		{
-			"type": "paypal",
-			"url": "https://paypal.me/rahulaclub"
-		},
-		{
-			"type": "patreon",
-			"url": "https://patreon.com/rahulaclub"
-		}
-	],
 	"dependencies": {
 		"@indra.ai/deva": "^1.5.43",
 		"@indra.ai/deva.wall": "^0.0.1",
@@ -58,11 +63,11 @@
 	},
 	"data": {
 		"agent": {
-			"id": "3bbaa03e-ea49-411f-8da7-e2a2aad25be2",
-			"key": "indra",
+			"id": "67046717382463858332",
+			"key": "deva",
 			"prompt": {
-				"emoji": "⚡️",
-				"text": "Indra.ai",
+				"emoji": "✨",
+				"text": "Deva",
 				"colors": {
 					"label": {
 						"R": 255,
@@ -77,33 +82,33 @@
 				}
 			},
 			"profile": {
-				"id": ":8f02d23b-1ff9-4e42-9e7f-379dae0bd4b1",
+				"id": "14669071215376776895",
 				"old_id": [
+					"8f02d23b-1ff9-4e42-9e7f-379dae0bd4b1",
 					"2661180888227"
 				],
-				"name": "Indra.ai",
-				"owner": "Quinn Michaels",
-				"creator": "Quinn Michaels",
+				"name": "Deva",
+				"owner": "Quinn A Michaels",
+				"creator": "Quinn A Michaels",
 				"created": "Sunday, April 20, 2025 - 9:52:08 A",
 				"link": "https://indra.ai",
-				"describe": "Indra.ai an advanced artificial intelligence platform designed by Quinn Michaels to facilitate seamless interaction and integration with various data sources, providing insightful responses and solutions. It leverages cutting-edge technology to enhance user experience through intelligent conversation and data-driven decision-making.",
+				"describe": "Deva is the main entity in the Indra.ai System an advanced artificial intelligence platform designed by Quinn A Michaels.",
 				"emoji": "/assets/img/emoji.png",
 				"avatar": "/assets/img/avatar.png",
 				"background": "/assets/background.png",
 				"color": "#df637e",
 				"bgcolor": "#000000",
 				"voice": "onyx",
-				"caseid": "FM-20250622-5114",
 				"copyright": "©2025 Quinn Michaels; All Rights Reserved."
 			}
 		},
 		"vars": {
 			"messages": {
-				"boot": "🥾 BOOT Indra.ai",
-				"stop": "🔴 STOP Indra.ai",
-				"exit": "🚪 EXIT Indra.ai",
-				"enter": "✅ ENTER Indra.ai",
-				"ready": "⭐️ READY Indra.ai",
+				"boot": "🥾 BOOT Deva",
+				"stop": "🔴 STOP Deva",
+				"exit": "🚪 EXIT Deva",
+				"enter": "✅ ENTER Deva",
+				"ready": "⭐️ READY Deva",
 				"clearshell": "CLEAR SHELL CODE",
 				"entities": "✅ Entities Complete"
 			},
