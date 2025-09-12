@@ -25,11 +25,6 @@ import legal from '/Users/quinnmichaels/Dev/deva.space/devas/deva.legal/index.js
 import authority from '/Users/quinnmichaels/Dev/deva.space/devas/deva.authority/index.js';
 import justice from '/Users/quinnmichaels/Dev/deva.space/devas/deva.justice/index.js';
 
-import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/index.js';
-// import brahmana from '/Users/quinnmichaels/Dev/deva.space/devas/deva.brahmana/index.js';
-// import vaisya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vaisya/index.js';
-// import sudra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.sudra/index.js';
-
 import support from '/Users/quinnmichaels/Dev/deva.space/devas/deva.support/index.js';
 import services from '/Users/quinnmichaels/Dev/deva.space/devas/deva.services/index.js';
 import systems from '/Users/quinnmichaels/Dev/deva.space/devas/deva.systems/index.js';
@@ -39,7 +34,13 @@ import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.
 import web from '/Users/quinnmichaels/Dev/deva.space/devas/deva.web/index.js';
 import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
 import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js';
-import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
+
+import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/index.js';
+// import brahmana from '/Users/quinnmichaels/Dev/deva.space/devas/deva.brahmana/index.js';
+// import vaisya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vaisya/index.js';
+// import sudra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.sudra/index.js';
+
+// import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
 
 // import telnet from '/Users/quinnmichaels/Dev/deva.space/devas/deva.telnet/index.js';
 // import gopher from '/Users/quinnmichaels/Dev/deva.space/devas/deva.gopher/index.js';
@@ -54,11 +55,11 @@ const DEVAS = {
 	error,
 	log,
 	report,
-	owner,
 	vector,
 	veda,
 	indra,
 	king,
+	owner,
 	treasury,
 	security,
 	guard,
@@ -73,14 +74,14 @@ const DEVAS = {
 	services,
 	systems,
 	networks,
-	kshatriya,
-	// brahmana,
-	// vaisya,
-	// sudra,
 	socket,
 	web,
 	docs,
 	chat,
+	kshatriya,
+	// brahmana,
+	// vaisya,
+	// sudra,
 };
 
 export default DEVAS;

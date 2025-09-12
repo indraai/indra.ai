@@ -94,6 +94,10 @@ const INDRA = new Deva({
 	},
 	onReady(data) {
 		this.prompt(this.vars.messages.ready);
+		const ready_id = this.uid()
+		this.question(`/uid`).then(uid => {
+			this.prompt(uid.a.text);
+		});
 		// return Promise.resolve(data);
 	},
 	onExit(data) {
