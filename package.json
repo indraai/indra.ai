@@ -1,7 +1,7 @@
 {
 	"id": "56574894220523318728",
 	"name": "indra.ai",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The Indra.ai System",
 	"main": "index.js",
 	"type": "module",
