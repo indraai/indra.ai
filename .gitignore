@@ -1,9 +1,10 @@
 # Client
 client.json
-src/data/features/
+src/data/features/*
+src/data/machine/*
 .DS_Store
-_site/
-private/
+_site/*
+private/*
 
 # Logs
 logs

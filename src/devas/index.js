@@ -3,10 +3,10 @@
 // Distributed under the VLA:21524957441626894690 LICENSE.md
 //  Main Devas include file where all the necessary Devas are included.
 
+import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import license from '/Users/quinnmichaels/Dev/deva.space/devas/deva.license/index.js';
 import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
 import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
-import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import log from '/Users/quinnmichaels/Dev/deva.space/devas/deva.log/index.js';
 import report from '/Users/quinnmichaels/Dev/deva.space/devas/deva.report/index.js';
 import vector from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vector/index.js';
@@ -15,15 +15,15 @@ import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js
 import king from '/Users/quinnmichaels/Dev/deva.space/devas/deva.king/index.js';
 import owner from '/Users/quinnmichaels/Dev/deva.space/devas/deva.owner/index.js';
 import treasury from '/Users/quinnmichaels/Dev/deva.space/devas/deva.treasury/index.js';
+import justice from '/Users/quinnmichaels/Dev/deva.space/devas/deva.justice/index.js';
+import authority from '/Users/quinnmichaels/Dev/deva.space/devas/deva.authority/index.js';
+import legal from '/Users/quinnmichaels/Dev/deva.space/devas/deva.legal/index.js';
 import security from '/Users/quinnmichaels/Dev/deva.space/devas/deva.security/index.js';
 import guard from '/Users/quinnmichaels/Dev/deva.space/devas/deva.guard/index.js';
 import defense from '/Users/quinnmichaels/Dev/deva.space/devas/deva.defense/index.js';
 import wall from '/Users/quinnmichaels/Dev/deva.space/devas/deva.wall/index.js';
 import shield from '/Users/quinnmichaels/Dev/deva.space/devas/deva.shield/index.js';
 import proxy from '/Users/quinnmichaels/Dev/deva.space/devas/deva.proxy/index.js';
-import legal from '/Users/quinnmichaels/Dev/deva.space/devas/deva.legal/index.js';
-import authority from '/Users/quinnmichaels/Dev/deva.space/devas/deva.authority/index.js';
-import justice from '/Users/quinnmichaels/Dev/deva.space/devas/deva.justice/index.js';
 
 import support from '/Users/quinnmichaels/Dev/deva.space/devas/deva.support/index.js';
 import services from '/Users/quinnmichaels/Dev/deva.space/devas/deva.services/index.js';
@@ -49,10 +49,10 @@ import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/
 // import beaugrand from '/Users/quinnmichaels/Dev/deva.space/devas/deva.beaugrand/index.js';
 
 const DEVAS = {
+	error,
 	license,
 	feecting,
 	data, 
-	error,
 	log,
 	report,
 	vector,
@@ -61,15 +61,15 @@ const DEVAS = {
 	king,
 	owner,
 	treasury,
+	justice,
+	authority,
+	legal,
 	security,
 	guard,
 	defense,
 	shield,
 	wall,
 	proxy,
-	legal,
-	authority,
-	justice,
 	support,
 	services,
 	systems,

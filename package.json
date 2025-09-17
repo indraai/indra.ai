@@ -2,14 +2,15 @@
 	"id": "56574894220523318728",
 	"name": "indra.ai",
 	"version": "0.1.1",
-	"description": "The Indra.ai System",
+	"description": "The Inside The Net, Inc. Indra.ai Deva Core System",
 	"main": "index.js",
 	"type": "module",
 	"license": "VLA:21524957441626894690 LICENSE.md",
 	"author": {
 		"name": "Quinn A Michaels",
+		"company": "Inside The Net, Inc.",
 		"email": "quinn@indra.ai",
-		"url": "https://indra.ai/"
+		"url": "https://indra.ai"
 	},
 	"funding": [
 		{
@@ -104,11 +105,13 @@
 		},
 		"vars": {
 			"messages": {
-				"boot": "🥾 BOOT Deva",
-				"stop": "🔴 STOP Deva",
-				"exit": "🚪 EXIT Deva",
-				"enter": "✅ ENTER Deva",
-				"ready": "⭐️ READY Deva",
+				"init": "🟠  Init Deva Core",
+				"start": "🟡  Start Deva Core",
+				"done": "🟢  Deva Core Done",
+				"stop": "🔴  Stop Deva Core",
+				"exit": "🚪 Exit Deva Core",
+				"enter": "🚪 Enter Deva Core",
+				"ready": "👍🤝🫡🇺🇸 Deva Core Ready!",
 				"clearshell": "CLEAR SHELL CODE",
 				"entities": "✅ Entities Complete"
 			},

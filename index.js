@@ -52,6 +52,12 @@ function setPrompt(pr) {
 	}
 }
 
+function setText(packet) {
+	shell.prompt();
+	if (!packet) return;
+	console.log(chalk.rgb(packet.agent.prompt.colors.text.R, packet.agent.prompt.colors.text.G, packet.agent.prompt.colors.text.B)(packet.text));
+}
+
 async function indraQuestion(q) {
 	// the event that fires when a new command is sent through the shell.
 	if (q.toLowerCase() === '/exit') return shell.close();
@@ -60,6 +66,7 @@ async function indraQuestion(q) {
 
 			// sen the necessary returned values to the shell prompt.
 	setPrompt(answer.a.agent);
+
 	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text));
 
 	setPrompt(answer.a.client);
@@ -73,8 +80,8 @@ const ipv4 = [];
 const networks = os.networkInterfaces();
 for (const x in networks) {
 	networks[x].forEach(net => {
-		let label = '🔶 EXTERNAL';
-		if (net.internal) label = '🔷 INTERNAL';
+		let label = '🔶 EXT';
+		if (net.internal) label = '🔷 INT';
 		if (net.family == 'IPv4') ipv4.push(`${label}: http://${net.address}`);
 	})
 }
@@ -88,23 +95,28 @@ const devaFlash = (opts) => `
 ██║██║╚██╗██║██║  ██║██╔══██╗██╔══██║   ██╔══██║██║
 ██║██║ ╚████║██████╔╝██║  ██║██║  ██║██╗██║  ██║██║
 ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝
-																									 
+
+🪪   License:   ${pkg.license}
+📝  Describe:  ${pkg.description}
+
 👤  Client:    ${opts.client.profile.name} (${opts.client.id})
 👤  Agent:     ${opts.agent.profile.name} (${opts.agent.id})
 
 📛  Name:      ${pkg.name}
 💚  Ver:       ${pkg.version}
-✍️   Author:    ${pkg.author}
-📝  Describe:  ${pkg.description}
+✍️   Author:    ${pkg.author.name}
+📌 Company:    ${pkg.author.company}
+📧   Email:    ${pkg.author.email}
+
 🔗  Url:       ${pkg.homepage}
 🐣  Git:       ${pkg.repository.url}
-🪪   License:   ${pkg.license}
 
 ${opts.ip}
 
 ${pkg.copyright}
 
-${line_break}`;
+${line_break}
+`;
 
 // log the main server information to the console
 
@@ -182,6 +194,9 @@ app.listen(vars.ports.api, () => {
 		// cli prompt listener for relaying from the deva to the prompt.
 		INDRA.listen('cliprompt', ag => {
 			setPrompt(ag);
+		});		
+		INDRA.listen('clitext', ag => {
+			setText(ag);
 		});		
 		INDRA.listen('deva:dir', opts => {
 			DevaDir(opts);

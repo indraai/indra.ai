@@ -3,14 +3,10 @@
 // Legal Signature Required For Lawful Use.
 // Distributed under the VLA:21524957441626894690 LICENSE.md
 
-import chalk from 'chalk';
-
 export default {
 	cliprompt(packet) {
-		let text = packet.text;
-		// if (this.vars.labels[packet.value]) text = `${this.vars.labels[packet.value]}:${packet.text}`;
 		this.talk('cliprompt', packet.agent); // clears cli line
-		console.log(chalk.rgb(packet.agent.prompt.colors.text.R, packet.agent.prompt.colors.text.G, packet.agent.prompt.colors.text.B)(text));
+		this.talk('clitext', packet);
 		this.talk('cliprompt', this.client()); // clears cli line
 	},
 	
@@ -85,7 +81,7 @@ export default {
 					});
 				}).catch(reject)
 			} catch (e) {
-				return reject(d)
+				return reject(e)
 			}
 		});
 	}	

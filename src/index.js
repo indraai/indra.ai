@@ -63,8 +63,16 @@ const INDRA = new Deva({
 		this.listen('devacore:prompt', packet => {
 			this.func.cliprompt(packet);
 		});
-		this.prompt(this._messages.init);
+		this.prompt(`${this.vars.messages.init} VLA:${client.VLA.uid}`);
 		return this.start(data, resolve);
+	},
+	async onStart(data, resolve) {
+		this.prompt(`${this.vars.messages.start} VLA:${client.VLA.uid}`);
+		return this.enter(data, resolve);
+	},
+	async onEnter(data, resolve) {
+		this.prompt(`${this.vars.messages.enter} VLA:${client.VLA.uid}`);
+		return this.done(data, resolve);
 	},
 	async onDone(data, resolve) {
 		// load the devas
@@ -76,13 +84,21 @@ const INDRA = new Deva({
 			const {key} = this.devas[deva].agent();
 			this.talk(`deva:dir`, {id, key,dir});
 		}
+
 		setImmediate(() => {
-			this.prompt(this._messages.done);
-			return this.ready(data, resolve);		
-		})
+			this.prompt(`${this.vars.messages.done} VLA:${client.VLA.uid}`);
+			return this.ready(data, resolve);
+		});
 	},
-	onError(err, reject) {
-		console.log('MAIN ERROR', err);
+	async onReady(data) {
+		const uid = await this.question(`/uid`);
+		this.prompt(uid.a.text);
+
+		const sign = await this.question(`/sign:ready:${uid.id.uid} Deva Core Signature on #uid:${uid.id.uid}`);
+		this.prompt(sign.a.text);
+		// return Promise.resolve(data);
+
+		this.prompt(`${this.vars.messages.ready} VLA:${client.VLA.uid}`);
 	},
 	async onStop(data) {
 		this.prompt(this.vars.messages.stop);
@@ -92,17 +108,12 @@ const INDRA = new Deva({
 		}
 		return this.exit();
 	},
-	onReady(data) {
-		this.prompt(this.vars.messages.ready);
-		const ready_id = this.uid()
-		this.question(`/uid`).then(uid => {
-			this.prompt(uid.a.text);
-		});
+	onExit(data) {
+		this.prompt(this.vars.messages.exit);
 		// return Promise.resolve(data);
 	},
-	onExit(data) {
-		console.log(this.vars.messages.exit);
-		// return Promise.resolve(data);
+	onError(err, reject) {
+		console.log('MAIN ERROR', err);
 	},
 });
 
