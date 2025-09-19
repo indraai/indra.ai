@@ -55,19 +55,21 @@ function setPrompt(pr) {
 function setText(packet) {
 	shell.prompt();
 	if (!packet) return;
-	console.log(chalk.rgb(packet.agent.prompt.colors.text.R, packet.agent.prompt.colors.text.G, packet.agent.prompt.colors.text.B)(packet.text));
+	const {agent, text} = packet;
+	const {colors} = agent.prompt;
+	const chalktext = chalk.rgb(colors.text.R, colors.text.G, colors.text.B)(text);
+
+	console.log(chalktext.trim());
 }
 
 async function indraQuestion(q) {
 	// the event that fires when a new command is sent through the shell.
 	if (q.toLowerCase() === '/exit') return shell.close();
 	const answer = await INDRA.question(q);
-	
 
 			// sen the necessary returned values to the shell prompt.
 	setPrompt(answer.a.agent);
-
-	console.log(chalk.rgb(answer.a.agent.prompt.colors.text.R, answer.a.agent.prompt.colors.text.G, answer.a.agent.prompt.colors.text.B)(answer.a.text));
+	setText(answer.a);
 
 	setPrompt(answer.a.client);
 	// if (answer.a.data) console.log(answer.a.data);
