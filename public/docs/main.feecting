@@ -1,0 +1,10 @@
+::BEGIN:MAIN
+# Main Docs
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: (c)2025 Quinn Michaels
+::end:hidden
+::END:MAIN

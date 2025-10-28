@@ -1,0 +1,16 @@
+::BEGIN:MAIN
+# Public Reports
+
+p: The Reports Deva public listing provides a centralized catalog of all reports in the system that are either in progress or completed. Each listing entry displays key metadata — title, current status, brief summary, last updated date, responsible analyst, and visibility level. The listing is regularly updated and governed by role‑based access controls so that only approved, non‑confidential information is exposed publicly. For access requests or assistance, contact Reports Deva support.
+
+## People Reports
+p: Reports about people.
+button[People Reports]:#report file:public people/main
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: (c)2025 Quinn Michaels
+::end:hidden
+::END:MAIN

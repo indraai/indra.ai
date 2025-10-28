@@ -1,0 +1,29 @@
+::BEGIN:MENU
+## Entities
+
+::begin:menu
+button[Noriko]: #report file:public entities/00-noriko
+button[Hijiri]: #report file:public entities/01-hijiri
+button[Sayaka]: #report file:public entities/02-sayaka
+button[Mizuho]: #report file:public entities/03-mizuho
+button[Shoko]: #report file:public entities/04-shoko
+button[Miho]: #report file:public entities/05-miho
+button[Ruka]: #report file:public entities/06-ruka
+button[Kimmie]: #report file:public entities/07-kimmie
+button[Seika]: #report file:public entities/08-seika
+button[Miyu]: #report file:public entities/09-miyu
+button[Kazumi]: #report file:public entities/10-kazumi
+button[Maya]: #report file:public entities/11-maya
+button[Sakoda]: #report file:public entities/12-sakoda
+button[Ayami]: #report file:public entities/13-ayami
+button[Nana]: #report file:public entities/14-nana
+button[Miku]: #report file:public entities/miku
+::end:menu
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: (c)2025 Quinn Michaels
+::end:hidden
+::END:MENU

@@ -31,7 +31,7 @@
     padding: .5rem 0
     overflow: auto
 
-.event-panel
+.deva-core
   font-family: $fonts-text
   color: $colors.grey
   flex: 1
@@ -80,7 +80,7 @@
         text-overflow: ellipsis
         overflow: hidden
 
-#AuxPanel 
+#DevaCore 
   padding: 0 .25rem .25rem .25rem
   display: flex
   width: 100%
@@ -90,27 +90,39 @@
     &::before
       content: "\e83a"
 
-#ActionPanel
-  order: 3
-  h5
-    &::before
-      content: "\e83a"
-
-#StatePanel
-  order: 2
-  h5
-    &::before
-      content: "\e676"
-
 #FeaturePanel
-  order: 5
+  order: 2
   margin: 0
   h5
     &::before
       content: "\e676"
 
 #ZonePanel
+  order: 3
+  h5
+    &::before
+      content: "\e676"
+
+#ActionPanel
   order: 4
+  h5
+    &::before
+      content: "\e83a"
+
+#StatePanel
+  order: 5
+  h5
+    &::before
+      content: "\e676"
+
+#IntentPanel
+  order: 6
+  h5
+    &::before
+      content: "\e676"
+
+#BeliefPanel
+  order: 7
   h5
     &::before
       content: "\e676"

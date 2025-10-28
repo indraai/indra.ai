@@ -200,10 +200,12 @@ img
       height: 100%
       display: flex
       margin: 0
+      padding: 0
       overflow: hidden
       flex-flow: column nowrap
 
-      background-color: transparent
+      background-color: rgba($colors.black, .5)
+      border-radius: .5rem
 
     .panel
       order: 2
@@ -264,7 +266,7 @@ img
       height: $num-size
       border-radius: $num-size
 
-#AuxPanel
+#DevaCore
   order: 4
   flex: 0 $heights.aux
   width: 100%

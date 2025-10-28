@@ -1,0 +1,19 @@
+::BEGIN:MAIN
+const: #repo = {
+	arizona: Central Repository for Arizona Records of Criminal History,
+	california: Central Repository for California Records of Criminal History,
+	nevada: Central Repository for Nevada Records of Criminal History,
+	oregon: Central Repository for Oregon Records of Criminal History,
+	utah: Central Repository for Utah Records of Criminal History,
+	newhampshire: Central Repository for New Hampshire Records of Criminal History,
+	florida: Central Repository for Florida Records of Criminal History,
+}
+
+Couples 2007 to 2014 
+Sharon Schamber and husband Gene Schamber
+Mary Atkin and husband Hal Atkin
+Cristy Fincher and husband Clay Fincher
+Jenessa Whillhite-Meyers and husband Jeffrey Meyers
+Natalia Stoos and boyfriend Gary Harris
+Lisa Marie Mulkern and husband David Mulkern
+::END:MAIN

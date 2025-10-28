@@ -1,0 +1,29 @@
+::BEGIN:MAIN
+# People Reports
+::begin:buttons
+button[Public Reports]:#report file:public main
+::end:buttons
+
+## Atkin 
+p: The Atkin Family Reports
+button[Atkin Family]:#report file:public people/atkin/main
+
+## Larsen
+p: The Larsen Family Reports
+button[Larsen Family]:#report file:public people/larsen/main
+
+## Millwood
+p: The Millwood Family Reports
+button[Millwood Family]:#report file:public people/millwood/main
+
+## Fincher
+p: The Fincher Family Reports
+button[Fincher Family]:#report file:public people/fincher/main
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: (c)2025 Quinn Michaels
+::end:hidden
+::END:MAIN

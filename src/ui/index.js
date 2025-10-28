@@ -47,10 +47,12 @@ class DevaInterface {
 		this._shell = [];        // used for keeping track of items in the console.
 		this._console = {
 			context: [],
-			state: [],
-			action: [],
 			feature: [],
 			zone: [],
+			action: [],
+			state: [],
+			intent: [],
+			belief: [],
 			alerts: [],
 			panel: [],
 		}
@@ -110,7 +112,7 @@ class DevaInterface {
 		});
 	}
 
-	// the keyvalue pair processor for output into html of recursive structures.
+	// the key value pair processor for output into html of recursive structures.
 	_keyValue(obj) {
 		// create html key pair format
 		const output = [];
@@ -218,9 +220,9 @@ class DevaInterface {
 		$('#PanelContent').html(data.html)
 	}
 
-	Log(data) {
+	devacore(data) {
 		if (!this._console[data.key]) return;
-		const selector = `.event-panel.${data.key} > article`;
+		const selector = `.deva-core.${data.key} > article`;
 		const {colors} = data.agent.prompt;
 		const html = [
 			`<div class="item ${data.key} ${data.value}" data-id="${data.id}" data-hash="${data.hash}">`,
@@ -233,7 +235,7 @@ class DevaInterface {
 		this._console[data.key].push(data);
 		$(selector).prepend(html)
 	}
-
+	
 	docs(data) {
 		console.log('DOCS DATA', data);
 		if (data.meta.method === 'view') {
@@ -363,6 +365,29 @@ class DevaInterface {
 
 			socket.on('socket:devacore', data => {
 				this.Log(data)
+			});
+
+			socket.on('devacore:context', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:feature', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:zone', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:action', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:state', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:intent', data => {
+				return this.devacore(data);
+			});
+			socket.on('devacore:belief', data => {
+				console.log('belief data', data);
+				return this.devacore(data);
 			});
 
 			return resolve();

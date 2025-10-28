@@ -4,11 +4,6 @@
 // Distributed under the VLA:21524957441626894690 LICENSE.md
 
 import {devas} from './devas.js';
-import {states} from './states.js';
-import {actions} from './actions.js';
-import {features} from './features.js';
-import {zones} from './zones.js';
-import {contexts} from './contexts.js';
 import {memory} from './memory.js';
 import {entities} from './entities.js';
 import {algorithms} from './algorithms.js';
@@ -44,11 +39,6 @@ export default {
 	},
 	algorithms,
 	devas,
-	states,
-	actions,
-	features,
-	zones,
-	contexts,
 	memory,
 	entities,
 };

@@ -45,7 +45,7 @@ function setPrompt(pr) {
 	else if (!pr.prompt) return;
 	else {
 		const {colors} = pr.prompt;
-		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.emoji} ${pr.prompt.text.trim()}: `);
+		const setPrompt = chalk.rgb(colors.label.R, colors.label.G, colors.label.B)(`${pr.prompt.text.trim()} > `);
 
 		shell.setPrompt(setPrompt);
 		shell.prompt();
@@ -146,7 +146,10 @@ app.get('/assets/{*splat}', (req, res, next) => {
 	}
 	};
 	return res.sendFile(req.params.splat.join('/'), opts, (err) => {
-		if (err) next(err);
+		if (err) {
+			console.log('some stupid error here', req.params.splat.join('/'));
+			next(err);
+		}
 	});
 		
 });
@@ -184,44 +187,48 @@ function DevaDir(opts) {
 		}
 		};
 		return res.sendFile(req.params.splat.join('/'), devadir, (err) => {
-			if (err) next(err);
+			if (err) {
+				next(err);
+			}
 		});
 	});
 }
-app.listen(vars.ports.api, () => {
 
 	// initialize the INDRA
-	INDRA.init(client).then(_init => {
-		setPrompt(INDRA.client());  
-		// cli prompt listener for relaying from the deva to the prompt.
-		INDRA.listen('cliprompt', ag => {
-			setPrompt(ag);
-		});		
-		INDRA.listen('clitext', ag => {
-			setText(ag);
-		});		
-		INDRA.listen('deva:dir', opts => {
-			DevaDir(opts);
-		});
+INDRA.init(client).then(_init => {
+	setPrompt(INDRA.client());  
+	// cli prompt listener for relaying from the deva to the prompt.
+	INDRA.listen('cliprompt', ag => {
+		setPrompt(ag);
+	});		
+	INDRA.listen('clitext', ag => {
+		setText(ag);
+	});		
+	INDRA.listen('deva:dir', opts => {
+		DevaDir(opts);
 	});
-
-	// run operation when new line item in shell.
-	shell.on('line', question => {
-		indraQuestion(question);
-	}).on('pause', () => {
-	
-	}).on('resume', () => {
-	
-	}).on('close', () => {
-		// begin close procedure to clear the system and close other devas properly.
-		INDRA.stop().then(stop => {
-			shell.prompt();
-			process.exit(0);
-		}).catch(console.error);
-	
-	}).on('SIGCONT', () => {
-	}).on('SIGINT', data => {
-		shell.close();
-	}).on('SIGSTOP', () => {});
-	
+	INDRA.belief('vedic');
+	app.listen(vars.ports.api, () => {
+		INDRA.prompt(`${vars.messages.listening} PORT:${vars.ports.api}`);
+	});
 });
+
+// run operation when new line item in shell.
+shell.on('line', question => {
+	indraQuestion(question);
+}).on('pause', () => {
+
+}).on('resume', () => {
+
+}).on('close', () => {
+	// begin close procedure to clear the system and close other devas properly.
+	INDRA.stop().then(stop => {
+		shell.prompt();
+		process.exit(0);
+	}).catch(console.error);
+
+}).on('SIGCONT', () => {
+}).on('SIGINT', data => {
+	shell.close();
+}).on('SIGSTOP', () => {});
+

@@ -44,6 +44,7 @@ const INDRA = new Deva({
 	config: {
 		dir: false,
 		ports: vars.ports,
+		hash: {},
 	},
 	utils: {
 		translate(input) {return input.trim();},
@@ -63,15 +64,21 @@ const INDRA = new Deva({
 		this.listen('devacore:prompt', packet => {
 			this.func.cliprompt(packet);
 		});
-		this.prompt(`${this.vars.messages.init} VLA:${client.VLA.uid}`);
+		this.prompt(`⏱️  ${this.lib.formatDate(Date.now(), 'long', true)}`);
+		this.prompt(`uid: ${data.id.uid}`);
+		this.prompt(`warning: ${data.id.warning}`);
+		this.prompt(`md5: ${data.id.md5}`);
+		this.prompt(`sha256: ${data.id.sha256}`);
+		this.prompt(`sha512: ${data.id.sha512}`);
+		this.prompt(`${this.vars.messages.init} > uid:${data.id.uid}`);
 		return this.start(data, resolve);
 	},
 	async onStart(data, resolve) {
-		this.prompt(`${this.vars.messages.start} VLA:${client.VLA.uid}`);
+		this.prompt(`${this.vars.messages.start} > uid:${data.id.uid}`);
 		return this.enter(data, resolve);
 	},
 	async onEnter(data, resolve) {
-		this.prompt(`${this.vars.messages.enter} VLA:${client.VLA.uid}`);
+		this.prompt(`${this.vars.messages.enter} > uid:${data.id.uid}`);
 		return this.done(data, resolve);
 	},
 	async onDone(data, resolve) {
@@ -86,31 +93,37 @@ const INDRA = new Deva({
 		}
 
 		setImmediate(() => {
-			this.prompt(`${this.vars.messages.done} VLA:${client.VLA.uid}`);
+			this.prompt(`${this.vars.messages.done} > uid:${data.id.uid}`);
 			return this.ready(data, resolve);
 		});
 	},
 	async onReady(data) {
-		const uid = await this.question(`/uid`);
-		this.prompt(uid.a.text);
-
-		const sign = await this.question(`/sign:ready:${uid.id.uid} Deva Core Signature on #uid:${uid.id.uid}`);
-		this.prompt(sign.a.text);
-		// return Promise.resolve(data);
-
-		this.prompt(`${this.vars.messages.ready} VLA:${client.VLA.uid}`);
+		this.prompt(`${this.vars.messages.ready} > uid:${data.id.uid}`);
+		this.prompt(`⏱️  ${this.lib.formatDate(Date.now(), 'long', true)}`);
 	},
-	async onStop(data) {
-		this.prompt(this.vars.messages.stop);
+	async onStop(data, resolve) {
 		for (const deva in this.devas) {
 			const unloaded = await this.unload(deva);
-			this.prompt(unloaded);
+			this.prompt(deva);
 		}
-		return this.exit();
+		this.prompt(`${this.vars.messages.stop} > uid:${data.id.uid}`);
+		return this.close(data, resolve);
 	},
-	onExit(data) {
-		this.prompt(this.vars.messages.exit);
-		// return Promise.resolve(data);
+	async onClose(data, resolve) {
+		this.prompt(`${this.vars.messages.close} > uid:${data.id.uid}`);
+		return this.leave(data, resolve);
+	},
+	async onLeave(data, resolve) {
+		this.prompt(`${this.vars.messages.leave} > uid:${data.id.uid}`);
+		return this.exit(data, resolve);
+	},
+	async onExit(data, resolve) {
+		this.prompt(`${this.vars.messages.exit} > uid:${data.id.uid}`);
+		return this.shutdown(data, resolve);
+	},
+	async onShutdown(data, resolve) {
+		this.prompt(`${this.vars.messages.shutdown} > uid:${data.id.uid}`);
+		return resolve(data);
 	},
 	onError(err, reject) {
 		console.log('MAIN ERROR', err);

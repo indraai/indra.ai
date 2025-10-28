@@ -5,7 +5,7 @@
 	"description": "The Inside The Net, Inc. Indra.ai Deva Core System",
 	"main": "index.js",
 	"type": "module",
-	"license": "VLA:21524957441626894690 LICENSE.md",
+	"license": "VLA:64907438819979111427 LICENSE.md",
 	"author": {
 		"name": "Quinn A Michaels",
 		"company": "Inside The Net, Inc.",
@@ -22,7 +22,7 @@
 			"url": "https://patreon.com/rahulaclub"
 		}
 	],
-	"copyright": " ©2025 Quinn A Michaels; All Rights Reserved.",
+	"copyright": "Copyright ©2025 Quinn A Michaels; All Rights Reserved.",
 	"scripts": {
 		"start": "node index.js",
 		"serve": "jekyll serve",
@@ -68,7 +68,7 @@
 			"key": "deva",
 			"prompt": {
 				"emoji": "✨",
-				"text": "Deva",
+				"text": "#deva",
 				"colors": {
 					"label": {
 						"R": 255,
@@ -96,11 +96,12 @@
 				"describe": "Deva is the main entity in the Indra.ai System an advanced artificial intelligence platform designed by Quinn A Michaels.",
 				"emoji": "/assets/img/emoji.png",
 				"avatar": "/assets/img/avatar.png",
-				"background": "/assets/background.png",
+				"background": "/assets/img/background.png",
 				"color": "#df637e",
 				"bgcolor": "#000000",
 				"voice": "onyx",
-				"copyright": "©2025 Quinn Michaels; All Rights Reserved."
+				"_uid_warning": "This is the base agent uid warning",
+				"_copyright": "Core Copyright ©2025 Quinn A Michaels; All Rights Reserved."
 			}
 		},
 		"vars": {
@@ -109,11 +110,15 @@
 				"start": "🟡  Start Deva Core",
 				"done": "🟢  Deva Core Done",
 				"stop": "🔴  Stop Deva Core",
+				"close": "📁 Close Deva Core",
+				"leave": "🛫 Leave Deva Core",
 				"exit": "🚪 Exit Deva Core",
+				"shutdown": "🪫  Shutdown Deva Core",
 				"enter": "🚪 Enter Deva Core",
-				"ready": "👍🤝🫡🇺🇸 Deva Core Ready!",
+				"ready": "✅ Deva Core Ready!",
 				"clearshell": "CLEAR SHELL CODE",
-				"entities": "✅ Entities Complete"
+				"entities": "✅ Entities Complete",
+				"listening": "🖥️ Indra.ai Listening"
 			},
 			"ports": {
 				"api": 9000,
@@ -136,8 +141,9 @@
 			"context": {
 				"question": "💬 Question",
 				"ask": "📣 Ask",
-				"done": "✅ Done",
+				"done": "👍 Done",
 				"finish": "🏁 Finished",
+				"complete": "✅ Complete",
 				"history": "🪵 Log history",
 				"art": "🎨 Creating art",
 				"uid": "🆔 Generate uid",
