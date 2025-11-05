@@ -34,6 +34,7 @@ const info = {
 	git: pkg.repository.url,
 	bugs: pkg.bugs.url,
 	license: pkg.license,
+	VLA: pkg.VLA,
 	copyright: pkg.copyright,
 };
 

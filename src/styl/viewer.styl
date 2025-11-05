@@ -128,7 +128,9 @@ $maxw = 640px
 
       .value
         flex: 1
-
+        text-overflow: ellipsis
+        overflow: hidden
+        
       .label
         font-size: .8rem
         background-color: rgba($colors.darkest-grey, .25)
@@ -189,16 +191,6 @@ $maxw = 640px
           &::before
             content: $icons.hearing
 
-      &.name
-        .label
-          &::before
-            content: $icons.profile
-
-      &.describe
-      &.message
-        .label
-          &::before
-            content: $icons.document
 
       &.from
         .label
@@ -260,11 +252,6 @@ $maxw = 640px
         .label
           &::before
             content: $icons.license
-
-      &.copyright
-        .label
-          &::before
-            content: "©"
 
       &.terms
         .label
@@ -432,9 +419,6 @@ $maxw = 640px
     margin: 1rem .5rem
     padding: .25rem
     
-    .label
-      display: none
-      
     .value
       padding: .5rem
       border-radius: .5rem
@@ -460,8 +444,6 @@ $maxw = 640px
     .value
       color: darken($colors.yellow, 70%)
       background-color: $colors.yellow
-      &::before
-        content: $icons.warning
 
   .alert
     .value

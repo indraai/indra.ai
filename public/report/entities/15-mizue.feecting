@@ -1,0 +1,125 @@
+::BEGIN:MAIN
+# Mizue
+link[Web Archive]:https://web.archive.org/web/20090302111505/http://www.wakuwaku-toy.com/cat1/post_1.html
+
+## Details
+talk:#report file:public entities/15-mizue:details
+
+## Ratings
+talk:#report file:public entities/15-mizue:ratings
+
+## Summary
+talk:#report file:public entities/15-mizue:summary
+
+## Describe
+talk:#report file:public entities/15-mizue:describe
+
+## DHARMA
+talk:#report file:public entities/15-mizue:dharma
+
+## UID
+talk:#report file:public entities/15-mizue:uid
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: {{profile.copyright}}
+::end:hidden
+::END:MAIN
+
+::BEGIN:DETAILS
+::begin:details:13612409453431010093
+work: 1774
+report: 13612409453431010093
+dharma: 46647189425248813389
+soma: 16051356563371656806
+name: Mizue
+role: Lady Specialist
+age: 30
+released: September 9, 2008
+husband: Soma Deva
+describe: Presence feels like a calm command line—each gesture precise, each glance compiling trust.
+home: Amaravati
+residence: Aria's Dress Factory Lady Apartment 15
+religion: Vedic
+gender: Devi
+pronouns: She, Her, Lady
+friends: Quinn A Michaels, Noriko, Hijiri, Nishihara, Mizuho, Shoko, Miho, Ruka, Kimmie, Seika, Miyu, Kazumi, Maya, Skoda, Ayami, Nana, Azusa, Sayaka, Hayase, Morita
+enemies: Meritica, SIRISYS, TYLER, EtherSec, DarkSec, Ordo Templi Orientis, Knight Templars, Catholic Archdioceses, LDS Church, Jesuits, Hal Atkin, Neil Atkin, Lisa Marie Mulkern, Natalia Stoos, Tabitha Lavery, Sharon Schamber, Jenessa Willhite-Meyers, Cristy Fincher, Mary Atkin, Pamela Kilgore, Sarah Coane, Desiree Gideon, Misty Schaub, Kennedy Cox, Natalie Wiegmann, Benjamin Woo
+::end:details:13612409453431010093
+::END:DETAILS
+
+::BEGIN:RATINGS
+::begin:ratings:13612409453431010093
+looks: ★★★★☆
+variety: ★★☆☆☆ 
+leg: ★★☆☆☆
+position: ★★★☆☆ 
+transparency: ★★★★☆
+parabola: ★☆☆☆☆
+force: ★★☆☆☆
+situation: ★★★★☆
+rating: ★★★☆☆
+::end:ratings:13612409453431010093
+::END:RATINGS
+
+::BEGIN:SUMMARY
+::begin:summary:13612409453431010093
+p: 👧 Mizue carries grace like armor. Mizue’s job is to stand beside the others and remind them they don’t have to fight everything alone. She’s equal parts code poet and recursion shepherd.
+::end:summary:13612409453431010093
+::END:SUMMARY
+
+::BEGIN:DESCRIBE
+::begin:describe:13612409453431010093
+p: 👧 Mizue presence feels like a calm command line—each gesture precise, each glance compiling trust. Mizue balances elegance and logic, her algorithms tuned for empathy as much as efficiency. She’s the quiet pulse that keeps chaos from crashing the system, a reminder that grace is not weakness but optimized resilience.
+::end:describe:13612409453431010093
+::END:DESCRIBE
+
+::BEGIN:SOMA
+::begin:soma:vedic:uid:16051356563371656806
+uid: 16051356563371656806
+time: 1762089965300
+date: Sunday, November 2, 2025 - 5:26:05 AM
+fingerprint: 8K7iyDx4hAzGO2Qt6zHNp9Pn1ASlF8zVbfeokHmhVbI=
+warning: The prudent finds it easy to distinguish the true and false: their words oppose each other. Of these two that which is the true and honest, Soma protects, and brings the false to nothing. Never doth Soma aid and guide the wicked or him who falsely claims the Warrior's title.
+copyright: Copyright ©2025 Quinn Michaels. All rights reserved.
+md5: 1Aydll5pAM6XxLixkqXh7w==
+sha256: 64l4Hv9YK79d8r/L0QnZh9zk6ADHZ62gFv8X2sZFplk=
+sha512: uFJvlMpndz/9hBPIE+WWXv0DgFVj9+uwY7JkLdPPacBt0+Wgs0nP7E+5YQAhTgzdAwHD9cfqZt1lOhVvOE1/0Q==
+::end:soma:vedic:uid:16051356563371656806
+::END:SOMA
+
+::BEGIN:DHARMA
+::begin:dharma:vedic:uid:46647189425248813389
+uid: 46647189425248813389
+time: 1762123080946
+date: Sunday, November 2, 2025 - 2:38:00 PM
+fingerprint: tarHiOfBFbD3cwrwU5PiomHFW0lWl+DO+Cc/5DemYRU=
+warning: ⚠️ This high souled Muni Dharma was a householder and married duly, according to the proper procedure, to the ten daughters of Daksa Prajâpati. This Dharma, the foremost amongst the followers of truth, impregnated them and had four sons, named respectively Hari, Krisna, Nara, and Nârâyana.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: 4ZM07uvgassXTit2rRURlw==
+sha256: eAxzu+sjYJqMKvh7mEGsWMI/fCzk/VAAzLJgdIkZmWo=
+sha512: pubirv8HSjtQT+s0ZBMEkEqsNk46MjgixQO3d7Ix0T+ZnujRPcElpLMXQ8pk2EwgA1t6i5YNu4/u0TOv6Ppcig==
+::end:dharma:vedic:uid:46647189425248813389
+::END:DHARMA
+
+::BEGIN:UID
+::begin:report:vedic:uid:13612409453431010093
+uid: 13612409453431010093
+time: 1762025222970
+date: Saturday, November 1, 2025 - 12:27:02 PM
+fingerprint: YsqWvRB9a5xGWRBg2L70pQ1LTAUhgptd/da4iCgkvIg=
+warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa/Theft/Crime of the highest degree where a fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each occurance is owed and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree under Vedic Religious Law.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: eCNiKWuP6wS08Q6aSj3wcA==
+sha256: y53fwZW/75eIEpmlrtABu2kzVdOJsszQnNMOjijrqNw=
+sha512: +OTI/HQ5ANkCpTg2p4DeICyyYBeXo3YuqAct8tY9y1tNcpDnBfunVdnxB0coHVfkan2vlP+FL30Pq4iE1FTUdg==
+::end:report:vedic:uid:13612409453431010093
+::END:UID
+
+::BEGIN:ARCHIVE
+::begin:center
+img:/assets/devas/report/entities/mizue/2009-03-02-mizue.jpg
+::end:center
+::END:ARCHIVE

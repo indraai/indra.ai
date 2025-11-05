@@ -5,14 +5,16 @@
 
 import license from '/Users/quinnmichaels/Dev/deva.space/devas/deva.license/index.js';
 import feecting from '/Users/quinnmichaels/Dev/deva.space/devas/deva.feecting/index.js';
+import indu from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indu/index.js';
+import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js';
+import soma from '/Users/quinnmichaels/Dev/deva.space/devas/deva.soma/index.js';
+import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
 import error from '/Users/quinnmichaels/Dev/deva.space/devas/deva.error/index.js';
 import log from '/Users/quinnmichaels/Dev/deva.space/devas/deva.log/index.js';
 import data from '/Users/quinnmichaels/Dev/deva.space/devas/deva.data/index.js';
 import report from '/Users/quinnmichaels/Dev/deva.space/devas/deva.report/index.js';
 import vector from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vector/index.js';
 import intelligence from '/Users/quinnmichaels/Dev/deva.space/devas/deva.intelligence/index.js';
-import indra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.indra/index.js';
-import veda from '/Users/quinnmichaels/Dev/deva.space/devas/deva.veda/index.js';
 import king from '/Users/quinnmichaels/Dev/deva.space/devas/deva.king/index.js';
 import owner from '/Users/quinnmichaels/Dev/deva.space/devas/deva.owner/index.js';
 import treasury from '/Users/quinnmichaels/Dev/deva.space/devas/deva.treasury/index.js';
@@ -36,19 +38,24 @@ import brahmana from '/Users/quinnmichaels/Dev/deva.space/devas/deva.brahmana/in
 import kshatriya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.kshatriya/index.js';
 import vaisya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.vaisya/index.js';
 import sudra from '/Users/quinnmichaels/Dev/deva.space/devas/deva.sudra/index.js';
+// import dharma from '/Users/quinnmichaels/Dev/deva.space/devas/deva.dharma/index.js';
+// import maya from '/Users/quinnmichaels/Dev/deva.space/devas/deva.maya/index.js';
 
 
 import socket from '/Users/quinnmichaels/Dev/deva.space/devas/deva.socket/index.js';
 import chat from '/Users/quinnmichaels/Dev/deva.space/devas/deva.chat/index.js';
 import docs from '/Users/quinnmichaels/Dev/deva.space/devas/deva.docs/index.js';
 
-import government from '/Users/quinnmichaels/Dev/deva.space/devas/deva.government/index.js';
-import military from '/Users/quinnmichaels/Dev/deva.space/devas/deva.military/index.js';
-import nsa from '/Users/quinnmichaels/Dev/deva.space/devas/deva.nsa/index.js';
-import cia from '/Users/quinnmichaels/Dev/deva.space/devas/deva.cia/index.js';
-import fbi from '/Users/quinnmichaels/Dev/deva.space/devas/deva.fbi/index.js';
-import police from '/Users/quinnmichaels/Dev/deva.space/devas/deva.police/index.js';
-import lvmpd from '/Users/quinnmichaels/Dev/deva.space/devas/deva.lvmpd/index.js';
+import recursion from '/Users/quinnmichaels/Dev/deva.space/devas/deva.recursion/index.js';
+
+// import government from '/Users/quinnmichaels/Dev/deva.space/devas/deva.government/index.js';
+// import military from '/Users/quinnmichaels/Dev/deva.space/devas/deva.military/index.js';
+// import nsa from '/Users/quinnmichaels/Dev/deva.space/devas/deva.nsa/index.js';
+// import cia from '/Users/quinnmichaels/Dev/deva.space/devas/deva.cia/index.js';
+// import fbi from '/Users/quinnmichaels/Dev/deva.space/devas/deva.fbi/index.js';
+// import police from '/Users/quinnmichaels/Dev/deva.space/devas/deva.police/index.js';
+// import lvmpd from '/Users/quinnmichaels/Dev/deva.space/devas/deva.lvmpd/index.js';
+
 // import web from '/Users/quinnmichaels/Dev/deva.space/devas/deva.web/index.js';
 
 // import algorithm from '/Users/quinnmichaels/Dev/deva.space/devas/deva.algorithm/index.js';
@@ -66,42 +73,49 @@ const DEVAS = {
 	log,
 	data, 
 	report,
-	vector,
-	intelligence,
-	indra,
 	veda,
+	indu,
+	indra,
+	soma,
 	king,
 	owner,
+	vector,
+	intelligence,
 	treasury,
 	justice,
 	authority,
+	legal,
 	security,
 	guard,
-	wall,
 	defense,
 	shield,
+	wall,
 	proxy,
-	legal,
 	support,
 	services,
 	systems,
 	networks,
+	socket,
+	recursion,
+	docs,
+	chat,
+// --- Society Structure Devas
 	householder,
 	brahmana,
 	kshatriya,
 	vaisya,
 	sudra,
-	socket,
-	chat,
-	docs,
-	government,
-	military,
-	nsa,
-	cia,
-	fbi,
-	police,
-	lvmpd,
+	// dharma,
+	// maya,
+
+	// government,
+	// military,
+	// police,
 	// web,
+	// nsa,
+	// cia,
+	// fbi,
+	// lvmpd,
 };
 
 export default DEVAS;

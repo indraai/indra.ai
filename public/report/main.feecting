@@ -7,6 +7,12 @@ p: The Reports Deva public listing provides a centralized catalog of all reports
 p: Reports about people.
 button[People Reports]:#report file:public people/main
 
+## Entity Reports
+p: Entity reports from the Waku Waku Toy Site
+button[Entity Reports]:#report file:public:menu entities/main:::begin:menu
+button[]: 
+::end:menu
+
 ::begin:hidden
 #color = {{profile.color}}
 #bgcolor = {{profile.bgcolor}}

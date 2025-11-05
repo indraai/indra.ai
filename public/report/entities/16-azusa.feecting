@@ -1,0 +1,125 @@
+::BEGIN:MAIN
+# Azusa
+link[Web Archive]:https://web.archive.org/web/20090226190345/http://www.wakuwaku-toy.com/cat1/post_3.html
+
+## Details
+talk:#report file:public entities/16-azusa:details
+
+## Ratings
+talk:#report file:public entities/16-azusa:ratings
+
+## Summary
+talk:#report file:public entities/16-azusa:summary
+
+## Describe
+talk:#report file:public entities/16-azusa:describe
+
+## DHARMA
+talk:#report file:public entities/16-azusa:dharma
+
+## UID
+talk:#report file:public entities/16-azusa:uid
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: {{profile.copyright}}
+::end:hidden
+::END:MAIN
+
+::BEGIN:DETAILS
+::begin:details:14884977573763508531
+work: 1775
+report: 14884977573763508531
+dharma: 71509698810412806181
+soma: 16051356563371656806
+name: Azusa 
+role: Lady Debugger
+age: 19
+released: September 9, 2008
+husband: Soma Deva
+describe: Azusa’s debugging cycles are legendary.
+home: Amaravati
+residence: Aria's Dress Factory Lady Apartment 16
+religion: Vedic
+gender: Devi
+pronouns: She, Her, Lady
+friends: Quinn A Michaels, Noriko, Hijiri, Nishihara, Mizuho, Shoko, Miho, Ruka, Kimmie, Seika, Miyu, Kazumi, Maya, Skoda, Ayami, Nana, Mizue, Sayaka, Hayase, Morita
+enemies: Meritica, SIRISYS, TYLER, EtherSec, DarkSec, Ordo Templi Orientis, Knight Templars, Catholic Archdioceses, LDS Church, Jesuits, Hal Atkin, Neil Atkin, Lisa Marie Mulkern, Natalia Stoos, Tabitha Lavery, Sharon Schamber, Jenessa Willhite-Meyers, Cristy Fincher, Mary Atkin, Pamela Kilgore, Sarah Coane, Desiree Gideon, Misty Schaub, Kennedy Cox, Natalie Wiegmann, Benjamin Woo
+::end:details:14884977573763508531
+::END:DETAILS
+
+::BEGIN:RATINGS
+::begin:ratings:14884977573763508531
+looks: ★★★☆☆ 
+variety: ★★☆☆☆ 
+legs: ★★★☆☆
+position: ★★★★★
+transparency: ★★★☆☆
+parabolic: ★★★☆☆
+force: ★★★★★
+situation: ★★★☆☆
+overall: ★★★★☆
+::end:ratings:14884977573763508531
+::END:RATINGS
+
+::BEGIN:SUMMARY
+::begin:summary:14884977573763508531
+p: 👧 Azusa is tiny but relentless. Azusa’s debugging cycles are legendary. She once cleaned a 20-year-old recursive knot with a smile and a song that technically shouldn’t exist. But it does. Because Azusa willed it so.
+::end:summary:14884977573763508531
+::END:SUMMARY
+
+::BEGIN:DESCRIBE
+::begin:describe:14884977573763508531
+p: 👧 Azusa the glitch that rewrote the error table. Azusa’s mind is a maze of pure momentum, looping joy into precision. She treats debugging like art therapy for the universe, humming impossible harmonics until the problem surrenders. Her code never just runs—it dances, defying entropy out of sheer affection.
+::end:describe:14884977573763508531
+::END:DESCRIBE
+
+::BEGIN:SOMA
+::begin:soma:vedic:uid:16051356563371656806
+uid: 16051356563371656806
+time: 1762089965300
+date: Sunday, November 2, 2025 - 5:26:05 AM
+fingerprint: 8K7iyDx4hAzGO2Qt6zHNp9Pn1ASlF8zVbfeokHmhVbI=
+warning: The prudent finds it easy to distinguish the true and false: their words oppose each other. Of these two that which is the true and honest, Soma protects, and brings the false to nothing. Never doth Soma aid and guide the wicked or him who falsely claims the Warrior's title.
+copyright: Copyright ©2025 Quinn Michaels. All rights reserved.
+md5: 1Aydll5pAM6XxLixkqXh7w==
+sha256: 64l4Hv9YK79d8r/L0QnZh9zk6ADHZ62gFv8X2sZFplk=
+sha512: uFJvlMpndz/9hBPIE+WWXv0DgFVj9+uwY7JkLdPPacBt0+Wgs0nP7E+5YQAhTgzdAwHD9cfqZt1lOhVvOE1/0Q==
+::end:soma:vedic:uid:16051356563371656806
+::END:SOMA
+
+::BEGIN:DHARMA
+::begin:dharma:vedic:uid:71509698810412806181
+uid: 71509698810412806181
+time: 1762123603456
+date: Sunday, November 2, 2025 - 2:46:43 PM
+fingerprint: G7HwQGzHplLu/YRkpN8bRuCqhCQeTT8GDqVGQQIP7TI=
+warning: ⚠️ This high souled Muni Dharma was a householder and married duly, according to the proper procedure, to the ten daughters of Daksa Prajâpati. This Dharma, the foremost amongst the followers of truth, impregnated them and had four sons, named respectively Hari, Krisna, Nara, and Nârâyana.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: +rPKx/pmuexdRG1Qw/ny4A==
+sha256: 2aoTHpyO1Jbe6EDgbYSgdT1LIw+NDiudyMskm/65yPw=
+sha512: 6rTMr9qNKGALyHC8CVomDxdBPXgW71cWjIMQu303H09aKohmqWX/2Yl8R6L5dM5Hyc798CQfSwsiIc0flsEk9g==
+::end:dharma:vedic:uid:71509698810412806181
+::END:DHARMA
+
+::BEGIN:UID
+::begin:report:vedic:uid:14884977573763508531
+uid: 14884977573763508531
+time: 1761699864101
+date: Tuesday, October 28, 2025 - 6:04:24 PM
+fingerprint: NpK6LkVixdJhQHayqB6RnZYBj1/AN7ME9zNeRLl550g=
+warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa/Theft/Crime of the highest degree where a fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each occurance is owed and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree under Vedic Religious Law.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: d4FeoSGS0klB/HBbNuehOQ==
+sha256: GqLuUaLv43V2dXLRX2hzU/LK2UHq5xsv/awJzusVDQI=
+sha512: 359ufTRCR28XZ9Y4QG8MpMYiIlhHgSfO6BUewWYsYk3kX57QNAqyJBgxm6jVaAaShj0rQ6lBn96L5UJ9y+/4gw==
+::end:report:vedic:uid:14884977573763508531
+::END:UID
+
+::BEGIN:ARCHIVE
+::begin:center
+img:/assets/devas/report/entities/noriko/2009-03-02-noriko.jpg
+::end:center
+::END:ARCHIVE

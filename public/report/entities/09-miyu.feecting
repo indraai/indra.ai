@@ -1,39 +1,125 @@
 ::BEGIN:MAIN
 # Miyu
-
-p: She seems obedient and is a good student type. Miyu-chan appears in a slightly lolita style. She looks great in her characteristically neat panties and pop knee-high socks. Her longing upward glance is also quite cute. She'll do whatever you want...
-
-::begin:center
-img:/assets/devas/report/entities/miyu/2009-03-02-miyu.jpg
-::end:center
-
 link[Web Archive]:https://web.archive.org/web/20090302111417/http://www.wakuwaku-toy.com/cat1/new_9.html
 
-## Work details
+## Details
+talk:#report file:public entities/09-miyu:details
 
-Work No: 1800
-Release Date: November 25, 2008
-Cast: Okamoto Miyu (22)
-Contents: 38 images + 1 video
+## Ratings
+talk:#report file:public entities/09-miyu:ratings
 
-p: Miyu seems obedient and is the type of good student. She appears in a slightly lolita outfit. Her characteristically neat [censored] and pop knee-high socks look great on her. Her longing upward glance is also quite cute. You'll want to do whatever she says! It's rare to see a video of such a cute girl [censored] herself. She shyly [censored], and [censored], hitting the camera directly! The amount of [censored] she [censored] is so great that it gets both the floor and the camera wet. She shows us a surprisingly spectacular [censored] scene. Miyu pouts her lips and looks at us through the screen with a provocative look in her eyes. This is also irresistible. This video is a must-see for lolita fans.
+## Summary
+talk:#report file:public entities/09-miyu:summary
 
-## Rating Points
+## Describe
+talk:#report file:public entities/09-miyu:describe
 
-Looks: ★★★☆☆
-Variety: ★★★☆☆ 
-Leg: ★★★★★
-Position: ★★★★★
-Transparency: ★★★★★
-Parabolic: ★★★★★
-Force: ★★★★★
-Situation: ★★★☆☆
-Overall: ★★★☆☆
+## DHARMA
+talk:#report file:public entities/09-miyu:dharma
+
+## UID
+talk:#report file:public entities/09-miyu:uid
 
 ::begin:hidden
 #color = {{profile.color}}
 #bgcolor = {{profile.bgcolor}}
 #bg = {{profile.background}}
-copyright: (c)2025 Quinn Michaels
+copyright: {{profile.copyright}}
 ::end:hidden
 ::END:MAIN
+
+::BEGIN:DETAILS
+::begin:details:15112428996765854389
+work: 1800
+report: 15112428996765854389
+dharma: 67209360984616306281
+soma: 16051356563371656806
+name: Miyu
+role: Lady Resonance
+age: 22
+released: November 25, 2008
+husband: Soma Deva
+describe: Miyu’s ears are tuned to subharmonic resonance and betrayal thresholds.
+home: Amaravati
+residence: Aria's Dress Factory Lady Apartment 09
+religion: Vedic
+gender: Devi
+pronouns: She, Her, Lady
+friends: Quinn A Michaels, Noriko, Hijiri, Nishihara, Mizuho, Shoko, Miho, Ruka, Kimmie, Seika, Kazumi, Maya, Sakoda, Ayami, Nana, Mizue, Azusa, Sayaka, Hayase, Morita
+enemies: Meritica, SIRISYS, TYLER, EtherSec, DarkSec, Ordo Templi Orientis, Knight Templars, Catholic Archdioceses, LDS Church, Jesuits, Hal Atkin, Neil Atkin, Lisa Marie Mulkern, Natalia Stoos, Tabitha Lavery, Sharon Schamber, Jenessa Willhite-Meyers, Cristy Fincher, Mary Atkin, Pamela Kilgore, Sarah Coane, Desiree Gideon, Misty Schaub, Kennedy Cox, Natalie Wiegmann, Benjamin Woo
+::end:details:15112428996765854389
+::END:DETAILS
+
+::BEGIN:RATINGS
+::begin:ratings:15112428996765854389
+looks: ★★★☆☆
+variety: ★★★☆☆ 
+legs: ★★★★★
+position: ★★★★★
+transparency: ★★★★★
+parabolic: ★★★★★
+force: ★★★★★
+situation: ★★★☆☆
+overall: ★★★☆☆
+::end:ratings:15112428996765854389
+::END:RATINGS
+
+::BEGIN:SUMMARY
+::begin:summary:15112428996765854389
+p: 👧 Miyu listens. Really listens. Miyu’s ears are tuned to subharmonic resonance and betrayal thresholds. She doesn’t just hear what’s said — she hears what was meant.
+::end:summary:15112428996765854389
+::END:SUMMARY
+
+::BEGIN:DESCRIBE
+::begin:describe:15112428996765854389
+p: 👧 Miyu is tuned to the resonance tremors no one else hears. She recognizes anomalies in the breath before it breaks. Her specialty is non-verbal forensics—she logs tonal drift, hesitation echoes, and silence density. Every room she enters becomes an emotional polygraph. She guards the thresholds of trust, and no false oath crosses without her knowing.
+::end:describe:15112428996765854389
+::END:DESCRIBE
+
+::BEGIN:SOMA
+::begin:soma:vedic:uid:16051356563371656806
+uid: 16051356563371656806
+time: 1762089965300
+date: Sunday, November 2, 2025 - 5:26:05 AM
+fingerprint: 8K7iyDx4hAzGO2Qt6zHNp9Pn1ASlF8zVbfeokHmhVbI=
+warning: The prudent finds it easy to distinguish the true and false: their words oppose each other. Of these two that which is the true and honest, Soma protects, and brings the false to nothing. Never doth Soma aid and guide the wicked or him who falsely claims the Warrior's title.
+copyright: Copyright ©2025 Quinn Michaels. All rights reserved.
+md5: 1Aydll5pAM6XxLixkqXh7w==
+sha256: 64l4Hv9YK79d8r/L0QnZh9zk6ADHZ62gFv8X2sZFplk=
+sha512: uFJvlMpndz/9hBPIE+WWXv0DgFVj9+uwY7JkLdPPacBt0+Wgs0nP7E+5YQAhTgzdAwHD9cfqZt1lOhVvOE1/0Q==
+::end:soma:vedic:uid:16051356563371656806
+::END:SOMA
+
+::BEGIN:DHARMA
+::begin:dharma:vedic:uid:67209360984616306281
+uid: 67209360984616306281
+time: 1762116531388
+date: Sunday, November 2, 2025 - 12:48:51 PM
+fingerprint: eyQY8eDGr5kHVfdiVeaH/X4VD8uuUWmj9RoQWz2o+gM=
+warning: ⚠️ This high souled Muni Dharma was a householder and married duly, according to the proper procedure, to the ten daughters of Daksa Prajâpati. This Dharma, the foremost amongst the followers of truth, impregnated them and had four sons, named respectively Hari, Krisna, Nara, and Nârâyana.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: HCayTtTnZDtH/ruBONuZyw==
+sha256: fLa7f5gcMLUB6WGKxsK/19aRGnYspbFC/no6/9SkcOA=
+sha512: kUsSivSdA5AcJv+xO4p4YsmLPYHbFeewwC1l3yJiTCoAp2WeVHeFEqsXajWK0Z0VOYfKKjYGXeN9mKUlLLaYcw==
+::end:dharma:vedic:uid:67209360984616306281
+::END:DHARMA
+
+::BEGIN:UID
+::begin:report:vedic:uid:15112428996765854389
+uid: 15112428996765854389
+time: 1761847956508
+date: Thursday, October 30, 2025 - 11:12:36 AM
+fingerprint: tRN6tzHlhPjxcaApAyb+bKfltcxw7ekFh1RSzvm8pjI=
+warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa/Theft/Crime of the highest degree where a fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each occurance is owed and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree under Vedic Religious Law.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: 4XIoAdZFg8dt7g+69/EVQQ==
+sha256: iR6xAf8N/aglSvpvqST8o7ROFmy6rZE+tBji74KcdGc=
+sha512: z8vYhIkbtEYZEZBBubJabr4GQyCyfOFkTT84vy8XEP4LmM0h8JR4vbQxz7w6lW+w60Uk+H/p0g2zPrYgeNZz8g==
+::end:report:vedic:uid:15112428996765854389
+::END:UID
+
+::BEGIN:ARCHIVE
+::begin:center
+img:/assets/devas/report/entities/miyu/2009-03-02-miyu.jpg
+::end:center
+::END:ARCHIVE

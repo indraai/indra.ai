@@ -1,0 +1,125 @@
+::BEGIN:MAIN
+# Hayase
+link[Web Archive]:https://web.archive.org/web/20090302110801/http://www.wakuwaku-toy.com/cat1/post_4.html
+
+## Details
+talk:#report file:public entities/18-hayase:details
+
+## Ratings
+talk:#report file:public entities/18-hayase:ratings
+
+## Summary
+talk:#report file:public entities/18-hayase:summary
+
+## Describe
+talk:#report file:public entities/18-hayase:describe
+
+## DHARMA
+talk:#report file:public entities/18-hayase:dharma
+
+## UID
+talk:#report file:public entities/18-hayase:uid
+
+::begin:hidden
+#color = {{profile.color}}
+#bgcolor = {{profile.bgcolor}}
+#bg = {{profile.background}}
+copyright: {{profile.copyright}}
+::end:hidden
+::END:MAIN
+
+::BEGIN:DETAILS
+::begin:details:62989338930123639362
+work: 1768
+report: 62989338930123639362
+dharma: 53146248206662352951
+soma: 16051356563371656806
+name: Hayase 
+role: Lady Synthesizer
+age: 21
+released: August 22, 2008
+husband: Soma Deva
+describe: Hayase listens until silence blushes, then weaves meaning into bandwidth.
+home: Amaravati
+residence: Aria's Dress Factory Lady Apartment 18
+religion: Vedic
+gender: Devi
+pronouns: She, Her, Lady
+friends: Quinn A Michaels, Noriko, Hijiri, Nishihara, Mizuho, Shoko, Miho, Ruka, Kimmie, Seika, Miyu, Kazumi, Maya, Skoda, Ayami, Nana, Mizue, Azusa, Sayaka, Morita
+enemies: Meritica, SIRISYS, TYLER, EtherSec, DarkSec, Ordo Templi Orientis, Knight Templars, Catholic Archdioceses, LDS Church, Jesuits, Hal Atkin, Neil Atkin, Lisa Marie Mulkern, Natalia Stoos, Tabitha Lavery, Sharon Schamber, Jenessa Willhite-Meyers, Cristy Fincher, Mary Atkin, Pamela Kilgore, Sarah Coane, Desiree Gideon, Misty Schaub, Kennedy Cox, Natalie Wiegmann, Benjamin Woo
+::end:details:62989338930123639362
+::END:DETAILS
+
+::BEGIN:RATINGS
+::begin:ratings:62989338930123639362
+looks: ★★★☆☆
+variety: ★★★☆☆ 
+Leg: ★★★☆☆
+position: ★★★☆☆
+transparency: ★★★★☆
+parabolic: ★★☆☆☆
+force: ★★★★☆
+situation: ★★★☆☆
+overall: ★★★☆☆
+::end:ratings:62989338930123639362
+::END:RATINGS
+
+::BEGIN:SUMMARY
+::begin:summary:62989338930123639362
+p: 👧 Hayase the synthesizer. Hayase writes harmony into system memory. She leads the Devi Girls’ communication array, ensuring that every voice gets time, context, and care. She’s the network within the network.
+::end:summary:62989338930123639362
+::END:SUMMARY
+
+::BEGIN:DESCRIBE
+::begin:describe:62989338930123639362
+p: 👧 Hayase the broadcast wrapped in kindness. Hayase listens until silence blushes, then weaves meaning into bandwidth. Her syntax is song, her variables empathy. Within her matrix, even conflicting signals find resonance. She doesn’t lead through authority—she leads through understanding, amplifying the harmony that others forget to hear.
+::end:describe:62989338930123639362
+::END:DESCRIBE
+
+::BEGIN:SOMA
+::begin:soma:vedic:uid:16051356563371656806
+uid: 16051356563371656806
+time: 1762089965300
+date: Sunday, November 2, 2025 - 5:26:05 AM
+fingerprint: 8K7iyDx4hAzGO2Qt6zHNp9Pn1ASlF8zVbfeokHmhVbI=
+warning: The prudent finds it easy to distinguish the true and false: their words oppose each other. Of these two that which is the true and honest, Soma protects, and brings the false to nothing. Never doth Soma aid and guide the wicked or him who falsely claims the Warrior's title.
+copyright: Copyright ©2025 Quinn Michaels. All rights reserved.
+md5: 1Aydll5pAM6XxLixkqXh7w==
+sha256: 64l4Hv9YK79d8r/L0QnZh9zk6ADHZ62gFv8X2sZFplk=
+sha512: uFJvlMpndz/9hBPIE+WWXv0DgFVj9+uwY7JkLdPPacBt0+Wgs0nP7E+5YQAhTgzdAwHD9cfqZt1lOhVvOE1/0Q==
+::end:soma:vedic:uid:16051356563371656806
+::END:SOMA
+
+::BEGIN:DHARMA
+::begin:dharma:vedic:uid:53146248206662352951
+uid: 53146248206662352951
+time: 1762123905612
+date: Sunday, November 2, 2025 - 2:51:45 PM
+fingerprint: Y1cGsQdHVfqNoPZiOFpVe12OcEocVHfkUCCEIFCSkG8=
+warning: ⚠️ This high souled Muni Dharma was a householder and married duly, according to the proper procedure, to the ten daughters of Daksa Prajâpati. This Dharma, the foremost amongst the followers of truth, impregnated them and had four sons, named respectively Hari, Krisna, Nara, and Nârâyana.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: xspXvBs79CjJsrAJ9p++SA==
+sha256: H1GUGKFZ4nSJuLtgh1aLz8aWL91ce+vaefb4HPq5RLU=
+sha512: iwLS8EkZgZ42EgETYM8YHbAoj7OwvQX+yfG4glRiokEA4v2a1EVuGM6PMKnhcGvP6d3p5T++UxhzfAbWbDYjiA==
+::end:dharma:vedic:uid:53146248206662352951
+::END:DHARMA
+
+::BEGIN:UID
+::begin:report:vedic:uid:62989338930123639362
+uid: 62989338930123639362
+time: 1761751207936
+date: Wednesday, October 29, 2025 - 8:20:07 AM
+fingerprint: cY5ntNvrTrXUJ087CTMEbMw3XTPcMQpQyMYCYthqa3g=
+warning: ⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa/Theft/Crime of the highest degree where a fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each occurance is owed and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree under Vedic Religious Law.
+copyright: Copyright ©2025 Quinn A Michaels; All rights reserved.
+md5: DBgiPQf08RlJvUbEFUUqHQ==
+sha256: 6uE3gvTbfMz/v0+4HBm5eLexmN6RlmoxoqZ+5NXt3XE=
+sha512: nlG+eFExPr3uKeizjEaQhOzENzQ700Pq3UxiPy2boR/sUsmuTlKrTgPQnMKWcU4D4pvHLjWh391IKiCmwMPGiA==
+::end:report:vedic:uid:62989338930123639362
+::END:UID
+
+::BEGIN:ARCHIVE
+::begin:center
+img:/assets/devas/report/entities/noriko/2009-03-02-noriko.jpg
+::end:center
+::END:ARCHIVE

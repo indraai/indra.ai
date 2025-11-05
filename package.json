@@ -1,11 +1,22 @@
 {
-	"id": "56574894220523318728",
+	"id": "39810009835311053606",
 	"name": "indra.ai",
 	"version": "0.1.3",
 	"description": "The Inside The Net, Inc. Indra.ai Deva Core System",
 	"main": "index.js",
 	"type": "module",
-	"license": "VLA:64907438819979111427 LICENSE.md",
+	"license": "VLA:39810009835311053606 LICENSE.md",
+	"VLA": {
+		"uid": "39810009835311053606",
+		"time": 1762261958116,
+		"date": "Tuesday, November 4, 2025 - 5:12:38 AM",
+		"fingerpring": "wJ2T8Hm707P7OJTqqA/Sny2SqinF8VbiVcT2Or+7aDo=",
+		"warning": "⚠️ A contract made by a person intoxicated, insane, grievously disordered by disease, wholly dependent, infant, very aged man, or an unauthorized party is invalid. An agreement which has been made contrary to the law can have no legal force, though it be established by proofs.",
+		"copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+		"md5": "u2FnjKGLkwUBypgvGOq+6g==",
+		"sha256": "MvHPmDRqdhofBX7Hr1PS7rTnqcyNnYxa4kYxEmV1GLI=",
+		"sha512": "0t86ZWALeFIDSeIAw/UjLXjB8n/ErbNy2ONO0+MB7HZTlwnYM6WEnf1gwxzTj4hVpkHWborQBH5E/ii+G8+uNw=="
+	},
 	"author": {
 		"name": "Quinn A Michaels",
 		"company": "Inside The Net, Inc.",
@@ -48,7 +59,7 @@
 	},
 	"homepage": "https://indra.ai",
 	"dependencies": {
-		"@indra.ai/deva": "^1.5.43",
+		"@indra.ai/deva": "^1.19.0",
 		"@indra.ai/deva.wall": "^0.0.1",
 		"axios": "^1.1.3",
 		"chalk": "^5.4.1",
